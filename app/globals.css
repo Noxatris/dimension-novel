@@ -19,3 +19,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes blurEffectSide {
+  0%{
+    filter: blur(0px);
+  }
+  100%{
+    filter: blur(4px);
+  }
+}
+
+@keyframes blurEffectMiddle{
+  0%{
+    filter: blur(2px);
+    transform: scaleX(100%);
+  }
+  100%{
+    filter: blur(4px);
+    transform: scaleX(102%);
+  }
+}
