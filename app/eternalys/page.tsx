@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook } from '@fortawesome/free-solid-svg-icons'
-
 export default function EternalysMain() {
   return (
     <div className='w-full h-[90vh] bg-center bg-cover bg-fixed flex justify-center' style={{ backgroundImage: 'url(/bgMain.jpg)' }}>

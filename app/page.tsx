@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook } from '@fortawesome/free-solid-svg-icons'
 import Actualite from './(composents)/actualite'
 import ListeNovels from './(composents)/listeNovel'
 
