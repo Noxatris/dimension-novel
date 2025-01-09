@@ -1,6 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono} from "next/font/google";
 import "./globals.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBook } from '@fortawesome/free-solid-svg-icons'
+
+
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
+
+import localFont from 'next/font/local'
+
+const myFont = localFont({
+  src: '/fonts/MedievalSharp-Regular.ttf',
+
+})
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,6 +25,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
 
 export const metadata: Metadata = {
   title: "Dimension Novel",
@@ -23,10 +38,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden w-screen`}
       >
+        <header className="absolute w-screen h-[9vh] bg-black/80 z-10 py-8 flex">
+          <div className="flex h-[90%] items-center pl-2">
+            <img src="logoAlone.png" alt="" className="flex justify-center items-center h-[65px]" />
+            <h1 className={`${myFont.className} text-3xl ml-2`} >Dimension Novels</h1>
+          </div>
+        </header>
         {children}
       </body>
     </html>
