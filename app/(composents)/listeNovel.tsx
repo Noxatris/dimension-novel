@@ -8,7 +8,7 @@ export default function MesNovels() {
             <div className="flex justify-center">
                 <a href="/eternalys" className='flex flex-col w-[60%] rounded-xl overflow-hidden items-center'>
                     <img src="/cover.png" alt="" className='w-full h-[300px]' />
-                    <div className="bg-black/75 w-full flex flex-col items-center font-[MedievalSharp]">
+                    <div className="bg-black/75 w-full flex flex-col items-center text-[1.1em] font-[MedievalSharp]">
                         <p>Eternalys</p>
                         <p>Éveil et Vengeance</p>
                     </div>
