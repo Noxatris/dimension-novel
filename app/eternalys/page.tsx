@@ -14,7 +14,7 @@ export default function EternalysMain() {
         <ul className="overflow-y-scroll h-[40vh] bg-black/80 w-screen flex flex-col items-center">
           <h2 className="w-[90%] flex justify-center">Liste des chapitres</h2>
           <div className="w-[50%] h-1 bg-yellow-300 rounded-full mb-2"></div>
-          <li className="border-l-4 border-violet-800 pl-2 py-2 mb-2 w-[92%]">
+          <li className="border-l-4 border-violet-700 pl-2 py-2 mb-2 w-[92%]">
             <a href="#">
               <p>Chapitre 1 : Opération Interception Explosive</p>
             </a>

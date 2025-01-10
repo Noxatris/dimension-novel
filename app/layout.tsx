@@ -41,7 +41,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden w-screen`}
       >
-        <header className="absolute w-screen h-[9vh] bg-black/80 z-10 py-8 flex shadow-2xl	">
+        <header className="absolute w-screen h-[9vh] bg-black/80 z-10 py-8 flex shadow-2xl">
           <div className="flex h-[90%] items-center pl-2">
             <img src="logoAlone.png" alt="" className="flex justify-center items-center h-[65px]" />
             <h1 className={`${myFont.className} text-3xl ml-2`} >Dimension Novels</h1>
