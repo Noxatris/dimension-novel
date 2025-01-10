@@ -2,7 +2,7 @@ export default function MesNovels() {
     return (
         <div className="flex flex-col bg-black/50 pt-[4vh]">
             <h2 className="font-[MedievalSharp] text-xl ml-6">LISTE NOVELS</h2>
-            <div className="w-[50%] h-2 bg-yellow-300 rounded flex items-center mb-4 ml-2">
+            <div className="w-[45%] h-[4px] bg-yellow-300 rounded flex items-center mb-4 ml-2">
                 <div className="w-1 h-1 rounded-full animate-dotMove shadow-dotEffect"></div>
             </div>
             <div className="flex justify-center mb-[48px]">
