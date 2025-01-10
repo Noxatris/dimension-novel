@@ -1,14 +1,19 @@
 export default function MesNovels() {
     return (
-      <div className="w-[20vw] h-[91vh] flex flex-col items-center bg-black/65 p-4 overflow-x-hidden mt-[9vh]">
-          <ul>
-              <li>
-                  <a href="/eternalys" className='flex flex-col w-[95%] rounded-xl overflow-hidden items-center'>
-                      <img src="/cover.png" alt="" className='w-full h-[300px]' />
-                      <p className='p-2 bg-black/60'>Eternalys : Éveil et Vengeance</p>
-                  </a>
-              </li>
-          </ul>
-      </div>
+        <div className="h-[45vh] flex flex-col bg-black/50 pt-[4vh] px-2">
+            <h2 className="font-[MedievalSharp] text-xl ml-4">LISTE NOVELS</h2>
+            <div className="relative w-[50%] h-2 bg-yellow-300 rounded flex items-center mb-3 pb-1">
+                <div className="absolute w-1 h-1 rounded-full animate-dotMove shadow-dotEffect"></div>
+            </div>
+            <div className="flex justify-center">
+                <a href="/eternalys" className='flex flex-col w-[60%] rounded-xl overflow-hidden items-center'>
+                    <img src="/cover.png" alt="" className='w-full h-[300px]' />
+                    <div className="bg-black/85 w-full flex flex-col items-center font-[MedievalSharp]">
+                        <p>Eternalys</p>
+                        <p>Éveil et Vengeance</p>
+                    </div>
+                </a>
+            </div>
+        </div>
     );
-  }
+}
