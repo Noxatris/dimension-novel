@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEarthEurope, faPerson } from '@fortawesome/free-solid-svg-icons'
+
 export default function EternalysMain() {
   return (
     <div className='w-full h-screen flex flex-col items-center pt-[9vh]'>
@@ -9,10 +12,14 @@ export default function EternalysMain() {
             <p>Donec nec congue urna, ut aliquam orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ac molestie massa, sed gravida massa. Vestibulum vestibulum quam quis justo euismod rhoncus.</p>
           </div>
         </div>
-        <a href="#" className="bg-black/80 p-2 mb-8 rounded-full border-2 border-violet-700 pointer-cursor">Univers et Personnages</a>
+        <div className='p-2 rounded-full gradientMoveAnimation'>
+          <FontAwesomeIcon icon={faEarthEurope} className="fa-fw" />
+          <a href="#" className="px-2">Univers et Personnages</a>
+          <FontAwesomeIcon icon={faPerson} className="fa-fw" />
+        </div>
       </div>
       <ul className="overflow-y-scroll w-screen flex flex-col items-center bg-zinc-950">
-        <h2 className="w-[90%] flex justify-center mt-4 text-[1.2em]">Liste des chapitres</h2>
+        <h2 className="w-[90%] flex justify-center mt-4 text-[1.2em] pb-1">Liste des chapitres</h2>
         <div className="w-[50%] h-1 bg-yellow-300 rounded-full mb-2"></div>
         <div className="flex justify-around w-full my-6">
           <a href="#" className="bg-black/80 p-2 rounded-full border-2 border-violet-700 pointer-cursor">Lire le premier chapitre</a>

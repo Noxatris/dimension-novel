@@ -21,15 +21,9 @@ export default {
           '80%': {boxShadow: '0 0 8px rgba(255, 255, 255, 0.6)', opacity: '1'},
           '100%': { transform: 'translateX(4800%)', boxShadow: ' 0px 0px 15px 3px rgba(232,212,79,0.69)', opacity: '0'},
         },
-        thumbSparkle: {
-          '0%': {background: 'linear-gradient(120deg, #ffeb3b, #ff9800)'},
-          '50%': {background: 'linear-gradient(120deg, #fff 0%, #ff9800 100%)'},
-          '100%': {background: 'linear-gradient(120deg, #ffeb3b, #ff9800)'}
-        },
       },
       animation: {
         dotMove: 'dotMove 5s ease-in-out infinite',
-        thumbSparkle: 'thumbSparkle 1.5s infinite linear'
       },
       boxShadow: {
         'dotEffect': '0 0 8px rgba(255, 255, 255, 0.6)'
