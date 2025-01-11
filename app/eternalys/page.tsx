@@ -9,9 +9,9 @@ export default function EternalysMain() {
           <h1 className="font-[medievalSharp] text-2xl border-b-4 border-yellow-300 flex justify-center mb-8 pb-1 rounded-md">Eternalys : Éveil et Vengeance</h1>
           <div className="mb-8 *:mb-2">
             <h2 className="ml-4 text-[1.2em] mb-1">Intrigue :</h2>
-            <p>Dans un monde où la magie a émergé soudainement, les Éveillés, détenteurs de pouvoirs mystérieux, ont d'abord été accueillis avec espoir avant de semer la division.</p>
-            <p>Certains, bienveillants, ont cherché à protéger la société, tandis que d'autres ont plongé les rues dans le chaos. Craignant ces nouveaux pouvoirs, le gouvernement a réagi par une répression brutale, traquant sans distinction les Éveillés.</p>
-            <p>Retranché derrière d'immenses murs, le cœur de la ville a abandonné les périphéries à la loi du plus fort.</p>
+            <p>Dans un monde où la magie a émergé soudainement, les Éveillés, détenteurs de pouvoirs mystérieux, ont d&apos;abord été accueillis avec espoir avant de semer la division.</p>
+            <p>Certains, bienveillants, ont cherché à protéger la société, tandis que d&apos;autres ont plongé les rues dans le chaos. Craignant ces nouveaux pouvoirs, le gouvernement a réagi par une répression brutale, traquant sans distinction les Éveillés.</p>
+            <p>Retranché derrière d&apos;immenses murs, le cœur de la ville a abandonné les périphéries à la loi du plus fort.</p>
             <p>Dans ce paysage désolé, une unité rebelle lutte pour la liberté, naviguant entre alliances fragiles, mystères enfouis, et un secret qui pourrait bien changer le cours de leur destin.</p>
           </div>
         </div>
