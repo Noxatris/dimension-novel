@@ -12,7 +12,7 @@ export default function EternalysMain() {
             <p>Donec nec congue urna, ut aliquam orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ac molestie massa, sed gravida massa. Vestibulum vestibulum quam quis justo euismod rhoncus.</p>
           </div>
         </div>
-        <div className='p-2 rounded-full gradientMoveAnimation'>
+        <div className='p-2 rounded-full gradientMoveAnimation shadow-xl'>
           <FontAwesomeIcon icon={faEarthEurope} className="fa-fw" />
           <a href="#" className="px-2">Univers et Personnages</a>
           <FontAwesomeIcon icon={faPerson} className="fa-fw" />
