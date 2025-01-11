@@ -7,7 +7,7 @@ export default function EternalysMain() {
       <div className='w-full h-[50vh] bg-black/55 flex flex-col items-center bg-black/80 bg-top bg-cover' style={{ backgroundImage: 'url(coverClear.png)' }} >
         <div className="w-screen pt-8 px-4">
           <h1 className="font-[medievalSharp] text-2xl border-b-4 border-yellow-300 flex justify-center mb-8 pb-1 rounded-md">Eternalys : Éveil et Vengeance</h1>
-          <div className="mb-4">
+          <div className="mb-24">
             <h2 className="ml-4 text-[1.2em] mb-1">Intrigue :</h2>
             <p>Donec nec congue urna, ut aliquam orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ac molestie massa, sed gravida massa. Vestibulum vestibulum quam quis justo euismod rhoncus.</p>
           </div>
