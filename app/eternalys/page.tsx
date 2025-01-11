@@ -1,7 +1,30 @@
+'use client'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEarthEurope, faPerson, faScroll, faBook } from '@fortawesome/free-solid-svg-icons'
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import Head from 'next/head';
+
+interface Chapter {
+  title: string;
+  slug: string;
+}
+
 
 export default function EternalysMain() {
+
+  const [chapters, setChapters] = useState<Chapter[]>([]);
+
+  useEffect(() => {
+    const fetchChapters = async () => {
+      const response = await fetch('/api/chapters'); // Appel à l'API interne
+      const data = await response.json();
+      setChapters(data.chapters);
+    };
+    fetchChapters();
+  }, []);
+
   return (
     <div className='w-full flex flex-col items-center pt-[9vh]'>
       <div className='w-full bg-black/55 flex flex-col items-center bg-top bg-cover shadowTest' style={{ backgroundImage: 'url(coverClear.png)' }} >
@@ -34,24 +57,14 @@ export default function EternalysMain() {
           </div>
         </div>
       </div>
-      <ul className="overflow-y-scroll w-screen flex flex-col items-center bg-zinc-950">
-        <h2 className="w-[90%] flex justify-center mt-4 text-[1.2em] pb-1">Liste des chapitres</h2>
-        <div className="w-[50%] h-1 bg-yellow-300 rounded-full mb-2"></div>
-        <li className="border-l-4 border-violet-700 pl-2 py-2 mb-2 w-[92%]">
-          <a href="/eternalys/chapitres/1">
-            <p>Chapitre 1 : Opération Interception Explosive</p>
-          </a>
-        </li>
-        <li className="border-l-4 border-violet-800 pl-2 py-2 mb-2 w-[92%]">
-          <a href="/eternalys/chapitres/2">
-            <p>Chapitre 2 : Récupération et évacuation</p>
-          </a>
-        </li>
-        <li className="border-l-4 border-violet-800 pl-2 py-2 mb-2 w-[92%]">
-          <a href="/eternalys/chapitres/3">
-            <p>Chapitre 3 : Négociation avec les Recycleurs</p>
-          </a>
-        </li>
+      <ul>
+        {chapters.map((chapter : Chapter) => (
+          <li key={chapter.slug}>
+            <Link href={`/eternalys/${chapter.slug}`}>
+              {chapter.title}
+            </Link>
+          </li>
+        ))}
       </ul>
     </div>
   );
