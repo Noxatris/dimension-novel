@@ -40,7 +40,7 @@ export default function EternalysMain() {
         </div>
         <div className='p-2 rounded-full gradientMoveAnimation shadow-xl text-[1.2em] mb-8'>
           <FontAwesomeIcon icon={faBook} className="fa-fw" />
-          <Link href="/eternalys/chapitres/1" className="px-2">Commencez la lecture</Link>
+          <Link href="/eternalys/chapitre-1" className="px-2">Commencez la lecture</Link>
           <FontAwesomeIcon icon={faScroll} className="fa-fw" />
         </div>
         <div className='w-screen flex-col items-center bg-black/50 py-2'>
