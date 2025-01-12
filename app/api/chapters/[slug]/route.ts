@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { getChapterBySlug } from '../../../../lib/markdown';
 
-export async function GET(request: Request, { params }: { params: { slug: string } }) {
+export async function GET({ params }: { params: { slug: string } }) {
   const { slug } = params;
 
   if (!slug) {
