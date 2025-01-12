@@ -8,6 +8,7 @@ interface ChapterMeta {
   title: string;
   date: string;
   slug: string;
+  content: string;
 }
 
 interface Chapter extends ChapterMeta {
@@ -28,9 +29,11 @@ export function getAllChapters(): Chapter[] {
     const processedContent = remark().use(html).processSync(content).toString();
 
     return {
-      ...data,
+      title: data.title,
+      date: data.date,
+      slug: data.slug,
       content: processedContent,
-    };
+    } as Chapter;
   });
   return chapters;
 }
@@ -45,7 +48,9 @@ export function getChapterBySlug(slug: string): Chapter {
   const processedContent = remark().use(html).processSync(content).toString();
 
   return {
-    ...data,
+    title: data.title,
+    date: data.date,
+    slug: data.slug,
     content: processedContent,
-  };
+  } as Chapter;
 }
