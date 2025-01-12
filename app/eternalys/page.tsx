@@ -58,8 +58,9 @@ export default function EternalysMain() {
             </div>
           </div>
         </div>
-        <ul className='w-full p-4 flex flex-col items-center mt-4 bg-black/70 rounded-lg shadow-xl'>
-          <h2 className='text-xl border-b-4 border-yellow-300 px-8 pb-2 rounded mb-4'>Liste des chapitres</h2>
+        <div className='w-screen h-1 bg-violet-700'></div>
+        <ul className='w-full px-4 flex flex-col items-center bg-black/70 shadow-xl bg-center bg-cover sticky' style={{ backgroundImage: 'url(/bgMain.jpg)' }}>
+          <h2 className='text-xl px-8 pb-2 rounded-b-full mb-4 bg-gradient-to-r from-zinc-950 to-violet-700 animate-gradientMove'>Liste des chapitres</h2>
           {chapters.map((chapter: Chapter) => (
             <li key={chapter.slug} className='w-[90%] mb-6'>
               <Link href={`/eternalys/${chapter.slug}`} passHref>

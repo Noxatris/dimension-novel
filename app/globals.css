@@ -148,7 +148,24 @@ body {
 }
 
 .animate-radialWave {
-  background: radial-gradient(circle, #a963c5, #6d28d9, #1a1a1a);
+  background-color: #1d0424 ;
+  background: radial-gradient(circle, rgba(109,40,217,1) 0%, rgba(129,77,163,1) 50%, rgba(60,14,80,1) 100%);
   background-size: 200% 200%;
   animation: radialWave 7s infinite ease-in-out;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.animate-gradientMove {
+  background-size: 200% 200%;
+  animation: gradientMove 6s ease infinite;
 }
