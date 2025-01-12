@@ -1,23 +1,21 @@
 'use client'
-// app/novel/[slug]/page.tsx
+
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import { useParams } from 'next/navigation';
 
-interface ChapterProps {
-  chapter: {
-    title: string;
-    content: string;
-    slug: string;
-  };
+interface Chapter {
+  title: string;
+  content: string;
+  slug: string;
 }
 
 export default function ChapterPage() {
-  const [chapter, setChapter] = useState<ChapterProps | null>(null);
-  const params = useParams()
+  const params = useParams();
+  const [chapter, setChapter] = useState<Chapter | null>(null);
 
   useEffect(() => {
-    const fetchChapter = async () => {;
+    const fetchChapter = async () => {
       const response = await fetch(`/api/chapters/${params.slug}`); // Appel à l'API interne
       const data = await response.json();
       setChapter(data.chapter);
