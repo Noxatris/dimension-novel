@@ -35,8 +35,8 @@ export default function ChapterPage() {
       <div className="pt-32">
         <ReactMarkdown
           components={{
-            h1: ({ node, ...props }) => <h1 className="text-4xl font-bold" {...props} />,
-            h2: ({ node, ...props }) => <h2 className="text-3xl font-semibold" {...props} />,
+            h1: ({  ...props }) => <h1 className="text-4xl font-bold" {...props} />,
+            h2: ({  ...props }) => <h2 className="text-3xl font-semibold" {...props} />,
           }}
         >
           {chapter.content}
