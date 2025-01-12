@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className="antialiased overflow-x-hidden w-screen">
         <header className="w-screen bg-black/80 z-10 flex items-center justify-between shadow-2xl p-4 md:p-8">
           <div className="flex items-center">
-            <img src="logoAlone.png" alt="Logo" className="h-[45px] md:h-[65px]" />
+            <img src="/logoAlone.png" alt="Logo" className="h-[45px] md:h-[65px]" />
             <h1 className="text-xl md:text-3xl ml-2 font-[MedievalSharp]">Dimension Novels</h1>
           </div>
           <Link href="/" className="flex justify-center items-center p-2 h-12 w-12 rounded-full gradientMoveAnimation shadow-xl text-[1.2em] hover:bg-yellow-300 hover:text-black transition-all duration-300">
