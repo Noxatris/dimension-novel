@@ -1,6 +1,6 @@
 ---
 title: "Chapitre 1 : Opération Interception Explosive"
-date: "2025-01-01"
+date: "2025-01-12"
 slug: "chapitre-1"
 ---
 

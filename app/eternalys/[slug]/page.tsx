@@ -33,7 +33,7 @@ export default function ChapterPage() {
         <title>{chapter.title}</title>
         <meta name="description" content={`Lisez le ${chapter.title} - Dimension Novel`} />
       </Head>
-      <div className="pt-32 px-4">
+      <div className="pt-8 px-4">
         <ReactMarkdown
           components={{
             h1: ({  ...props }) => <h1 className="text-xl font-bold mb-8" {...props} />,

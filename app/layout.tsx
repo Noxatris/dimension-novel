@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono} from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+
 config.autoAddCss = false
 
 import localFont from 'next/font/local'
@@ -38,14 +43,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden w-screen`}
-      >
-        <header className="absolute w-screen h-[9vh] bg-black/80 z-10 py-8 flex shadow-2xl">
-          <div className="flex h-[90%] items-center pl-2">
-            <img src="logoAlone.png" alt="" className="flex justify-center items-center h-[65px]" />
-            <h1 className={`${myFont.className} text-3xl ml-2`} >Dimension Novels</h1>
+      <body className="antialiased overflow-x-hidden w-screen">
+        <header className="w-screen bg-black/80 z-10 flex items-center justify-between shadow-2xl p-4 md:p-8">
+          <div className="flex items-center">
+            <img src="logoAlone.png" alt="Logo" className="h-[45px] md:h-[65px]" />
+            <h1 className="text-xl md:text-3xl ml-2">Dimension Novels</h1>
           </div>
+          <Link href="/" className="flex justify-center items-center p-2 h-12 w-12 rounded-full gradientMoveAnimation shadow-xl text-[1.2em] hover:bg-yellow-300 hover:text-black transition-all duration-300">
+            <FontAwesomeIcon icon={faHome} className="fa-fw" />
+          </Link>
         </header>
         {children}
       </body>

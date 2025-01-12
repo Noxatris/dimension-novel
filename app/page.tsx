@@ -10,9 +10,6 @@ export default function Home() {
         <Actualite />
         <ListeNovels />
       </div>
-      <div>
-
-      </div>
     </div>
   );
 }
