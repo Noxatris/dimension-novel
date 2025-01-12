@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function MesNovels() {
     return (
         <div className="flex flex-col bg-black/50 pt-[4vh]">
@@ -6,9 +8,9 @@ export default function MesNovels() {
                 <div className="w-1 h-1 rounded-full animate-dotMove shadow-dotEffect"></div>
             </div>
             <div className="flex justify-center mb-[48px]">
-                <a href="/eternalys" className='flex flex-col w-[60%] rounded-xl overflow-hidden items-center pulse-animation pointer-cursor'>
+                <Link href="/eternalys" className='flex flex-col w-[60%] rounded-xl overflow-hidden items-center pulse-animation pointer-cursor'>
                     <img src="/cover.png" alt="" className='w-full h-[auto]' />
-                </a>
+                </Link>
             </div>
         </div>
     );

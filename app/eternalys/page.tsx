@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEarthEurope, faPerson, faScroll, faBook } from '@fortawesome/free-solid-svg-icons'
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import Head from 'next/head';
+
 
 interface Chapter {
   title: string;
@@ -40,7 +40,7 @@ export default function EternalysMain() {
         </div>
         <div className='p-2 rounded-full gradientMoveAnimation shadow-xl text-[1.2em] mb-8'>
           <FontAwesomeIcon icon={faBook} className="fa-fw" />
-          <a href="/eternalys/chapitres/1" className="px-2">Commencez la lecture</a>
+          <Link href="/eternalys/chapitres/1" className="px-2">Commencez la lecture</Link>
           <FontAwesomeIcon icon={faScroll} className="fa-fw" />
         </div>
         <div className='w-screen flex-col items-center bg-black/50 py-2'>
@@ -48,11 +48,11 @@ export default function EternalysMain() {
           <div className="flex justify-around w-full my-6">
             <div className="bg-black/80 p-2 rounded-full border-2 border-violet-700 text-violet-700 pointer-cursor w-[40%] flex justify-center items-center">
               <FontAwesomeIcon icon={faEarthEurope} className="fa-fw mr-1" />
-              <a href="/eternalys/univers">Univers</a>
+              <Link href="/eternalys/univers">Univers</Link>
             </div>
             <div className="bg-black/80 p-2 rounded-full border-2 border-yellow-300 text-yellow-300 pointer-cursor w-[40%] flex justify-center items-center">
               <FontAwesomeIcon icon={faPerson} className="fa-fw mr-1" />
-              <a href="/eternalys/personnage">Personnage</a>
+              <Link href="/eternalys/personnage">Personnage</Link>
             </div>
           </div>
         </div>
