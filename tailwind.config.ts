@@ -21,9 +21,14 @@ export default {
           '80%': {boxShadow: '0 0 8px rgba(255, 255, 255, 0.6)', opacity: '1'},
           '100%': { transform: 'translateX(4800%)', boxShadow: ' 0px 0px 15px 3px rgba(232,212,79,0.69)', opacity: '0'},
         },
+        gradientMove: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
       },
       animation: {
         dotMove: 'dotMove 5s ease-in-out infinite',
+        gradientMoveAnimate: 'gradientMove 5s ease infinite',
       },
       boxShadow: {
         'dotEffect': '0 0 8px rgba(255, 255, 255, 0.6)'
