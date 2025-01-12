@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import { useParams } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
-import Link from 'next/link';
+
 
 interface Chapter {
   title: string;
