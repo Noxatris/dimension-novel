@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import { useParams } from 'next/navigation';
+import ReactMarkdown from 'react-markdown';
 
 interface Chapter {
   title: string;
@@ -31,9 +32,15 @@ export default function ChapterPage() {
         <title>{chapter.title}</title>
         <meta name="description" content={`Lisez le ${chapter.title} - Dimension Novel`} />
       </Head>
-      <div>
-        <h1>{chapter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: chapter.content }} />
+      <div className="pt-32">
+        <ReactMarkdown
+          components={{
+            h1: ({ node, ...props }) => <h1 className="text-4xl font-bold" {...props} />,
+            h2: ({ node, ...props }) => <h2 className="text-3xl font-semibold" {...props} />,
+          }}
+        >
+          {chapter.content}
+        </ReactMarkdown>
       </div>
     </>
   );

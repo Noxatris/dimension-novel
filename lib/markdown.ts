@@ -44,13 +44,10 @@ export function getChapterBySlug(slug: string): Chapter {
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const { data, content } = matter(fileContents);
 
-  // Convertir le contenu Markdown en HTML
-  const processedContent = remark().use(html).processSync(content).toString();
-
   return {
     title: data.title,
     date: data.date,
     slug: data.slug,
-    content: processedContent,
+    content: content, // Return raw markdown content
   } as Chapter;
 }

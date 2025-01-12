@@ -9,7 +9,6 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: 'Slug is required' }, { status: 400 });
   }
 
-  console.log("Les params de API : " + slug);
   const chapter = getChapterBySlug(slug); // Récupère un chapitre spécifique
   return NextResponse.json({ chapter });
 }
