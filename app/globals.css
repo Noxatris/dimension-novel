@@ -150,5 +150,5 @@ body {
 .animate-radialWave {
   background: radial-gradient(circle, #a963c5, #6d28d9, #1a1a1a);
   background-size: 200% 200%;
-  animation: radialWave 10s infinite ease-in-out;
+  animation: radialWave 7s infinite ease-in-out;
 }
