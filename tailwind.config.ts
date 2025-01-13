@@ -29,6 +29,7 @@ export default {
       animation: {
         dotMove: 'dotMove 5s ease-in-out infinite',
         gradientMoveAnimate: 'gradientMove 5s ease infinite',
+        gradientMove: 'gradientMove 5s ease infinite',
       },
       boxShadow: {
         'dotEffect': '0 0 8px rgba(255, 255, 255, 0.6)'

@@ -24,15 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className="antialiased overflow-x-hidden w-screen bg-[#1d0424]  ;">
+      <body className="antialiased overflow-x-hidden w-screen">
         <header className="relative w-screen shadow-2xl p-4 md:p-8">
-          {/* Background with blur */}
-          <div className="absolute inset-0 animate-radialWave blur-lg"></div>
-
-          {/* Foreground content */}
+          {/* Background with gradient and animation */}
+          <div className="absolute inset-0 bg-gradient-to-br from-violet-900 via-gray-900 via-violet-900 to-black animate-gradientMove"></div>
           <div className="relative z-10 flex items-center justify-between">
             <div className="flex items-center">
-              <img src="/logoAlone.png" alt="Logo" className="h-[45px] md:h-[65px]" />
+              <img src="/logoAlone.png" alt="Logo" className="h-[55px] md:h-[75px]" />
               <h1 className="text-3xl md:text-4xl ml-2 font-[MedievalSharp]">Dimension Novels</h1>
             </div>
             <Link href="/" className="flex justify-center items-center p-2 h-12 w-12 rounded-full gradientMoveAnimation shadow-xl text-[1.2em] hover:bg-yellow-300 hover:text-black transition-all duration-300">
