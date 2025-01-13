@@ -25,9 +25,8 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className="antialiased overflow-x-hidden w-screen">
-        <header className="w-full shadow-2xl p-4 md:p-8 bg-gradient-to-b from-violet-900 to-gray-900">
-          {/* Background with gradient and animation */}
-          <div className="z-10 flex items-center justify-between">
+        <header className="w-full shadow-2xl  bg-gradient-to-b from-violet-900 to-gray-900">
+          <div className="z-10 flex items-center justify-between bg-black/20 p-4 md:p-8">
             <div className="flex items-center">
               <img src="/logoAlone.png" alt="Logo" className="h-[45px] md:h-[65px]" />
               <h1 className="text-2xl md:text-3xl ml-2 medievalFont">Dimension Novels</h1>
