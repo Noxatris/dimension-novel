@@ -15,6 +15,10 @@ interface Chapter extends ChapterMeta {
   content: string;
 }
 
+interface ChapterList {
+  slug: string;
+}
+
 const contentDirectory = path.join(process.cwd(), 'content');
 
 // Fonction pour récupérer tous les chapitres
@@ -36,6 +40,20 @@ export function getAllChapters(): Chapter[] {
     } as Chapter;
   });
   return chapters;
+}
+
+export function getChaptersList(): ChapterList[] {
+  const fileNames = fs.readdirSync(contentDirectory);
+  const chaptersList = fileNames.map((fileName) => {
+    const filePath = path.join(contentDirectory, fileName);
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const { data } = matter(fileContents);
+
+    return {
+      slug: data.slug,
+    } as ChapterList;
+  });
+  return chaptersList;
 }
 
 // Fonction pour récupérer un chapitre spécifique par slug
