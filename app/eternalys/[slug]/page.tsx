@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 
 import BtnNextChapter from '@/app/(composents)/btnNextChapter';
