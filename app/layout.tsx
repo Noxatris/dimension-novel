@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Link from "next/link";
-
-
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
+import BtnHome from "./(composents)/btnHome";
+
 
 config.autoAddCss = false
 
@@ -31,9 +28,7 @@ export default function RootLayout({
               <img src="/logoAlone.png" alt="Logo" className="h-[45px] md:h-[65px]" />
               <h1 className="text-2xl md:text-3xl ml-2 medievalFont">Dimension Novels</h1>
             </div>
-            <Link href="/" className="flex justify-center items-center p-2 h-12 w-12 rounded-full gradientMoveAnimation shadow-xl text-[1.2em] hover:bg-yellow-300 hover:text-black transition-all duration-300">
-              <FontAwesomeIcon icon={faHome} className="fa-fw" />
-            </Link>
+            <BtnHome />
           </div>
         </header>
         {children}

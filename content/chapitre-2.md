@@ -4,7 +4,7 @@ date: "2025-01-12"
 slug: "chapitre-2"
 ---
 
-# Chapitre 2 : Tout pour la cargaison"
+# Chapitre 2 : Tout pour la cargaison
 
 Dans les secondes qui suivaient le passage du véhicule de tête une série de six explosion retentirent une a une s’entremêlant dans une réaction en chaîne, s’en suivait la chute du pont qui s’écroulait sur la route dans un fracas faisant volé en éclat le peu de vitre se trouvant encore sur les immeubles, mais soulèvent surtout un immense amas de poussière réduisant drastiquement la visibilité.
 

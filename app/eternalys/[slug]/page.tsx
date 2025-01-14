@@ -4,7 +4,10 @@ import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import { useParams, useRouter } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
-import Link from 'next/link';
+
+import BtnNextChapter from '@/app/(composents)/btnNextChapter';
+import ListeChapterNbr from '@/app/(composents)/listChapterNumber';
+import BtnHome from "@/app/(composents)/btnHome";
 
 interface Chapter {
   title: string;
@@ -17,7 +20,6 @@ export default function ChapterPage() {
   const router = useRouter();
   const [chapter, setChapter] = useState<Chapter | null>(null);
   const [nextChapter, setNextChapter] = useState<Chapter | null>(null);
-  const [chapters, setChapters] = useState<Chapter[]>([]);
 
   useEffect(() => {
     const fetchChapter = async () => {
@@ -30,21 +32,11 @@ export default function ChapterPage() {
       const nextData = await nextResponse.json();
       setNextChapter(nextData.chapter);
 
-      // Fetch all chapters
-      const allChaptersResponse = await fetch('/api/chapters');
-      const allChaptersData = await allChaptersResponse.json();
-      setChapters(allChaptersData.chapters);
     };
     fetchChapter();
   }, [params.slug]);
 
   if (!chapter) return <div>Chargement...</div>;
-
-  const handleNextChapter = () => {
-    if (nextChapter) {
-      router.push(`/eternalys/${nextChapter.slug}`);
-    }
-  };
 
   return (
     <>
@@ -52,7 +44,7 @@ export default function ChapterPage() {
         <title>{chapter.title}</title>
         <meta name="description" content={`Lisez le ${chapter.title} - Dimension Novel`} />
       </Head>
-      <div className="pt-8 px-4">
+      <div className="pt-8 px-4 pb-8 bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20">
         <ReactMarkdown
           components={{
             h1: ({ ...props }) => <h1 className="text-xl font-bold mb-8" {...props} />,
@@ -63,30 +55,12 @@ export default function ChapterPage() {
           {chapter.content}
         </ReactMarkdown>
       </div>
-      <div className="flex justify-between items-center mt-8">
-        <button
-          onClick={handleNextChapter}
-          disabled={!nextChapter}
-          className={`px-4 py-2 rounded-full shadow-lg transition-all duration-300 ${
-            nextChapter
-              ? 'bg-yellow-300 text-black hover:bg-yellow-400'
-              : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-          }`}
-        >
-          {nextChapter ? 'Chapitre Suivant' : 'Pas de chapitre suivant'}
-        </button>
+
+      <div className='w-screen h-[12vh] bg-gradient-to-b from-violet-950 to-gray-900 flex justify-around items-center'>
+        <BtnHome />
+        <ListeChapterNbr />
+        <BtnNextChapter props={nextChapter} />
       </div>
-      <nav className="mt-8">
-        <ul className="flex space-x-4">
-          {chapters.map((chap, index) => (
-            <li key={chap.slug}>
-              <Link href={`/eternalys/${chap.slug}`}>
-                Chapitre {index + 1}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
     </>
   );
 }

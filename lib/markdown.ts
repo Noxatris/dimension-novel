@@ -20,6 +20,8 @@ interface ChapterList {
 }
 
 const contentDirectory = path.join(process.cwd(), 'content');
+const articleDirectory = path.join(process.cwd(), 'article');
+
 
 // Fonction pour récupérer tous les chapitres
 export function getAllChapters(): Chapter[] {
@@ -68,4 +70,21 @@ export function getChapterBySlug(slug: string): Chapter {
     slug: data.slug,
     content: content, // Return raw markdown content
   } as Chapter;
+}
+
+export function getAllArticle(): Chapter[] {
+  const fileNames = fs.readdirSync(articleDirectory);
+  const chapters = fileNames.map((fileName) => {
+    const filePath = path.join(articleDirectory, fileName);
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const { data, content } = matter(fileContents);
+
+    return {
+      title: data.title,
+      date: data.date,
+      slug: data.slug,
+      content: content,
+    } as Chapter;
+  });
+  return chapters;
 }
