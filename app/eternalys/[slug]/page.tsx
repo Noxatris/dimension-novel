@@ -17,7 +17,6 @@ interface Chapter {
 
 export default function ChapterPage() {
   const params = useParams();
-  const router = useRouter();
   const [chapter, setChapter] = useState<Chapter | null>(null);
   const [nextChapter, setNextChapter] = useState<Chapter | null>(null);
 
