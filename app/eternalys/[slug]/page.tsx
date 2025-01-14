@@ -35,7 +35,7 @@ export default function ChapterPage() {
     fetchChapter();
   }, [params.slug]);
 
-  if (!chapter) return <div>Chargement...</div>;
+  if (!chapter) return <div className='flex w-screen justify-center mt-12 text-xl'>Chargement de votre chapitre...</div>;
 
   return (
     <>
