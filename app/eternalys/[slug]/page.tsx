@@ -71,17 +71,17 @@ export default function ChapterPage() {
 
   // Transformer les balises h4 contenant "music:" en div avec data-music
   const renderers = {
-    h4: ({ node, ...props }: any) => {
-      const text = node.children?.map((child: any) => child.value).join('');
+    h4: ({ node, ...props }: { node: any; children?: React.ReactNode }) => {
+      const text = node.children?.map((child: any) => (child as any).value).join('');
       if (typeof text === 'string' && text.startsWith('music:')) {
         const track = text.replace('music:', '').trim();
         return <div data-music={track} className="music-marker" style={{ border: '2px solid red', padding: '10px' }} />; // Débogage avec une bordure rouge
       }
       return <h4 className="text-lg mb-4" {...props} />;
     },
-    p: ({ ...props }) => <p className="text-lg mb-4" {...props} />,
-    h1: ({ ...props }) => <h1 className="text-xl font-bold mb-8" {...props} />,
-    h2: ({ ...props }) => <h2 className="text-3xl font-semibold" {...props} />,
+    p: ({ children, ...props }: { children?: React.ReactNode }) => <p className="text-lg mb-4" {...props}>{children}</p>,
+    h1: ({ children, ...props }: { children?: React.ReactNode }) => <h1 className="text-xl font-bold mb-8" {...props}>{children}</h1>,
+    h2: ({ children, ...props }: { children?: React.ReactNode }) => <h2 className="text-3xl font-semibold" {...props}>{children}</h2>,
   };
 
   if (!chapter) return <div className="flex w-screen justify-center mt-12 text-xl">Chargement de votre chapitre...</div>;
@@ -97,7 +97,7 @@ export default function ChapterPage() {
       {isImmersive && (
         <>
           <MusicPlayer currentTrack={currentTrack} />
-          <BackgroundImage src="/path-to-image.jpg" />
+          <BackgroundImage src="/cover.png" />
         </>
       )}
 
@@ -108,7 +108,7 @@ export default function ChapterPage() {
       <div ref={contentRef} className="pt-8 px-4 pb-8 bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20 h-screen overflow-y-scroll">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
-          components={renderers} // Utilisation du rendu personnalisé
+          components={renderers as any} // Utilisation du rendu personnalisé
         >
           {chapter.content}
         </ReactMarkdown>
