@@ -13,6 +13,12 @@
   font-family: 'ModernAntiqua', cursive;
 }
 
+div[data-music] {
+  width: 100%;
+  height: 10px; /* Donne de la hauteur même quand l'élément est invisible */
+  margin: 10px 0;  /* Marge pour être sûr que l'élément occupe de l'espace */
+  visibility: hidden; /* Si vous ne voulez pas qu'il soit visible */
+}
 
 :root {
   --background: #ffffff;
