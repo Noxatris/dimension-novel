@@ -71,6 +71,7 @@ export default function ChapterPage() {
 
   // Transformer les balises h4 contenant "music:" en div avec data-music
   const renderers = {
+    /* eslint-disable  @typescript-eslint/no-explicit-any */
     h4: ({ node, ...props }: any) => {
       /* eslint-disable  @typescript-eslint/no-explicit-any */
       const text = node.children?.map((child: any) => child.value).join('');
