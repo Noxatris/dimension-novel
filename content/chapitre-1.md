@@ -119,3 +119,10 @@ Mais alors que l’atmosphère se détendais et que Sarah semblait se calmer la 
 Nous nous tenions les uns derrière les autres contre le mur, armes en main, le vrombissement des moteurs devenant de plus en plus clair et la tension montait de plus en plus, mes mains devenait moite et ma respiration commençais a s’emballer jusqu’au moment où le véhicule ouvrant le convois passe devant nous a toute vitesse.
 
 Dans la seconde qui suivait une explosion assourdissante retentissait, l’opération Interception Explosive venais de débuter.
+
+
+### Liste des musique utilisé
+
+Teardrop
+
+Howling

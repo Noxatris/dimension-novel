@@ -13,6 +13,12 @@
   font-family: 'ModernAntiqua', cursive;
 }
 
+.sliderVertical{
+  writing-mode: vertical-lr;
+  direction: rtl; 
+  vertical-align: bottom;
+}
+
 div[data-music] {
   width: 100%;
   height: 10px; /* Donne de la hauteur même quand l'élément est invisible */

@@ -22,7 +22,7 @@ export default function ChapterPage() {
   const [chapter, setChapter] = useState<Chapter | null>(null);
   const [nextChapter, setNextChapter] = useState<Chapter | null>(null);
   const [isImmersive, setIsImmersive] = useState(false);
-  const [currentTrack, setCurrentTrack] = useState<string>('/track1.mp3');
+  const [currentTrack, setCurrentTrack] = useState<string | null>(null);
   const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -95,18 +95,7 @@ export default function ChapterPage() {
         <meta name="description" content={`Lisez le ${chapter.title} - Dimension Novel`} />
       </Head>
 
-      {isImmersive && (
-        <>
-          <MusicPlayer currentTrack={currentTrack} />
-          <BackgroundImage src="/path-to-image.jpg" />
-        </>
-      )}
-
-      <button onClick={() => setIsImmersive(!isImmersive)}>
-        {isImmersive ? 'Quitter le mode immersif' : 'Activer le mode immersif'}
-      </button>
-
-      <div ref={contentRef} className="pt-8 px-4 pb-8 bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20 h-screen overflow-y-scroll">
+      <div ref={contentRef} className="h-[75vh] pt-8 px-4 pb-8 bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20 h-screen overflow-y-scroll">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           components={renderers} // Utilisation du rendu personnalisé
@@ -115,10 +104,23 @@ export default function ChapterPage() {
         </ReactMarkdown>
       </div>
 
-      <div className="w-screen h-[12vh] bg-gradient-to-b from-violet-950 to-gray-900 flex justify-around items-center">
-        <BtnHome />
-        <ListeChapterNbr />
-        <BtnNextChapter props={nextChapter} />
+      <div className="w-screen h-[auto] bg-gradient-to-b from-violet-950 to-gray-900 flex flex-col justify-around items-center">
+        {isImmersive && (
+          <>
+            <MusicPlayer currentTrack={currentTrack} />
+            <BackgroundImage src="/path-to-image.jpg" />
+          </>
+        )}
+        <div>
+          <button onClick={() => setIsImmersive(!isImmersive)}>
+            {isImmersive ? 'Quitter le mode immersif' : 'Activer le mode immersif'}
+          </button>
+        </div>
+        <div className='w-screen flex justify-around items-center'>
+          <BtnHome />
+          <ListeChapterNbr />
+          <BtnNextChapter props={nextChapter} />
+        </div>
       </div>
     </>
   );
