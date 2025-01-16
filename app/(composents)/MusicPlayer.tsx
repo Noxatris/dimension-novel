@@ -14,7 +14,7 @@ interface MusicPlayerProps {
 export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
-  const [volume, setVolume] = useState(20);
+  const [volume, setVolume] = useState(3);
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
@@ -30,15 +30,18 @@ export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
 
           // Mise à jour du src de l'audio
           audio.src = `/music/${currentTrack}`;
+          audio.volume = volume / 100;
           console.log(`Audio src set to: ${audio.src}`);
 
           // Charger et jouer l'audio
           await audio.load();
           console.log(`Audio loaded`);
 
-          // Lancer la lecture
-          await audio.play();
-          setIsPlaying(true);
+          // Lancer la lecture uniuquement si utilisateur a cliqué sur play
+          if(isPlaying) {
+            await audio.play();
+            setIsPlaying(true);
+          }
           console.log(`Audio playing: ${audio.src}`);
         } catch (error) {
           console.error('Error playing audio:', error);
