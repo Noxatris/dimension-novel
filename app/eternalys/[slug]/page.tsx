@@ -94,7 +94,7 @@ export default function ChapterPage() {
         <meta name="description" content={`Lisez le ${chapter.title} - Dimension Novel`} />
       </Head>
 
-      <div ref={contentRef} className="h-[auto] pt-8 px-4 bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20 overflow-y-scroll">
+      <div ref={contentRef} className={`h-[auto] pt-8 px-4 overflow-y-scroll ${isImmersive ? 'bg-fixed bg-center shadow-shadowInset' : 'bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20'} transition-all duration-300`} style={isImmersive ? { backgroundImage: `url(/bgChapter/${chapter.slug}.webp)` } : {}}>
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           components={renderers} // Utilisation du rendu personnalisé
