@@ -65,6 +65,8 @@ Face a elle de l’autre coté de la table Élodie, une femme de vingt-quatre an
 
 — Je sais mais bon on a pas le choix, part cherchez Gabriel on se retrouve en bas.
 
+#### music:/track2.mp3
+
 Gabriel était le dernier membre de l’escouade, avec ces cheveux mi-long grisonnant et sa longue barbe il était clairement le plus âgé du groupe mais surtout le plus expérimenté, il y a plusieurs année avant le grand éveille il faisait partie de l’armé, c’était quelqu’un de méthodique et un très bon tireur, si il ne détestait pas autant dirigé une unité se serai lui le chef de l’escouade Delta.
 
 Il se trouvait sur le toit de l’immeuble pour fumée une clope, c’était son petit rituel d’avant opération, un vieux reflex disait-il.
@@ -95,7 +97,6 @@ Gabriel s’approcha de Sarah, posant une main ferme sur son épaule.
 
 — Tout le monde est nerveux la première fois, dit-il doucement. Moi, j’étais tellement terrifié que j’ai vomi sur les jambes de mon chef d’escouade.
 
-#### music:/track2.mp3
 
 Il marqua une pause, son regard croisant celui de Sarah.
 
