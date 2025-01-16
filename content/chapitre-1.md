@@ -95,7 +95,7 @@ Gabriel s’approcha de Sarah, posant une main ferme sur son épaule.
 
 — Tout le monde est nerveux la première fois, dit-il doucement. Moi, j’étais tellement terrifié que j’ai vomi sur les jambes de mon chef d’escouade.
 
-#### music:/track3.mp3
+#### music:/track2.mp3
 
 Il marqua une pause, son regard croisant celui de Sarah.
 

@@ -76,7 +76,7 @@ export default function ChapterPage() {
       const text = node.children?.map((child: any) => child.value).join('');
       if (typeof text === 'string' && text.startsWith('music:')) {
         const track = text.replace('music:', '').trim();
-        return <div data-music={track} className="music-marker" style={{ border: '2px solid red', padding: '10px' }} />; // Débogage avec une bordure rouge
+        return <div data-music={track} className="music-marker" style={{ border: '2px solid red', padding: '2px' }} />; // Débogage avec une bordure rouge
       }
       return <h4 className="text-lg mb-4" {...props} />;
     },
