@@ -14,8 +14,6 @@ interface MusicPlayerProps {
 export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
-  const [currentTime, setCurrentTime] = useState(0);
-  const [duration, setDuration] = useState(0);
   const [volume, setVolume] = useState(20);
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -41,7 +39,6 @@ export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
           // Lancer la lecture
           await audio.play();
           setIsPlaying(true);
-          setDuration(audio.duration);
           console.log(`Audio playing: ${audio.src}`);
         } catch (error) {
           console.error('Error playing audio:', error);
@@ -92,60 +89,34 @@ export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
     }
   };
 
-  const handleTimeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const audio = audioRef.current;
-
-    if (audio) {
-      const newTime = Number(e.target.value);
-      audio.currentTime = newTime;
-      setCurrentTime(newTime);
-    }
-  };
-
-  const formatTime = (time: number) => {
-    const minutes = Math.floor(time / 60);
-    const seconds = Math.floor(time % 60).toString().padStart(2, "0");
-    return `${minutes}:${seconds}`;
-  };
-
   return (
     <div className="music-player">
       <audio
         ref={audioRef}
-        className="hidden"
-        onTimeUpdate={(e) => { setCurrentTime(e.currentTarget.currentTime) }} />
-      <div className="flex flex-col items-center sticky">
+        className="hidden" />
+      <div className="flex flex-col items-center">
         <div className="flex items-center">
           <button
             onClick={togglePlay}
-            className="p-3 w-[40px] h-[40px] flex justify-center items-center border-green-500 border-4 rounded-full shadow-xl"
+            className="p-3 w-[40px] h-[40px] flex justify-center items-center border-green-500 border-4 rounded-full shadow-xl overflow-hidden bg-black/40 mr-4"
           >
             <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} />
           </button>
-          <input
-            type="range"
-            min="0"
-            max={duration}
-            value={currentTime}
-            onChange={handleTimeChange}
-            className="appearance-none bg-zinc-950/30 timer-slider mx-4 rounded-2xl accent-green-400  cursor-pointer"
-          />
-          <span className="text-white">{formatTime(currentTime)} / {formatTime(duration)}</span>
           <div className="flex justify-center items-center">
-            <button
-              onClick={toggleMute}
-              className="p-3 mx-2 w-[40px] h-[40px] flex justify-center items-center border-green-400 border-4 rounded-full"
-            >
-              <FontAwesomeIcon icon={isMuted ? faVolumeMute : faVolumeHigh} />
-            </button>
-            <div className="flex items-center rounded-full overflow-hidden">
+          <div className="flex justify-between items-center rounded-3xl overflow-hidden bg-black/40">
+              <button
+                onClick={toggleMute}
+                className="p-3 w-[40px] h-[40px] flex justify-center items-center border-green-400 border-4 rounded-full"
+              >
+                <FontAwesomeIcon icon={isMuted ? faVolumeMute : faVolumeHigh} />
+              </button>
               <input
                 type="range"
                 min="0"
                 max="100"
                 value={volume}
                 onChange={handleVolumeChange}
-                className=" w-4 h-16 appearance-none bg-zinc-950/40 accent-green-400 sliderVertical"
+                className="w-full appearance-none bg-zinc-950/80 accent-green-400 ml-2 mr-4 rounded-full"
               />
             </div>
           </div>

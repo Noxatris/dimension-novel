@@ -8,7 +8,6 @@ import remarkGfm from 'remark-gfm';
 import ListeChapterNbr from '@/app/(composents)/listChapterNumber';
 import BtnHome from "@/app/(composents)/btnHome";
 import MusicPlayer from '@/app/(composents)/MusicPlayer';
-import BackgroundImage from '@/app/(composents)/BackgroundImage';
 import BtnNextChapter from '@/app/(composents)/btnNextChapter';
 
 interface Chapter {
@@ -95,7 +94,7 @@ export default function ChapterPage() {
         <meta name="description" content={`Lisez le ${chapter.title} - Dimension Novel`} />
       </Head>
 
-      <div ref={contentRef} className="h-[75vh] pt-8 px-4 pb-8 bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20 h-screen overflow-y-scroll">
+      <div ref={contentRef} className="h-[auto] pt-8 px-4 bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20 overflow-y-scroll">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           components={renderers} // Utilisation du rendu personnalisé
@@ -104,16 +103,18 @@ export default function ChapterPage() {
         </ReactMarkdown>
       </div>
 
-      <div className="w-screen h-[auto] bg-gradient-to-b from-violet-950 to-gray-900 flex flex-col justify-around items-center">
+      <div className="w-screen h-[15vh] bg-gradient-to-b from-violet-950 to-gray-900 flex flex-wrap justify-around items-center absolute bottom-0 sticky">
         {isImmersive && (
           <>
             <MusicPlayer currentTrack={currentTrack} />
-            <BackgroundImage src="/path-to-image.jpg" />
           </>
         )}
         <div>
-          <button onClick={() => setIsImmersive(!isImmersive)}>
-            {isImmersive ? 'Quitter le mode immersif' : 'Activer le mode immersif'}
+          <button onClick={() => setIsImmersive(!isImmersive)} className={`px-4 py-2 rounded-full shadow-lg transition-all duration-300 ${isImmersive
+            ? 'bg-white text-black hover:bg-gray-200'
+            : 'bg-violet-400 text-black hover:bg-violet-500'
+            }`}>
+            {isImmersive ? 'Standard' : 'Immersion'}
           </button>
         </div>
         <div className='w-screen flex justify-around items-center'>
