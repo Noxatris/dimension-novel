@@ -8,7 +8,7 @@ export default function PolitiqueConfidentialite() {
 
         <h2 className="text-xl font-semibold mb-2">Introduction</h2>
         <p>
-          La présente politique de confidentialité décrit les pratiques de [Nom de l'entreprise] en matière de collecte, d'utilisation et de partage des informations que vous nous fournissez via notre site web [URL du site].
+          La présente politique de confidentialité décrit les pratiques de [Nom de l&apos;entreprise] en matière de collecte, d&apos;utilisation et de partage des informations que vous nous fournissez via notre site web [URL du site].
         </p>
 
         <h2 className="text-xl font-semibold mb-2">Informations collectées</h2>
@@ -28,7 +28,7 @@ export default function PolitiqueConfidentialite() {
           <li>Fournir et améliorer nos services</li>
           <li>Communiquer avec vous</li>
           <li>Personnaliser votre expérience sur notre site</li>
-          <li>Analyser l'utilisation de notre site</li>
+          <li>Analyser l&apos;utilisation de notre site</li>
         </ul>
 
         <h2 className="text-xl font-semibold mb-2">Partage des informations</h2>
@@ -57,7 +57,7 @@ export default function PolitiqueConfidentialite() {
           <li>Vous opposer au traitement de vos informations personnelles</li>
         </ul>
         <p>
-          Pour exercer ces droits, veuillez nous contacter à l'adresse suivante : [Adresse email].
+          Pour exercer ces droits, veuillez nous contacter à l&apos;adresse suivante : [Adresse email].
         </p>
 
         <h2 className="text-xl font-semibold mb-2">Modifications de la politique de confidentialité</h2>
@@ -67,7 +67,7 @@ export default function PolitiqueConfidentialite() {
 
         <h2 className="text-xl font-semibold mb-2">Contact</h2>
         <p>
-          Pour toute question concernant cette politique de confidentialité, veuillez nous contacter à l'adresse suivante : [Adresse email].
+          Pour toute question concernant cette politique de confidentialité, veuillez nous contacter à l&apos;adresse suivante : [Adresse email].
         </p>
       </div>
       <Footer />

@@ -8,7 +8,7 @@ export default function Contact() {
                 <div className="hidden md:flex w-full bg-center bg-cover animate-[blurEffectMiddle_4s_ease-in-out_infinite_alternate] absolute" style={{ backgroundImage: 'url(/bgOverMiddle.png)' }}></div>
                 <h1 className="text-white text-4xl text-center pt-4">Contact</h1>
                 <div className="flex flex-col items-center justify-center text-white">
-                    <p className="text-center p-4">Pour toute question ou information, vous pouvez nous contacter à l'adresse suivante : 
+                    <p className="text-center p-4">Pour toute question ou information, vous pouvez nous contacter à l&apos;adresse suivante : 
                         <a href="mailto:abc@gmail.com" className="hover:underline">abc@gmail.com</a>
                     </p>
                 </div>
