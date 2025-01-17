@@ -35,10 +35,10 @@ export default function Actualite() {
   }, []);
 
   return (
-    <div className="h-[45vh] md:h-[50vh] lg:h-[60vh] flex flex-col bg-black/50 pt-8 px-4 md:px-8 lg:px-12">
+    <div className="h-[45vh] md:h-[50vh] lg:h-[60vh] flex flex-col pt-8 px-4 md:px-8 lg:px-12">
       <h2 className="font-[MedievalSharp] text-xl md:text-2xl lg:text-3xl ml-6">ACTUALITÉ</h2>
       <AnimateSeparator />
-      <div className="flex flex-col overflow-y-scroll px-2 custom-scrollbar">
+      <div className="flex flex-col-reverse overflow-y-scroll px-2 custom-scrollbar">
         {loading ? (
           <AltActualite />
         ) : (

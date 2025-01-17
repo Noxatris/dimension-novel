@@ -2,7 +2,7 @@ import Link from 'next/link';
 import AnimateSeparator from './animateSeparator';
 export default function MesNovels() {
   return (
-    <div className="flex flex-col bg-black/50 pt-[4vh] px-4 md:px-8 lg:px-12">
+    <div className="flex flex-col pt-[4vh] px-4 md:px-8 lg:px-12">
       <h2 className="font-[MedievalSharp] text-xl md:text-2xl lg:text-3xl ml-6">LISTE NOVELS</h2>
       <AnimateSeparator />
       <div className="flex justify-center mb-[48px]">
