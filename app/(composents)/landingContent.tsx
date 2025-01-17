@@ -29,7 +29,7 @@ export default function LandingContent() {
 
 function FeatureCard({ icon, description }: { icon: any, description: string }) {
     return (
-        <div className="flex items-start rounded-xl text-white overflow-hidden bg-black/50 p-6 transform transition-transform duration-300 hover:scale-105 hover:bg-black/70 active:scale-95">
+        <div className="flex w-full items-start rounded-xl text-white overflow-hidden bg-black/50 p-6 transform transition-transform duration-300 hover:scale-105 hover:bg-black/70 active:scale-95">
             <div className="w-12 h-12 flex justify-center items-center p-2 mr-4 rounded-full bg-black/45 text-white border-4 border-violet-700">
                 <FontAwesomeIcon icon={icon} className="fa-fw text-white" />
             </div>
