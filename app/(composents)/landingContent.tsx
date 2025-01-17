@@ -26,7 +26,7 @@ export default function LandingContent() {
         </div>
     );
 }
-
+/* eslint-disable  @typescript-eslint/no-explicit-any */
 function FeatureCard({ icon, description }: { icon: any, description: string }) {
     return (
         <div className="flex w-full items-start rounded-xl text-white overflow-hidden bg-black/50 p-6 transform transition-transform duration-300 hover:scale-105 hover:bg-black/70 active:scale-95">

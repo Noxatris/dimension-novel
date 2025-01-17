@@ -7,9 +7,9 @@ export default function Avenir() {
             <AnimateSeparator />
             <div className="flex flex-col px-2">
                 <ul className="list-disc ml-6">
-                    <li className="mb-4">Création de compte et ajout d'un espace commentaire sous chaque chapitre</li>
-                    <li className="mb-4">Ajout d'un espace de vote pour les futures intrigues</li>
-                    <li className="mb-4">Ajout de novels d'autre créateur</li>
+                    <li className="mb-4">Création de compte et ajout d&apos;un espace commentaire sous chaque chapitre</li>
+                    <li className="mb-4">Ajout d&apos;un espace de vote pour les futures intrigues</li>
+                    <li className="mb-4">Ajout de novels d&apos;autre créateur</li>
                 </ul>
             </div>
         </div>

@@ -7,7 +7,7 @@ export default function AuteurInfo() {
             <AnimateSeparator />
             <div className="flex flex-col px-2 custom-scrollbar gap-2 ">
                 <p>La plupart des personnes me connaissent sous le pseudo de Noxatris,</p>
-                <p>J&apos;ai toujours aimée écrire depuis mon plus jeune âge mais j&apos;ai fini par perdre de vue l'écriture lors de ma scolarité.</p>
+                <p>J&apos;ai toujours aimée écrire depuis mon plus jeune âge mais j&apos;ai fini par perdre de vue l&apos;écriture lors de ma scolarité.</p>
                 <p>Il y a maintenant sept ans, j&apos;ai découvert le jeu de rôle et j&apos;ai commencé à écrire des scénarios pour mes joueurs.</p>
                 <p>Cependant il y a maintenant presque deux ans je suis arrivée a la limite, ou le modèle du jeu de rôle bridait mon imagination et ma creativité au point de devenir frustrant.</p>
                 <p>J&apos;ai donc décidé de me lancer dans l&apos;écriture d&apos;un novel, Eternalys : Éveil et Vengeance.</p>
