@@ -1,9 +1,9 @@
 ---
-title: "Article 1 : Encore Bienvenu"
+title: "Article 2 : Nouveau chapitre"
 date: "2025-01-14"
 slug: "article-2"
 ---
 
-# Une autre actu pour test le scrolling
+# Ajout de chapitre
 
-Je fais genre j'écris un truk mé en vrai tt le monde sen fou é c just pr tst
+Un tonnerre d'appaudlissement pour l'arrivée du chapitre 1, 2 et 3
