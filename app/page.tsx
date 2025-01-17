@@ -3,6 +3,7 @@ import Actualite from './(composents)/actualite'
 import ListeNovels from './(composents)/listeNovel'
 import AuteurInfo from './(composents)/auteurInfo';
 import Avenir from './(composents)/avenir';
+import Footer from './(composents)/footer';
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
         <ListeNovels />
         <AuteurInfo />
         <Avenir />
-        <footer className='bg-gray-950 w-screen h-[12vh] mt-8'></footer>
+        <Footer />
       </div>
     </div>
   );
