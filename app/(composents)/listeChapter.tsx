@@ -39,7 +39,7 @@ export default function ListeChapter() {
                     <AltListeChapter />
                 ) : (
                     chapters.map((chapter: Chapter) => (
-                        <li key={chapter.slug} className='w-[90%] mb-6'>
+                        <li key={chapter.slug} className='w-[90%] md:w-[60%] xl:w-[30%] mb-6'>
                             <Link href={`/eternalys/${chapter.slug}`} passHref>
                                 <div className='flex items-center border-l-4 border-violet-600 w-full p-3 text-[1.2em] rounded-r-lg bg-gray-800/90 shadow-lg hover:bg-gradient-to-r hover:from-violet-600 hover:to-yellow-300 hover:text-black hover:border-yellow-300 transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
                                     <span className='text-yellow-300 font-semibold'>{chapter.title}</span>

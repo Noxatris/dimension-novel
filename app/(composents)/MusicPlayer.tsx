@@ -97,7 +97,7 @@ export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
       <audio
         ref={audioRef}
         className="hidden" />
-      <div className="flex flex-col items-center">
+      <div className="flex justify-between items-center">
         <div className="flex items-center">
           <button
             onClick={togglePlay}

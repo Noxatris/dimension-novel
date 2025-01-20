@@ -1,129 +1,140 @@
 ---
-title: "Chapitre 1 : Opération Interception Explosive"
+title: "Chapitre 1 : Calme avant la tempête"
 date: "2025-01-12"
 slug: "chapitre-1"
 ---
 
-# Chapitre 1 : Opération Interception Explosive
+# Chapitre 1 : Calme avant la tempête
 
-#### music:/track1.mp3
+#### music:/Shadowlands_5_Antechamber.mp3
 
-*Tu as toujours veillé sur moi.*  
-*Tout ces sacrifices.*  
-*Tout ces choix.*  
-*Tu les as toujours fait sans jamais penser a toi.*  
+*Tu as toujours veillé sur moi.*   
+*Tous ces sacrifices.*   
+*Tous ces choix.*   
+*Tu les as toujours fait sans jamais penser à toi.*   
 
-*Il n’y nulle part où se cacher.*   
-*Nulle part où être en sécurité.*  
-*Nulle part où oublier.*  
-*Nulle part où pardonner.*  
+*Il n’y a nulle part où se cacher.*   
+*Nulle part où être en sécurité.*   
+*Nulle part où oublier.*   
+*Nulle part où pardonner.*   
 
-*Au bout du chemin une seul possibilité.*  
-*Le sang devra coulé.*  
+*Au bout du chemin une seule possibilité.*   
+*Le sang devra couler.*   
 
 *26 Juin 2024,*
 
-Je me trouvais au quatrième étages d’un appartement abandonné depuis maintenant plusieurs année, il était situé dans les quartiers extérieurs d’Eternalys.
+Je me trouvais au quatrième étage d’un appartement abandonné depuis maintenant plusieurs années, il était situé dans les quartiers extérieurs d’Eternalys.
 
-Le papier peint recouvrant les murs et les fenêtre était a l’image de cette ville et de ce monde, moisi et brisé. 
+Le papier peint recouvrant les murs et les fenêtres était à l’image de cette ville et de ce monde, moisi et brisé. 
 
- J’étais affalé sur se qui restait d’un canapé, près de moi sur un fauteuil se trouvais Bastien, un mec dans la trentaine très costaud, il finissait de remonter nos armes qu’il venait de finir de nettoyer, c’était notre expert en armement et grâce a lui notre équipement ne nous a jamais fait défaut. 
+ J’étais affalé sur ce qui restait d’un canapé, près de moi sur un fauteuil se trouvait Bastien, un mec dans la trentaine très costaud, il finissait de remonter nos armes qu’il venait de finir de nettoyer, c’était notre expert en armement et grâce à lui notre équipement ne nous a jamais fait défaut. 
 
- Face a lui sur la table basse était déposés cinq fusil d’assaut, des M16, des reliques du passé pour certain mais elles étaient encore pleinement apte à faire coulé le sang.
+Face à lui, sur la table basse étaient déposé cinq fusils d’assaut, des M16, des reliques du passé pour certains mais elles étaient encore pleinement aptes à faire couler le sang.
 
- Notre objectif était d’intercepter un convoi de True Human, une organisation militaire agissant pour le compte de notre chère gouvernement.
+Notre objectif était d’intercepter un convoi de True Human, une organisation militaire agissant pour le compte de notre cher gouvernement.
 
- — Heh... Quelle putain d’ironie.
+— Heh... Quelle putain d’ironie.
 
- Je me levais, difficilement, les jambes engourdie, puis me dirigeais vers la fenêtre.
+Je me levai difficilement, les jambes engourdies, puis me dirigeai vers la fenêtre.
 
- D’après les messages intercepter par notre faction se convoie contiendrais des ressources militaires. 
+D’après les messages interceptés par notre faction, ce convoi contiendrait des ressources militaires. 
 
-De toute façon qu’est ce qu’ils pourraient bien transporter d’autre.
+De toute façon, qu’est-ce qu’ils pourraient bien transporter d’autre.
 
-Pour cette opération plusieurs escouade avait été déployé, je dirigeais l’escouade Delta et nous étions charger de récupéré la marchandise. Pour nous épaulé nous avions quatre autre unité : Alpha était positionner en amont sur des toits d’immeubles afin de nous avertir de l’arrivée du convoi, Bravo devais faire exploser un pont survolant la route afin de mettre hors course les voitures de têtes et deux autre unité devait se caché dans des immeubles de part et d’autre de la route afin de nous couvrir.
+Pour cette opération, plusieurs escouades avaient été déployées, je dirigeais l’escouade Delta et nous étions chargés de récupérer la marchandise. Pour nous épauler, nous avions quatre autres unités : Alpha était positionné en amont sur des toits d’immeubles afin de nous avertir de l’arrivée du convoi. Bravo devait faire exploser un pont survolant la route afin de mettre hors course les voitures de tête et deux autres unités devaient se cacher dans des immeubles de part et d’autre de la route afin de nous couvrir.
 
-— D’ailleurs Sarah tu en où avec les explosifs ?
+Pour mener à bien notre mission et faire exploser les portes blindées du fourgon, mon escouade accueillait une nouvelle membre, Sarah. Cela faisait maintenant quelque temps qu’elle s’occupait de notre branche technologique depuis le camp, mais pour les besoins de la mission, il avait été décidé qu’il serait préférable qu’elle nous rejoigne en opération.
 
-Elle devais être un peu plus âgé que moi dans les vingt-cinq ans, elle était assises en tailleurs sur une vieille chaise en bois et répondait machinalement sans prendre la peine de se tourner vers moi.
+Elle devait être un peu plus âgée que moi dans les vingt-cinq ans, elle était assise en tailleurs sur une vieille chaise en bois et trafiquait divers composants tout en rouspétant à voix haute.
 
-— Sa arrive, sa arrive, donne moi encore cinq petite minute.
+— Non mais sérieusement, pourquoi a-t-il fallu que je sois présente, le terrain ce n’est pas mon truc, moi j’aime le calme de mon atelier au quartier général !
 
-Alors qu’elle était affalé sur la table plongeant dans un tas de composant électronique la radio se mis a grésiller.
+— On avait besoin de toi et de ton talent pour forcer la porte du fourgon, et puis tu n’as pas dit non ! Répondait Élodie.
 
-— Ici Alpha le convoi ne devrais plus tarder a arriver mettez vous en position et tenez vous prêt, terminé.
+Élodie était placée de l’autre côté de la table,  c’est une femme de vingt-quatre ans, de longs cheveux bruns descendant jusqu’au lombaire, des yeux violacés profonds, c’était l’ancienne chef de l’unité Delta qui, il y a quelques mois, avait décidé de me laisser sa place de leader.
 
-Je prenais rapidement la radio puis répondais :
+Alors que Sarah soupirait, se balançant sur sa chaise, recoiffant ses cheveux platine en queue de cheval, la radio se mit à grésiller :
+
+— Ici Alpha, le convoi ne devrait plus tarder à arriver, mettez-vous en position et tenez-vous prêt, terminé.
+
+Je pris rapidement la radio, puis répondis.
 
 — Ici Delta, bien reçu, terminé.
 
-— Et merde ! grommela Sarah rangeant tout son matériel dans son sac.
+Sarah reposa les quatre pieds de la chaise au sol, prenant son sac à dos qui était posé à ses pieds sur ses genoux.
 
-Face a elle de l’autre coté de la table Élodie, une femme de vingt-quatre ans, de long cheveux brun descendant jusqu’au lombaire, des yeux violacé profond, c’était l’ancienne chef de l’unité Delta qui il y a quelque mois avait décidé de me laisser sa place de leader.
+Elle essayait de le cacher depuis notre départ du quartier général mais je pense que tout le monde l'avait remarqué, l’opération la terrifiait et l’annonce de la radio n'arrangeait pas les choses.
 
-— Il ne devait pas arriver sitôt ! 
+Ces mains tremblaient, elle mordillait sa langue et devait probablement se répéter dans sa tête : "tout va bien se passer, tout va bien se passer!”.
 
-— Je sais mais bon on a pas le choix, part cherchez Gabriel on se retrouve en bas.
+Élodie se levait de sa chaise et passait dans le dos de Sarah, posant ses mains sur ses épaules.
 
-#### music:/track2.mp3
+Sarah, au moment du contact, sursauta, tandis qu’Élodie se rapprochait de l’oreille de Sarah lui murmurant quelques mots.
 
-Gabriel était le dernier membre de l’escouade, avec ces cheveux mi-long grisonnant et sa longue barbe il était clairement le plus âgé du groupe mais surtout le plus expérimenté, il y a plusieurs année avant le grand éveille il faisait partie de l’armé, c’était quelqu’un de méthodique et un très bon tireur, si il ne détestait pas autant dirigé une unité se serai lui le chef de l’escouade Delta.
+La présence de Sarah augmentait considérablement les chances de réussite de l’opération, mais cela valait-il le coup ?
 
-Il se trouvait sur le toit de l’immeuble pour fumée une clope, c’était son petit rituel d’avant opération, un vieux reflex disait-il.
+Lui faire vivre la réalité du champ de bataille était-il une bonne idée ?
 
-Nous descendions au rez de chaussée, la cage d’escalier était à moitié effondrer, alors que l’on passais au niveau du palier du première étage on pouvais entendre l’escouade Charlie se mettre en position dans les différents appartement pour nous couvrir.
+D’un autre côté, dans les temps actuels, elle sera sûrement amenée à vivre une situation similaire autant que sa première fois, soit avec nous et bien entourée. Dans ce monde pourri, le sang coule et surtout celui des faibles tétanisés par la peur.
 
-Une fois le rez de chaussée atteint nous empruntions la porte de derrière, elle donnait sur une petite court que l’on empruntait pour atteindre une ruelles sombre donnant sur l’avenue.
+Alors que j’étais perdu dans mes pensées fixant Élodie toujours en train de réconforter Sarah, Bastien me fit une tape dans le dos.
 
-Alors que j’étais contre le mur en position avec Sarah et Bastien derrière moi, Élodie ne tardais pas a nous rejoindre.
+— Bon, je vais prévenir Gabriel, on vous rejoint en bas.
 
-Avec elle, Gabriel qui s’accroupissait en bout de fil remontant sa paire de lunette rectangulaire puis chuchotait :
+Bastien prenait son fusil d’assaut sur la table ainsi qu’un deuxième et se dirigeait vers la porte d’entrée de l’appartement.
 
-— Et bien ils n’ont pas perdu de temps, c’est plutôt inhabituelle de les voir en avance. On ferais mieux de rester sur nos gardes.
+Gabriel était le dernier membre de l’escouade, avec ses cheveux mi-longs grisonnants et sa longue barbe, il était clairement le plus âgé du groupe mais surtout le plus expérimenté. Il y a plusieurs années avant le grand éveil, il faisait partie de l’armée, c’était quelqu’un de méthodique et un très bon tireur. S'il ne détestait pas autant diriger une unité, ce serait lui le chef de l’escouade Delta.
 
-— Tu as bien raison, tout le monde dois rester sur ces gardes.
+Il se trouvait sur le toit de l’immeuble pour fumer une clope, c’était son petit rituel d’avant opération, un vieux réflexe disait-il.
+
+Nous descendîmes au rez-de-chaussée, la cage d’escalier était à moitié effondrée, alors que l’on passait au niveau du palier du premier étage, on pouvait entendre l’escouade Charlie se mettre en position dans les différents appartements pour nous couvrir.
+
+Une fois le rez-de-chaussée atteint, nous empruntions la porte de derrière, elle donnait sur une petite cour que l’on empruntait pour atteindre une ruelle sombre donnant sur l’avenue.
+
+Alors que j’étais contre le mur en position avec Sarah et Élodie derrière moi, Bastien ne tardait pas à nous rejoindre.
+
+Avec elle, Gabriel, qui s’accroupissait en bout de fil, remontant sa paire de lunettes rectangulaires, puis chuchotait :
+
+— Eh bien, ils n’ont pas perdu de temps, c’est plutôt inhabituel de les voir en avance. On ferait mieux de rester sur nos gardes.
+
+— Tu as bien raison, tout le monde doit rester sur ses gardes.
 
 Alors que nous attendions tous en silence, Élodie posa sa main sur l’épaule de Sarah puis approcha son visage près du sien.
 
-— Je sais que c’est ta première confrontation directe, mais fais nous confiance, tout va bien se passer.
+— Je sais que c’est ta première confrontation directe, mais fais-nous confiance, tout va bien se passer.
 
-Sarah triturait sa queue de cheval d’un blond platine. Plongeant sont regard dans celui d’Élodie sans un bruit.
+Sarah triturait sa queue de cheval. Plongeant son regard dans celui d’Élodie sans un bruit.
 
-Je n’y avais pas prêter attention mais ces doigts tremblais et agrippais difficilement la poignée de son armes.
-
-— Ne t’inquiète pas sa va passer, c’est… c’est juste qu’habituellement j’ai juste besoin de rester en retrait. Mais je vais me ressaisir !
+— Ne t’inquiète pas, ça va passer, c’est… c’est juste qu’habituellement j’ai juste besoin de rester en retrait. Mais je vais me ressaisir !
 
 Gabriel s’approcha de Sarah, posant une main ferme sur son épaule.
 
 — Tout le monde est nerveux la première fois, dit-il doucement. Moi, j’étais tellement terrifié que j’ai vomi sur les jambes de mon chef d’escouade.
-
 
 Il marqua une pause, son regard croisant celui de Sarah.
 
 — Mais on a fait ce qu’on devait faire. Et on est tous revenus. Tous.
 Pour la première fois, Sarah esquissa un sourire tremblant, ses mains se calmant légèrement sur son arme.
 
-Bastien se retourna brusquement en direction de Gabriel puis ricana :
+Bastien se retourna brusquement en direction de Gabriel, puis ricana :
 
-— Attend tu as vomis sur ton chef d’escouade !
+— Attends, tu as vomi sur ton chef d’escouade !
 
-— Tu veux qu’on discute de ta première grande opération avec nous ? répliquai Gabriel.
+— Tu veux qu’on discute de ta première grande opération avec nous ? Répliquai Gabriel.
 
-Honnêtement je doute fort que Gabriel aille vomis sur son chef d’escouade surtout qu’ils faisaient partis des forces spécial mais bon au moins Sarah semblait y croire.
+Honnêtement, je doute fort que Gabriel aille vomir sur son chef d’escouade surtout qu’ils faisaient partie des forces spéciales, mais bon, au moins Sarah semblait y croire.
 
-Mais alors que l’atmosphère se détendais et que Sarah semblait se calmer la radio se mis grésiller une nouvelle fois.
+Mais alors que l’atmosphère se détendait et que Sarah semblait se calmer, la radio se mit à grésiller une nouvelle fois.
  
-— Ici Alpha nous avons le convoie en visuelle, il correspond au donnée intercepter, le fourgon blindé est escorté par deux véhicule blindé léger armée de mitrailleuse l’une ouvre la marche tandis que l’autre la ferme, deux SUV style Range Rover se trouve entre le fourgon et les mitrailleuses. Il se déplace a vive allure et devrais arriver sur votre position d’ici a peine une dizaine de minute, terminé.
+— Ici Alpha, nous avons le convoi en visuel, il correspond aux données interceptées. Le fourgon blindé est escorté par deux véhicules blindés légers armés de mitrailleuses. L'une ouvre la marche tandis que l’autre la ferme. Deux SUV style Range Rover se trouvent entre le fourgon et les mitrailleuses. Il se déplace à vive allure et devrait arriver sur votre position d’ici à peine une dizaine de minutes, terminé.
 
-— Ici Delta, message bien reçu nous sommes en position.
+— Ici Delta, message bien reçu, nous sommes en position.
 
-Nous nous tenions les uns derrière les autres contre le mur, armes en main, le vrombissement des moteurs devenant de plus en plus clair et la tension montait de plus en plus, mes mains devenait moite et ma respiration commençais a s’emballer jusqu’au moment où le véhicule ouvrant le convois passe devant nous a toute vitesse.
+Nous nous tenions les uns derrière les autres contre le mur, armes en main, tandis que le vrombissement des moteurs devenait de plus en plus clair et la tension montait de plus en plus. Mes mains devinrent moites et ma respiration commença à s’emballer jusqu’au moment où le véhicule ouvrant les convois passe devant nous à toute vitesse.
 
-Dans la seconde qui suivait une explosion assourdissante retentissait, l’opération Interception Explosive venais de débuter.
+Dans la seconde qui suivait, une explosion assourdissante retentit, l’opération Interception Explosive venait de débuter.
 
 
 ### Liste des musique utilisé
 
-Teardrop
-
-Howling
+Shadowlands 5 - Antechamber Par Kevin MacLeod

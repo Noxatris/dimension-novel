@@ -12,9 +12,9 @@ export default function EternalysMain() {
     <>
       <div className='w-full flex flex-col items-center'>
         <div className='w-full bg-black/55 flex flex-col items-center bg-top bg-cover shadowTest' style={{ backgroundImage: 'url(coverClear.png)' }} >
-          <div className="w-screen pt-8 px-4">
+          <div className="w-screen md:w-[65%] xl:w-[25%] pt-8 px-4">
             <h1 className="font-[medievalSharp] text-2xl border-b-4 border-yellow-300 flex justify-center mb-8 pb-1 rounded-md">Eternalys : Éveil et Vengeance</h1>
-            <div className="mb-8 *:mb-2">
+            <div className="mb-8 *:mb-2 md:px-6">
               <h2 className="ml-4 text-[1.2em] mb-1">Intrigue :</h2>
               <p>Dans un monde où la magie a émergé soudainement, les Éveillés, détenteurs de pouvoirs mystérieux, ont d&apos;abord été accueillis avec espoir avant de semer la division.</p>
               <p>Certains, bienveillants, ont cherché à protéger la société, tandis que d&apos;autres ont plongé les rues dans le chaos. Craignant ces nouveaux pouvoirs, le gouvernement a réagi par une répression brutale, traquant sans distinction les Éveillés.</p>

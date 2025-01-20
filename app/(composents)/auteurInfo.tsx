@@ -2,10 +2,10 @@ import AnimateSeparator from "./animateSeparator";
 
 export default function AuteurInfo() {
     return (
-        <div className="flex flex-col pt-8 px-4 md:px-8 lg:px-12">
-            <h2 className="font-[MedievalSharp] text-xl md:text-2xl lg:text-3xl ml-6">A PROPOS DE MOI</h2>
+        <div className="w-full xl:w-[45%] flex flex-col md:items-center pt-8 px-4 md:px-8 lg:px-12">
+            <h2 className="medievalFont text-xl md:text-2xl lg:text-3xl ml-6 md:ml-0">A propos de moi</h2>
             <AnimateSeparator />
-            <div className="flex flex-col px-2 custom-scrollbar gap-2 ">
+            <div className="flex flex-col px-2 custom-scrollbar gap-2 md:mt-2">
                 <p>La plupart des personnes me connaissent sous le pseudo de Noxatris,</p>
                 <p>J&apos;ai toujours aimée écrire depuis mon plus jeune âge mais j&apos;ai fini par perdre de vue l&apos;écriture lors de ma scolarité.</p>
                 <p>Il y a maintenant sept ans, j&apos;ai découvert le jeu de rôle et j&apos;ai commencé à écrire des scénarios pour mes joueurs.</p>

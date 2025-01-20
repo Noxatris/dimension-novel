@@ -35,18 +35,18 @@ export default function Actualite() {
   }, []);
 
   return (
-    <div className="h-[45vh] md:h-[50vh] lg:h-[60vh] flex flex-col pt-8 px-4 md:px-8 lg:px-12">
-      <h2 className="font-[MedievalSharp] text-xl md:text-2xl lg:text-3xl ml-6">ACTUALITÉ</h2>
+    <div className="h-[45vh] md:h-[350px] lg:h-[35vh] flex flex-col md:items-center pt-8 px-4 md:px-8 lg:px-12 md:mb-8">
+      <h2 className="medievalFont text-xl md:text-2xl lg:text-3xl ml-6 md:ml-0">Actualité</h2>
       <AnimateSeparator />
-      <div className="flex flex-col-reverse overflow-y-scroll px-2 custom-scrollbar">
+      <div className="flex flex-col-reverse items-center overflow-y-scroll px-2 custom-scrollbar md:mt-2">
         {loading ? (
           <AltActualite />
         ) : (
           actualites.map((chapter: Chapter) => (
-            <div key={chapter.slug} className="border-l-4 rounded-xl border-violet-700 px-3 py-1 bg-black/50 mb-4">
+            <div key={chapter.slug} className="md:w-[95%] border-l-4 rounded-xl border-violet-700 px-3 py-1 bg-black/50 mb-4">
               <ReactMarkdown
                 components={{
-                  h1: ({ ...props }) => <h1 className="text-xl md:text-2xl lg:text-3xl font-[MedievalSharp] border-b-2 mb-3" {...props} />,
+                  h1: ({ ...props }) => <h1 className="text-xl md:text-2xl font-[MedievalSharp] border-b-2 mb-3" {...props} />,
                   h2: ({ ...props }) => <h2 className="text-3xl font-semibold" {...props} />,
                   p: ({ ...props }) => <p className="text-base md:text-lg lg:text-xl" {...props} />,
                 }}
