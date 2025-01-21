@@ -4,6 +4,8 @@ date: "2025-01-13"
 slug: "chapitre-3"
 ---
 
+#### music:/The_Dread.mp3
+
 # Chapitre 3 : Négociation avec les Recycleurs
 
 Les égouts d’Eternalys formait une ville sous la ville, d’immense galerie et bassin de rétention se trouvais ici à l’abri des regards. Il va sans dire que cela faisait bien longtemps qu’ils n’avaient pas été entretenu, il y régnait une odeur fortement désagréable mais a choisir entre l’odeur et les troupes de True Human, le choix était facile.
@@ -45,6 +47,8 @@ Un silence s’installa, tout le monde se regardais dans le blanc des yeux.
 — De toute façon qu’on se fasse attraper par True Human ou les Sangs-Divins je préfère encore les Sangs-Divins. Bien que les relations entre nos deux factions soient un peu tendu on aura toujours moyen de négocier.
 
 C’était donc décider, Sarah prenait donc la direction du territoire des Sangs-Divins, nous progression pendant une bonne heure et demi jusqu’à arriver dans une section des égouts éclairé.
+
+#### music:/Long_Note_Three.mp3
 
 Assis sur une chaise pliable, les vêtements déchiré mais surtout un fusil de chasse rafistoler à la main, un vielle homme.
 

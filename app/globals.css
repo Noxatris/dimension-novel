@@ -13,17 +13,20 @@
   font-family: 'ModernAntiqua', cursive;
 }
 
-.sliderVertical{
+.sliderVertical {
   writing-mode: vertical-lr;
-  direction: rtl; 
+  direction: rtl;
   vertical-align: bottom;
 }
 
 div[data-music] {
   width: 100%;
-  height: 10px; /* Donne de la hauteur même quand l'élément est invisible */
-  margin: 10px 0;  /* Marge pour être sûr que l'élément occupe de l'espace */
-  visibility: hidden; /* Si vous ne voulez pas qu'il soit visible */
+  height: 10px;
+  /* Donne de la hauteur même quand l'élément est invisible */
+  margin: 10px 0;
+  /* Marge pour être sûr que l'élément occupe de l'espace */
+  visibility: hidden;
+  /* Si vous ne voulez pas qu'il soit visible */
 }
 
 :root {
@@ -40,7 +43,9 @@ div[data-music] {
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: rgb(33, 32, 33);
+  background: linear-gradient(0deg, rgb(1, 1, 2) 35%, rgb(20, 0, 22) 100%);
+  background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -148,15 +153,19 @@ body {
 
 
 @keyframes gradientMoveHeader {
-  0%, 100% {
+
+  0%,
+  100% {
     background-position: 0% 0%;
     transform: rotate(0deg);
   }
+
   50% {
     background-position: 0% 100%;
     transform: rotate(360deg);
   }
 }
+
 .animate-gradientMoveHeader {
   background-size: 200% 200%;
   animation: gradientMoveHeader 30s linear infinite;
