@@ -124,3 +124,7 @@ L’homme se redressa droit sur sa chaise puis posa ses coudes sur la table se s
 Je me tournais vers le reste du groupe afin de voir leurs réaction face a la proposition, c’est alors que lorsque mon regard croisa celui d’Élodie elle hocha la tête.
 
 — Bien c’est entendu. A partir du moment ou nous sortirons tous des égouts saint et sauf la Lune Éveillé aura une dette envers les Recycleurs.
+
+## Liste des musique utilisé
+
+Long Note Three Par Kevin Macleod
