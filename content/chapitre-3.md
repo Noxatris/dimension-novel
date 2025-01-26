@@ -1,129 +1,128 @@
 ---
-title: "Chapitre 3 : Négociation avec les Recycleurs"
+title: "Chapitre 3 : Fuites souterraines"
 date: "2025-01-13"
 slug: "chapitre-3"
 ---
 
 #### music:/The_Dread.mp3
 
-# Chapitre 3 : Négociation avec les Recycleurs
+# Chapitre 3 : Fuites souterraines
 
-Les égouts d’Eternalys formait une ville sous la ville, d’immense galerie et bassin de rétention se trouvais ici à l’abri des regards. Il va sans dire que cela faisait bien longtemps qu’ils n’avaient pas été entretenu, il y régnait une odeur fortement désagréable mais a choisir entre l’odeur et les troupes de True Human, le choix était facile.
+Les égouts d’Eternalys formaient une ville sous la ville, d’immense galerie et bassin de rétention se trouvaient ici à l’abri des regards. Il va sans dire que cela faisait bien longtemps qu’ils n’avaient pas été entretenus, il y régnait une odeur fortement désagréable mais à choisir entre l’odeur et les troupes de True Human, le choix était facile.
 	
-Alors que nous pouvions encore entendre au loin le bruit des rotors des hélicoptères au dessus de nous, nous continuions de nous enfoncer de plus en plus profondément dans les tunnels.
+Alors que nous pouvions encore entendre au loin le bruit des rotors des hélicoptères au-dessus de nous, nous continuions de nous enfoncer de plus en plus profondément dans les tunnels.
 
-Nous progression dans se dédale de pierre taillé rongé par l’humidité, éclairer par les lampes torches accroché a nos armes, tout les quelque mètre on pouvait croisé la route de groupes de rat en tout genre, ironiquement les égouts était plus animé que la surface.
+Nous progressons dans ce dédale de pierre taillée rongée par l’humidité, éclairés par nos lampes torches accrochées à nos armes.
 
-Alors que nous arrivions au niveau d’une intersection Sarah se retourna :
+Tous les quelques mètres nous pouvions croiser la route de rats en tout genre, ironiquement les égouts semblaient plus animés que la surface.
 
-— Bon, on va où du coup ?
+Alors que nous arrivions au niveau d’une intersection, Bastien se retourna :
 
-— Je pense qu’on devrais partir du principe que se collier est équiper d’un traceur gps, et donc que l’on devrais rejoindre les profondeurs des égouts. proposait Gabriel
+— Bon, c’est quoi la suite du plan ?
 
-— Si c’est ça le problème on a qu’a s’arrêter pour le retirer. répondait Élodie
+— Le plan c’est de protéger la gamine, et pour ça il faut que l’on s’enfonce encore plus dans les égouts. proposait Gabriel
 
-— Vous pensez vraiment que c’est une bonne idée ? Imaginez qu’il explose si on tente de l’enlever ? Enchaînait Sarah
+— Super, et après on fait quoi, on attend ? On n'a plus de contact radio avec l’extérieur, ce qui veut dire que le quartier général ne peut plus nous contacter ! répondait Élodie
 
-— Ouais, sa serai bien leurs genre. rétorquait Bastien
+— Bah génial, maintenant le quartier général va juste penser que l’on est mort ! Rétorquait Sarah, les larmes lui montant aux yeux.
 
-Tout le groupe se mettait a débattre sur la marche a suivre, cependant nous étions presser par le temps et venait alors la question fatidique :
+— La radio, ce n’est pas un problème. Le quartier général nous a demandé de faire profil bas le temps qu’il nous envoie quelqu’un. Si on n’est pas joignable durant les prochaines heures, cela ne posera pas de soucis.
 
-— Bon du coup, on fait quoi Adrien, au final c’est toi qui décide ! Interrompait Élodie.
+— Quelqu’un a une idée pour le collier de la petite, c’est la première fois que j’en vois un. questionnait Bastien
 
- L’abandonner serais la solution la plus simple, mais alors que je me tournais vers la petite encore inconsciente respirant calmement, je soupirais, sans trop comprendre pourquoi je pouvais la voir devant moi, son sourire, ses longs cheveux noir…
+— Sarah, une idée ? Enchaînait Élodie.
 
-— Les Sangs-Divins, on dois atteindre leurs territoires, là-bas True Human ne pourront pas nous atteindre, ils auront trop peur de se faire abattre.
+— Aucune idée, il faudrait que je le démonte, mais vu la taille et la manière de faire de True Human, ça ne me surprendrait pas qu’il ait une sécurité empêchant d’intervenir dessus.
 
-— Attend tu veux rejoindre le territoire des Sangs-Divins ? grogna Élodie
+— À tous les coups, ça doit être un traceur GPS assez robuste pour empêcher un éveillé de le détruire. Soupçonnais-je.
 
-— Si tu as une meilleurs idée n’hésite pas ! rétorquai-je. Si ma décision te conviens pas tu peut toujours reprendre le commandement !
+— Et du coup, on fait comment si l’ennemi a notre position en direct. grommelait Élodie
 
-Un silence s’installa, tout le monde se regardais dans le blanc des yeux.
+— On pourrait rester dans les égouts. proposait Gabriel
 
-— Aller pas besoin de s’énerver, je sais que tout le monde est a cran mais il faut que l’on garde notre calme. Personnellement je suis pour le plan d’Adrien, bien que cela risque d’être très dangereux cela reste notre meilleurs options. soutenais Gabriel
+Alors que tout le monde donna son avis et proposa des solutions, je m’avançais donnant mes instructions.
 
-— Effectivement mais si on se fait attraper par les Sangs Divins je ne donne pas chère de notre peau, si la petite est une Éveiller il lui arrivera rien, mais nous…, s’inquiéta Sarah
+— Nous allons bel et bien patienter à la surface, cependant nous allons tout de même faire un bout de chemin dans les égouts.
 
-— De toute façon qu’on se fasse attraper par True Human ou les Sangs-Divins je préfère encore les Sangs-Divins. Bien que les relations entre nos deux factions soient un peu tendu on aura toujours moyen de négocier.
+— Et pour aller où ? coupa presque instantanément Élodie
 
-C’était donc décider, Sarah prenait donc la direction du territoire des Sangs-Divins, nous progression pendant une bonne heure et demi jusqu’à arriver dans une section des égouts éclairé.
+— Sur le territoire des Sangs-Divins.
 
-#### music:/Long_Note_Three.mp3
+Une seconde, durant presque une éternité, s’écoula tandis que tout le monde alternait leur regard entre eux et moi et, étonnement, c’est Sarah qui brisa le silence.
 
-Assis sur une chaise pliable, les vêtements déchiré mais surtout un fusil de chasse rafistoler à la main, un vielle homme.
+— Les Sangs-Divins ? C’est vraiment une bonne idée ?
+
+— Ça me paraît être une solution risquée mais logique, la faction des Sangs-Divins est essentiellement composée d’Éveillés et les chances que True Human lance un assaut sur leur territoire sont minces. appuya Gabriel
+
+— Et pourquoi True Human aurait peur des Sangs-Divins ? interroge Sarah
+
+— Lors de l’affrontement qui a séparé Eternalys centre et sa banlieue, les Éveillés qui ont combattu se sont regroupés sous une même bannière : “Les Sangs-Divins”. Les pertes en cas d’affrontement seraient loin d’être acceptables et ceux de chaque côté. Le fait que True Human ne rentre pas sur le territoire des Sangs-Divins et inversement fait que les affrontements se sont arrêtés. expliqua Bastien
+
+— Mais bon, tout le monde sait que le gouvernement renforce ses troupes et attend juste le bon moment pour attaquer, et les Sangs-Divins font pareil. ajouta Gabriel
+
+— De toute façon c’est décidé, nous prenons la direction du territoire des Sangs-Divins. Une fois là-bas, nous essaierons de reprendre contact avec le quartier général. affirmais-je, clôturant le débat
+
+Cette fois-ci je menais la marche, les égouts formant un véritable labyrinthe. Je ne cherchais pas vraiment la direction du territoire des Sangs-Divins mais des traces de la faction des Recycleurs qui occupait les égouts.
+
+Après une vingtaine de minutes, je pouvais apercevoir des tags et des traces laissés par les Recycleurs que je décidais donc de suivre.
+
+Il nous aura fallu une bonne heure et demi pour finalement arriver au niveau d’un de leurs territoires.
+
+Assis sur une chaise pliable, vaguement éclairé par les lueurs d’une intense bougie, se trouvait un vieil homme, les vêtements déchirés. Sur ses genoux se trouvait une vieille AK-47 rafistolée.
+
+Nous nous avancions à son niveau, tout en gardant une certaine distance de courtoisie.
 
 Il nous fixait du regard, sans un mot.
 
-Aucun doute, il faisait partie des Recycleurs, l’une des cinq grands factions d’Eternalys.
+Alors que je m’apprêtais à le saluer, le vieil homme brisa le silence.
 
-Alors que je prenais la tête du groupe, l’homme se leva lentement prenant appui sur son fusils avant de prendre la parole d’une voix caverneuse.
+— Que venez-vous faire ici ?
 
-— Et bien en voilà une sacré équipe, je peux savoir se que vous venez faire ici ?
+Sa voix était caverneuse et résonnait dans les galeries.
 
-— Nous sommes juste de passage nous souhaitons atteindre l’une des sorties se trouvant encore a deux bonne heure de marche d’ici.
+— Nous cherchons à rejoindre le territoire des Sangs-Divins par les égouts. Répondais-je.
 
-— Voyez-vous ça… et vous faites parties de quelle faction ?
+— Voyez-vous ça, vous n’avez pas l’air de touriste, vous connaissez donc les règles.
 
-— La Lune Éveillée. Je suis Adrien et je dirige cette unité.
+— Effectivement, cependant, nous ne pouvons vous dédommager dans l’immédiat. Cependant, je peux vous aff…
 
-— Bien, bien. Je vais devoir vous demander me suivre, je vais vous guider jusqu’à notre chef, la suite dépendra de lui.
+— Assez ! Cela ne m’intéresse pas, si vous n’avez pas de quoi payer, faites demi-tour et revenez quand vous aurez quelque chose à offrir en échange.
 
-— Entendu, nous vous suivons.
+Élodie fit un pas en avant et protesta :
 
-Le vielle homme ouvrait la marche, progressant dans se labyrinthe de pierre, il marchait difficilement tout en se tournant régulièrement.
+#### music:/Long_Note_Three.mp3
 
-— Dites-moi que fait des membres de la Lune Éveillée dans les égouts, surtout si se n’est pas pour commercer ?
+— Êtes-vous bien sûr que cela ne vous intéresse pas, je doute que votre chef soit contre l’idée d’avoir une faction comme la Lune Éveillée redevable envers lui.
 
-— Pour tout vous dire on a pris d’assaut un convoi de True Human et disons que la fuite ne s’est pas déroulé tout a fait comme prévu.
+L’homme réfléchit un instant puis se leva en prenant pour appui son fusil d’assaut qu’il tenait par le canon comme une canne.
 
-— Je vois…
+— Bien, vous avez raison, la Lune Éveillée a toujours payé ses dettes et maintenu une bonne relation avec nous. Suivez-moi jusqu’à notre camp, notre chef vous recevra là-bas.
 
-Nous suivions l’homme jusqu’à arriver dans une immense salle composé de quatre ancien bassin de rétention qui ont été vidé et emménager de cabane faites en bois, et en tissu recycler.
+Nous suivions l’homme jusqu’à arriver dans une immense salle composée de quatre anciens bassins de rétention qui ont été vidés et aménagés en cabanes faites en bois et en tissu recyclé.
 
-Nous traversions ce village souterrain sous l’écho assourdissant de marteau frappant le fer au loin, nous passions a coté de personne travaillant le bois tandis que d’autre semblait travailler sur la remise en état d’armes.
+Nous traversions ce village souterrain sous l’écho assourdissant de marteaux frappant le fer au loin, nous passions à côté de personnes travaillant le bois tandis que d’autres semblaient travailler sur la remise en état d’armes.
 
-Une fois arrivée a l’autre bout des bassins, l’homme s’arrêta devant une porte en bois se trouvant dans l’un des murs.
+Une fois arrivée à l’autre bout des bassins, l’homme s’arrêta devant une porte en bois se trouvant dans l’un des murs.
 
-— Attendez moi là, j’en ai pour une minute.
+— Attendez-moi là, j’en ai pour une minute.
 
-Alors que nous nous regroupions, Élodie chuchota :
+Alors que nous nous regroupions, Sarah chuchota :
 
-— Et pour la petite on leurs dit quoi ?
+— Et pour la petite, on lui dit quoi ?
 
-— On a qu’a dire qu’elle fait partie de notre unité. répondais Bastien au tac au tac.
+— On n'a qu'à dire qu’elle fait partie de notre unité. Répondais Bastien du tac au tac.
 
-— Oui une gamine de dix ans, inconsciente et avec un collier en métal autour du coup, puis on pourrait aussi leurs dire que c’est notre chef. soupirait Sarah
+— Oui, une gamine de dix ans, inconsciente et avec un collier en métal autour du cou. soupirait Élodie
 
-— Les recycleurs sont une faction neutre, on a aucun intérêt a mentir au sujet de la petite. rétorquais-je afin de recentrer le groupe.
+— Les recycleurs sont une faction neutre, on n'a aucun intérêt à mentir au sujet de la petite. Rétorquais-je afin de recentrer le groupe.
 
-Gabriel lui s’adossait contre le mur sortant une cigarette de sa poche.
+Gabriel, lui, s’adossait contre le mur, sortant une cigarette de sa poche.
 
-— Je suis d’accord avec Adrien on a aucune raison de leurs mentir.
+— Je suis d’accord avec Adrien, on n’a aucune raison de leur mentir.
 
-Peu de temps après l’homme ressortait par la porte.
+Peu de temps après, l’homme ressortait par la porte.
 
-— Si vous voulez bien entrez, le chef est prêt a vous recevoir.
-
-Je passais la porte suivi du reste du groupe à l’exception de Gabriel qui restait a extérieurs cigarette à la bouche.
-
-A l’intérieur des plans des égouts placarder tout autour sur les murs avec quelque étagère avec des livres et une table remplie de document au centre, derrière cette table un homme assis sur un chaise en bois, les cheveux très court et rasé de court, son physique portais encore les marques de son passé militaire.
-Alors que nous avancions et nous placions dans la pièce assez étroite pour toute notre équipe, je m’asseyais face à l’homme.
-
-— Bienvenue a vous, je m’appelle Jhon et c’est moi qui dirige cette zone, si j’ai bien compris vous souhaitez traverser notre territoire ?
-
-— Merci de nous recevoir, je suis Adrien et je dirige cette unité. Effectivement nous souhaitons traverser votre territoire.
-
-— Vous savez comment nous fonctionnons, vous avez quelque chose a offrir ?
-
-— Malheureusement actuellement nous n’avons rien sur nous cependant une fois que nous auront retrouver le reste du clan nous pourrions revenir pour le paiement.
-
-L’homme se redressa droit sur sa chaise puis posa ses coudes sur la table se serrant les main.
-
-— Ce n’est pas le genre de la maison de faire crédit, mais d’un autre coté la Lune Éveillé a toujours payer ses dettes envers nous. Disons donc que la Lune Éveillé a une dette envers les Recycleurs, une dette a hauteur du services que nous allons vous rendre.
-
-Je me tournais vers le reste du groupe afin de voir leurs réaction face a la proposition, c’est alors que lorsque mon regard croisa celui d’Élodie elle hocha la tête.
-
-— Bien c’est entendu. A partir du moment ou nous sortirons tous des égouts saint et sauf la Lune Éveillé aura une dette envers les Recycleurs.
+— Si vous voulez bien entrer, le chef est prêt à vous recevoir.
 
 ## Liste des musique utilisé
 

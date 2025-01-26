@@ -124,7 +124,7 @@ Elle ouvrait la marche suivie d’Élodie portant toujours la petite sur son dos
 
 Bastien enchaînait, puis c’était à mon tour et celui de Gabriel, nous descendions simultanément sur l’échelle étroite afin de soulever à deux la plaque d’égout et la replacer correctement.
 
-— Bien allumez vos lampes torches et on y va, Sarah tu ouvres la marche et Bastien tu surveilles nos arrières.
+— Bien allumez vos lampes torches et on y va, Bastien tu ouvres la marche et Gabriel tu surveilles nos arrières.
 
 ## Liste des musique utilisé
 
