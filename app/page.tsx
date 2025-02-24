@@ -1,7 +1,6 @@
 import LandingContent from './(composents)/landingContent'
 import Actualite from './(composents)/actualite'
 import ListeNovels from './(composents)/listeNovel'
-import AuteurInfo from './(composents)/auteurInfo';
 import Avenir from './(composents)/avenir';
 import Footer from './(composents)/footer';
 
@@ -16,7 +15,6 @@ export default function Home() {
           <Actualite />
           <ListeNovels />
           <div className='flex flex-col items-center xl:flex-row xl:justify-between xl:items-start'>
-            <AuteurInfo />
             <Avenir />
           </div>
         </div>
