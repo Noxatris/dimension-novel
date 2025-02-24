@@ -34,7 +34,7 @@ export default function Eternalys() {
                         <Link href="/eternalys/personnage">Personnage</Link>
                     </div>
                 </div>
-                <p>Pas encore implémenter</p>
+                <p className='w-full flex justify-center items-center'>Pas encore implémenter</p>
             </div>
         </div>
     )
