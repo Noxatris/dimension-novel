@@ -33,6 +33,7 @@ export default function Eternalys() {
                         <FontAwesomeIcon icon={faPerson} className="fa-fw mr-1" />
                         <Link href="/eternalys/personnage">Personnage</Link>
                     </div>
+                    <p>Pas encore implémenter</p>
                 </div>
             </div>
         </div>
