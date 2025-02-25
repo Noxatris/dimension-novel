@@ -8,7 +8,6 @@ export default function Loader() {
   const [text, setText] = useState('Recherche du livre secret...');
   const [loading, setLoading] = useState(true);
   const [isVisible, setIsVisible] = useState(false);
-  const [isExiting, setIsExiting] = useState(false); // Pour gérer l'animation de sortie
 
   useEffect(() => {
     const phrases = [
@@ -39,7 +38,6 @@ export default function Loader() {
   }, []);
 
   const handleButtonClick = () => {
-    setIsExiting(true); // Activer l'animation de sortie
     setTimeout(() => {
       setIsVisible(false);
       localStorage.setItem('loaderState', 'hidden');
