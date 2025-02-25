@@ -170,3 +170,24 @@ body {
   background-size: 200% 200%;
   animation: gradientMoveHeader 30s linear infinite;
 }
+
+
+.rotate-icon {
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.page-turn {
+  transform: rotateY(180deg);
+  opacity: 0;
+  transition: transform 1s, opacity 1s;
+}
+

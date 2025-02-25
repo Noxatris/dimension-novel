@@ -1,12 +1,12 @@
 ---
-title: "Chapitre 2 : L'assaut"
+title: "Chapitre 2 : Interception"
 date: "2025-01-12"
 slug: "chapitre-2"
 ---
 
 #### music:/Action_Rhythms_David_Fesliyan.mp3
 
-# Chapitre 2 : L'assaut
+# Chapitre 2 : Interception
 
 Dans les secondes qui suivaient le passage du véhicule de tête, une série de six explosions retentirent une à une, s’entremêlant dans une réaction en chaîne. S’en suivait la chute du pont qui s’écroulait sur la route dans un fracas, faisant voler en éclat le peu de vitres se trouvant encore sur les immeubles, mais soulèvent surtout un immense amas de poussière réduisant drastiquement la visibilité.
 

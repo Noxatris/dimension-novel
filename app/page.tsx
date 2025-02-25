@@ -3,6 +3,7 @@ import Actualite from './(composents)/actualite'
 import ListeNovels from './(composents)/listeNovel'
 import Avenir from './(composents)/avenir';
 import Footer from './(composents)/footer';
+import Loader from './(composents)/loader';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         </div>
         <Footer />
       </div>
+      <Loader />
     </div>
   );
 }

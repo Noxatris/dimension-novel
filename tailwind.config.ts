@@ -24,11 +24,17 @@ export default {
           '0%, 100%': { backgroundPosition: '0% 0%' },
           '50%': { backgroundPosition: '0% 100%' },
         },
+        fadeIn: {
+          '0%': { opacity: '0.1' },
+          '50%': { opacity: '1' },
+          '100%': { opacity: '0.1' },
+        },
       },
       animation: {
         dotMove: 'dotMove 5s ease-in-out infinite',
         gradientMoveAnimate: 'gradientMove 5s ease infinite',
         gradientMove: 'gradientMove 10s ease infinite',
+        fadeIn: 'fadeIn 3s ease-in-out infinite',
       },
       boxShadow: {
         'dotEffect': '0 0 8px rgba(255, 255, 255, 0.6)',
