@@ -11,7 +11,7 @@ config.autoAddCss = false
 
 export const metadata: Metadata = {
   title: "Dimension Novel",
-  description: "Un site de fou par moi",
+  description: "Site de lecture de romans en ligne avec interface optimisée et musique d'ambiance.",
 };
 
 export default function RootLayout({
