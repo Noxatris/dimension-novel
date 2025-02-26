@@ -11,9 +11,9 @@ export default function Loader() {
 
   useEffect(() => {
     const phrases = [
-      'Ouverture du grimoire...',
-      'Activation de la magie...',
-      'Création du portail...'
+      'Activation du passage secret...',
+      'Vérification du visiteur...',
+      'Ouverture de la bibliothèque...',
     ];
 
     let i = 0;

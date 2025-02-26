@@ -6,14 +6,14 @@ import { motion } from "framer-motion";
 
 export default function LandingNav() {
     return (
-        <div className="flex justify-center items-center w-full xl:h-screen overflow-hidden">
+        <div className="flex justify-center items-center w-full xl:h-[70vh]">
             <div className="flex flex-wrap justify-center xl:justify-around gap-6 w-full px-4">
                 {grimoireData.map((grimoire, index) => (
                     <motion.div
                         key={index}
                         initial={{
                             x: index % 2 === 0 ? -400 : 400, // Arrive de gauche ou de droite
-                            y: -300, // Commence en haut
+                            y: -1000, // Commence en haut
                             rotate: index % 2 === 0 ? -20 : 20, // Rotation plus douce
                             opacity: 0,
                         }}

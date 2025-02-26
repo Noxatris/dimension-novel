@@ -1,26 +1,18 @@
-import LandingContent from './(composents)/landingContent'
-import Actualite from './(composents)/actualite'
-import ListeNovels from './(composents)/listeNovel'
-import Avenir from './(composents)/avenir';
 import Footer from './(composents)/footer';
 import Loader from './(composents)/loader';
 import LandingNav from './(composents)/landingNav';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className="w-screen overflow-x-hidden relative">
-      <div className="w-full flex flex-col items-center bg-center bg-cover sticky md:relative shadow-shadowInset" style={{ backgroundImage: 'url(/bgMain.jpg)' }}>
-        <div className="hidden md:flex w-full bg-center bg-cover animate-[blurEffectSide_4s_ease-in-out_infinite_alternate] absolute" style={{ backgroundImage: 'url(/bgOverSide.png)' }}></div>
-        <div className="hidden md:flex w-full bg-center bg-cover animate-[blurEffectMiddle_4s_ease-in-out_infinite_alternate] absolute" style={{ backgroundImage: 'url(/bgOverMiddle.png)' }}></div>
-        <LandingNav />
-        <div className='md:w-[80%] flex flex-col items-center'>
-          <LandingContent />
-          <Actualite />
-          <ListeNovels />
-          <div className='flex flex-col items-center xl:flex-row xl:justify-between xl:items-start'>
-            <Avenir />
-          </div>
+      <div className="w-full flex flex-col items-center bg-center bg-cover shadowTest" style={{ backgroundImage: 'url(/bgMainTest.png)' }}>
+        <div className='flex flex-col items-center justify-center w-full mt-16 px-2'>
+          <Image src="/logoAlone.png" width={300} height={300} alt='Icone grimoire' className='w-[200px] h-[200px] xl:w-[300px] xl:h-[300px]'/>
+          <h1 className="text-3xl xl:text-5xl text-center mt-8 md:mt-12 xl:mt-16 mb-4 md:mb-8 xl:mb-12 medievalFont">Bienvenue dans la Dimension Novel</h1>
+          <p className="text-lg xl:text-2xl text-center mb-8 md:mb-12 xl:mb-16">Utiliser les grimoires pour parcourir la bibliothèque</p>
         </div>
+        <LandingNav />
         <Footer />
       </div>
       <Loader />

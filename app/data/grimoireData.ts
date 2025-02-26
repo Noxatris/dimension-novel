@@ -23,7 +23,7 @@ export const grimoireData = [
         description: `
             Ce livre renferme la connaissance.
             Il a le pouvoir de voir l'avenir et de prédire les événements à venir.
-            Cependant il semblat avoir perdu une partie de ses pouvoirs.
+            Cependant il semble avoir perdu une partie de ses pouvoirs.
             `,
         url: "/actualites"
     }
