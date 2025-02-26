@@ -28,7 +28,7 @@ export default function GrimoireCard({ color, title, image, description, url }: 
 
                 {/* Description qui apparaît sous l’image */}
                 <div className={`absolute w-full h-full flex flex-col text-white items-center justify-around p-4 bg-gray-950/80 text-black rounded-2xl ${isFlipped ? "opacity-100" : "opacity-0"} transition-opacity duration-500`}>
-                    <h2>{title}</h2>
+                    <h2 className={`text-${color}`}>{title}</h2>
                     <div className="whitespace-pre-line">
                         {description}
                     </div>
