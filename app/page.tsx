@@ -4,6 +4,7 @@ import ListeNovels from './(composents)/listeNovel'
 import Avenir from './(composents)/avenir';
 import Footer from './(composents)/footer';
 import Loader from './(composents)/loader';
+import LandingNav from './(composents)/landingNav';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <div className="w-full flex flex-col items-center bg-center bg-cover sticky md:relative shadow-shadowInset" style={{ backgroundImage: 'url(/bgMain.jpg)' }}>
         <div className="hidden md:flex w-full bg-center bg-cover animate-[blurEffectSide_4s_ease-in-out_infinite_alternate] absolute" style={{ backgroundImage: 'url(/bgOverSide.png)' }}></div>
         <div className="hidden md:flex w-full bg-center bg-cover animate-[blurEffectMiddle_4s_ease-in-out_infinite_alternate] absolute" style={{ backgroundImage: 'url(/bgOverMiddle.png)' }}></div>
+        <LandingNav />
         <div className='md:w-[80%] flex flex-col items-center'>
           <LandingContent />
           <Actualite />
