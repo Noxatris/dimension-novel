@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function LandingNav() {
     return (
-        <div className="flex justify-center items-center w-full xl:h-[70vh]">
+        <div className="flex justify-center items-center w-full xl:h-[70vh] pb-8">
             <div className="flex flex-wrap justify-center xl:justify-around gap-6 w-full px-4">
                 {grimoireData.map((grimoire, index) => (
                     <motion.div

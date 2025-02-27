@@ -7,7 +7,7 @@ export const grimoireData = [
             Un grimoire mystérieux qui semble contenir des secrets insondables.
             
         `,
-        url: "/actualites"
+        url: "/eternalys"
     },
     {
         color: "white/20",
@@ -22,8 +22,11 @@ export const grimoireData = [
         image: "/grimoire3.png",
         description: `
             Ce livre renferme la connaissance.
+
             Il a le pouvoir de voir l'avenir et de prédire les événements à venir.
+
             Cependant il semble avoir perdu une partie de ses pouvoirs.
+
             `,
         url: "/actualites"
     }
