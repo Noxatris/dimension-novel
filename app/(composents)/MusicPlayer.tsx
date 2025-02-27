@@ -95,6 +95,7 @@ export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
   return (
     <div className="music-player">
       <audio
+        loop={true}
         ref={audioRef}
         className="hidden" />
       <div className="flex justify-between items-center">
