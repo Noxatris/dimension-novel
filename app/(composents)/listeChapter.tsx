@@ -31,7 +31,7 @@ export default function ListeChapter() {
     return (
         <>
             <div className='w-screen h-1 bg-gradient-to-r from-violet-500 to-purple-800 md:hidden'></div>
-            <ul className='w-full md:w-[40%] xl:w-[25%] md:min-h-[90vh] px-4 flex flex-col items-center shadow-xl bg-fixed bg-gradient-to-b from-zinc-950 to-gray-900 md:overflow-y-scroll'>
+            <ul className='w-full md:w-[40%] xl:w-[25%] md:min-h-[90vh] px-4 flex flex-col items-center shadow-xl bg-fixed bg-gradient-to-b from-zinc-950 to-gray-900 md:overflow-y-scroll custom-scrollbar'>
                 <h2 className='text-2xl md:text-xl xl:text-2xl px-8 py-2 rounded-b-full mb-12 bg-gradient-to-r from-gray-900 via-violet-700 to-purple-900 text-white animate-gradientMove shadow-md medievalFont'>
                     Liste des chapitres
                 </h2>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import { Analytics } from "@vercel/analytics/react"
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className="antialiased overflow-x-hidden w-screen">
+        <Analytics />
         {children}
       </body>
     </html>
