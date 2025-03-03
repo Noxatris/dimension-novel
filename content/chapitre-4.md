@@ -116,11 +116,11 @@ J’appuyais délicatement sur la poignée, tirant lentement la porte vers moi.
 
 — Et merde, verrouiller,  chuchotais-je un peu trop fort. Quelqu’un peut m’éclairer ?
 
-Je sortais de mon sac, un crochet, puis m’agenouillais au niveau de la serrure. Près de moi, Bastien m’éclairait avec sa lampe torche accrochée à son arme. de la serrure. Près de moi, Bastien m’éclairait avec sa lampe torche accrochée à son arme.
+Je sortais de mon sac, un crochet, puis m’agenouillais au niveau de la serrure. Près de moi, Bastien m’éclairait avec sa lampe torche accrochée à son arme.
 
 Au bout d'à peine quelques minutes, la porte s'ouvrit dans un léger grincement. 
 
- Je progressai dans le bâtiment, scrutant le moindre mouvement à travers les rangées de casiers.
+Je progressai dans le bâtiment, scrutant le moindre mouvement à travers les rangées de casiers.
 
 Certains étaient encore entrouverts, d’autres verrouillés par des cadenas oxydés, des cahiers et des feuilles jonchaient le sol tandis que de légers grincements métalliques retentissaient.
 

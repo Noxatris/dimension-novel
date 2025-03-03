@@ -214,3 +214,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.bg-gradient1{
+  background: radial-gradient(circle, rgba(168,128,62,1) 0%, rgba(189,177,145,1) 100%);
+}

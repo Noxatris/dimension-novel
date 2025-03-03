@@ -8,45 +8,47 @@ slug: "chapitre-2"
 
 # Chapitre 2 : Interception
 
-Dans les secondes qui suivaient le passage du véhicule de tête, une série de six explosions retentirent une à une, s’entremêlant dans une réaction en chaîne. S’en suivait la chute du pont qui s’écroulait sur la route dans un fracas, faisant voler en éclat le peu de vitres se trouvant encore sur les immeubles, mais soulèvent surtout un immense amas de poussière réduisant drastiquement la visibilité.
+Dans les secondes qui suivirent le passage du véhicule de tête, une série de six explosions retentirent une à une, s’entremêlant dans une réaction en chaîne. 
 
-Le second véhicule du convoi freina de toutes ses forces, faisant déraper le train arrière, l’immobilisant en travers de la route en face de notre ruelle.
+S’ensuivit la chute du pont qui s’écroulait sur la route dans un immense fracas, faisant voler en éclats le peu de vitres se trouvant encore sur les immeubles, mais soulevant surtout un gigantesque amas de poussière réduisant drastiquement la visibilité.
 
-Je sortis de la ruelle et criblai de balles la porte conducteur qui commençais à s’ouvrir, pendant ce temps le reste de mon escouade se déployait dans la rue mettant en joue les véhicules.
+Le second véhicule du convoi freinait de toutes ses forces, faisant déraper le train arrière, l’immobilisant en travers de la route en face de notre ruelle.
 
-L’air était irrespirable, la poussière me brûlait la gorge et donner des ordres devenait de plus en plus difficile.
+Je sortais, criblai de balles la porte conducteur qui commençait à s’ouvrir, pendant ce temps le reste de mon escouade se déployait dans la rue mettant en joue les véhicules.
+
+L’air était irrespirable, la poussière me brûlait la gorge, et donner des ordres devenait de plus en plus difficile.
 
 Une pluie de balles s’abattait sur les véhicules depuis les étages supérieurs des immeubles de part et d’autre de la rue.
 
-C’est alors que malgré la douleur, je pris une profonde inspiration et criais :
+C’est alors que malgré la douleur, je pris une profonde inspiration et criai :
 
 — Allez, on ne perd pas de temps, on fonce ouvrir le fourgon !
 
-Je progressai dans la rue avec Bastien et Sarah tandis qu’Élodie et Gabriel couvraient nos arrières.
+Je progressais dans la rue avec Bastien et Sarah tandis qu’Élodie et Gabriel couvraient nos arrières.
 
 — Le fourgon blindé ! Sarah, à toi de jouer, fais-moi sauter cette porte !
 
-— Bien reçu ! Cria Sarah, sa voix en partie couverte par le bruit des impacts de balle venant s’écraser sur les châssis blindés des véhicules ennemis.
+— Bien reçu ! cria Sarah, sa voix en partie couverte par le bruit des impacts de balle venant s’écraser sur les châssis blindés des véhicules ennemis.
 
 Elle s’accroupissait au niveau de la porte arrière, positionnant son sac devant elle, commençant à sortir son matériel.
 
 Alors que nous avions complètement pris le contrôle du convoi, une épaisse fumée blanche émana d’un des véhicules fermant le convoi.
 
-— Fumigène ! Hurla Gabriel, vidant l’intégralité de son chargeur à travers la fumée.
+— Fumigène ! hurla Gabriel, vidant l’intégralité de son chargeur à travers la fumée.
 
-Cependant, pendant que je me concentrais sur la fumée guettant la moindre silhouette, un bruit métallique ricochant résonnait près de moi.
+Tandis que je me concentrais sur la fumée guettant la moindre silhouette, un bruit métallique qui ricochait résonnait près de moi.
 
-Je pouvais voir son dernier rebond avant de rouler sur le sol, terminant sa course à mes pieds, ronde, striée, dégoupillée ?!
+Je pouvais voir son dernier rebond avant qu’elle ne roule sur le sol, terminant sa course à mes pieds, ronde, striée, dégoupillée ?!
 
 — Grenaaaade !
 
-Je me retournai sautant contre Sarah, la plaquant contre le sol, un bruit strident retentit, l’onde de choc provoquée souleva mon corps avant de s’écraser sur le sol contre celui de Sarah.
+Je me retournai, sautant contre Sarah, la plaquant contre le sol, un bruit strident retentit, l’onde de choc provoquée soulevait mon corps avant de l’écraser sur le sol contre celui de Sarah.
 
-Mes oreilles sifflaient, tout était devenu flou, teint de rouge. Alors que j’essayais de reprendre mes esprits, un chargeur vide tomba sur le sol. Au-dessus de moi se trouvait Élodie, abattant un à un toutes les personnes traversant la fumigène.
+Mes oreilles sifflaient, tout était devenu flou, teinté de rouge. Alors que j’essayais de reprendre mes esprits, un chargeur vide tombait sur le sol. Au-dessus de moi se trouvait Élodie, abattant un à un toutes les personnes traversant l’épaisse fumée.
 
-Puis finalement une main apparut dans mon champ de vision, je tentais de la saisir et alors que j’allais la rater de peu encore déboussolé, elle me saisit par le bras me tirant.
+Puis finalement une main apparaissait dans mon champ de vision, je tentais de la saisir et alors que j’allais la rater de peu encore déboussolé, elle me saisissait par le bras me tirant.
 
-— Allez, c’est pas le moment de rester planter là ! Ordonnais, Gabriel, prenant le commandement.
+— Allez, c’est pas le moment de rester planter là ! ordonna, Gabriel, prenant le commandement.
 
 Cependant, la radio se mit à émettre.
 
@@ -54,27 +56,27 @@ Cependant, la radio se mit à émettre.
 
 Gabriel attrapa la radio et répondit : "Ici Delta, bien reçu, on va faire sauter la porte du fourgon dans les prochaines minutes, terminé."
 
-La radio se mit à grésiller, mais pendant deux longues secondes, rien ne sortit. Puis finalement... 
+La radio se mit à grésiller, et pendant deux longues secondes, rien ne sortit. Puis finalement... 
 
 — Bien reçu, dépêchez-vous, on n'a plus beaucoup de temps, terminé.
 
-Je finissais par reprendre mes esprits aidant Sarah à se relever.
+Je finis par reprendre mes esprits et aidai Sarah à se relever.
 
 — Tout va bien, rien de cassé ?
 
 — Non, je vais bien… la voix encore tremblotante.
 
-Elle se redirigea vers la porte du fourgon, continuant là où elle en était. Ses mains tremblaient mais l’adrénaline semblait reprendre le dessus et rapidement elle termina les branchements.
+Elle se dirigea de nouveau vers la porte du fourgon, continuant là où elle en était. Ses mains tremblaient mais l’adrénaline semblait reprendre le dessus et rapidement elle termina les branchements.
 
 — C’est… c’est bon, les explosifs sont en place !
 
-Sans perdre un instant, je reculais afin de me rapprocher de l’avant du fourgon accompagné de Bastien quand soudain l’explosion retentit.
+Sans perdre un instant, je reculai afin de me rapprocher de l’avant du fourgon accompagné de Bastien quand soudain l’explosion retentit.
 
-La charge explosive fit voler en éclats la porte du fourgon blindé qui s’écrasa à quelques mètres sur le sol dans un bruit sourd.
+La charge explosive fit voler en éclats la porte du fourgon blindé qui s’écrasait à quelques mètres sur le sol dans un bruit sourd.
 
-— Allez, on ne perd pas de temps, on prend la marchandise et on se tire ! Ordonnais-je au reste de mon escouade.
+— Allez, on ne perd pas de temps, on prend la marchandise et on se tire ! ordonnai-je au reste de mon escouade.
 
-Tandis que la fumée provoquée par l’explosion se dissipait, je me rapprochais du véhicule blindé afin d’y récupérer la cargaison. Mais alors que je fis face à la marchandise, je ne pus m’empêcher de :
+Tandis que la fumée provoquée par l’explosion se dissipait, je me rapprochais du véhicule blindé afin d’y récupérer la cargaison. Mais alors que je faisais face à la marchandise, je ne pouvais m’empêcher de laisser échapper un :
 
 — Oh putain de…
 
@@ -82,9 +84,9 @@ Alors que le bruit des moteurs des hélicoptères résonnait à travers les ruel
 
 — Une putain de gamine ! Elle ne doit même pas avoir dix ans bordel !
 
-Élodie se rapprocha en courant, apercevant tout comme moi la gamine.
+Élodie se rapprochait en courant, apercevant tout comme moi la gamine.
 
-Elle était allongée sur le sol du fourgon, pieds et mains liés et bâillonnés, inconsciente. Mais le plus étrange était cet étrange collier métallique blanc et assez épais autour du cou, en partie caché par ses longs cheveux blonds.
+Elle était allongée sur le sol du fourgon, pieds et mains liés et bâillonnés, inconsciente. Mais le plus étrange était cet étrange collier métallique blanc et assez épais autour de son cou, en partie caché par ses longs cheveux blonds.
 
 — Ça doit être une éveillée, on ne doit pas la laisser là !
 
@@ -92,9 +94,11 @@ Alors qu’Élodie grimpait à l’arrière afin de commencer à retirer les lie
 
 — Ici Alpha, on a plus de temps bou… …ez …ous !
 
-Au même moment, l’ombre de deux hélicoptères enveloppa la rue, le bruit des moteurs résonnait, nos alliés situés dans les immeubles inondaient de balles les hélicoptères les forçant à reprendre de l’altitude.
+Au même moment, l’ombre de deux hélicoptères enveloppait la rue, le bruit des moteurs résonnait, nos alliés situés dans les immeubles inondaient de balles les hélicoptères les forçant à reprendre de l’altitude.
 
-Élodie prit la jeune fille sur son dos, puis nous courions nous mettre à l’abri dans les ruelles, je saisissais rapidement ma radio afin de faire mon rapport, prenant de grandes inspirations entre chaque phrase.
+Élodie prit la jeune fille sur son dos, puis nous courûmes nous mettre à l’abri dans les ruelles. 
+
+Je saisissais rapidement ma radio afin de faire mon rapport, prenant de grandes inspirations entre chaque phrase.
 
 — Ici Delta…, la cargaison se trouve être une jeune fille…, elle ne doit même pas avoir dix ans…, elle est bâillonnée et possède une sorte de collier assez volumineux… autour du cou, elle semble inconsciente, terminé.
 
@@ -106,25 +110,25 @@ Au même moment, l’ombre de deux hélicoptères enveloppa la rue, le bruit des
 
 — Ici Delta, bien reçu.
 
-Nous progressions en formations dans les ruelles jusqu’à ce que j’aperçoive une bouche d’égout.
+Nous progressions en formation dans les ruelles jusqu’à ce que j’aperçoive une bouche d’égout.
 
-On devait à tout prix ne pas nous faire repérer par l’hélico et les égouts était la meilleure solution.
+On devait à tout prix ne pas nous faire repérer par l’hélico et les égouts étaient la meilleure solution.
  
 Je m’arrêtais donc au niveau de la plaque en fonte.
 
-— Très bien, on passe par là, Gabriel avec moi, on va soulevé ça.
+— Très bien, on passe par là, Gabriel avec moi, on va soulever ça.
 
 Je m’accroupissais avec Gabriel, puis nous soulevions tant bien que mal la plaque en fonte.
 
-Alors qu’une odeur nauséabonde nous monta au nez, Sarah se rapprochait de l’échelle tout en rouspétant.
+Alors qu’une odeur nauséabonde nous montait au nez, Sarah se rapprocha de l’échelle tout en rouspétant.
 
 — Et bien, quand il faut y aller, faut y aller !
 
-Elle ouvrait la marche suivie d’Élodie portant toujours la petite sur son dos, heureusement Sarah pouvait l’aider depuis en bas afin d’éviter qu’elle se cogne.
+Elle ouvrit la marche suivie d’Élodie portant toujours la petite sur son dos, heureusement Sarah pouvait l’aider depuis en bas afin d’éviter qu’elle se cogne.
 
 Bastien enchaînait, puis c’était à mon tour et celui de Gabriel, nous descendions simultanément sur l’échelle étroite afin de soulever à deux la plaque d’égout et la replacer correctement.
 
-— Bien allumez vos lampes torches et on y va, Bastien tu ouvres la marche et Gabriel tu surveilles nos arrières.
+— Bien, allumez vos lampes torches et on y va, Bastien tu ouvres la marche et Gabriel tu surveilles nos arrières.
 
 ## Liste des musique utilisé
 
