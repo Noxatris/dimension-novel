@@ -29,12 +29,12 @@ export default function ListeChapterNbr() {
     };
 
     return (
-        <div className='relative w-[50%] h-[80%] flex flex-col-reverse justify-center items-center z-10'>
+        <div className='relative w-[70%] h-[80%] flex flex-col-reverse justify-center items-center z-10'>
             <button
                 onClick={toggleChapters}
-                className='w-full h-10 flex justify-between items-center rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 gradientMoveAnimation z-20 px-4 shadow-lg'
+                className='w-full h-10 flex items-center rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 gradientMoveAnimation z-20 px-4 shadow-lg'
             >
-                <h2 className='pr-2 text-white font-semibold hover:cursor-pointer focus:cursor-pointer'>
+                <h2 className='w-5/6 pr-2 text-white font-semibold hover:cursor-pointer focus:cursor-pointer'>
                     Liste des Chapitres
                 </h2>
                 <FontAwesomeIcon icon={faArrowUp} className="fa-fw text-white" />

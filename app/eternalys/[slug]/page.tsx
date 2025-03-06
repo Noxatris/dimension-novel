@@ -6,9 +6,13 @@ import { useParams } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import ListeChapterNbr from '@/app/(composents)/listChapterNumber';
-import BtnHome from "@/app/(composents)/btnHome";
 import MusicPlayer from '@/app/(composents)/MusicPlayer';
 import BtnNextChapter from '@/app/(composents)/btnNextChapter';
+import Header from '@/app/(composents)/header';
+import Footer from '@/app/(composents)/footer';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faImage} from '@fortawesome/free-solid-svg-icons';
 
 interface Chapter {
   title: string;
@@ -20,9 +24,11 @@ export default function ChapterPage() {
   const params = useParams();
   const [chapter, setChapter] = useState<Chapter | null>(null);
   const [nextChapter, setNextChapter] = useState<Chapter | null>(null);
-  const [isImmersive, setIsImmersive] = useState(false);
+  const [background, setBackground] = useState(false);
   const [currentTrack, setCurrentTrack] = useState<string | null>(null);
+  const [isVisible, setIsVisible] = useState(true); // État pour gérer la visibilité du menu
   const contentRef = useRef<HTMLDivElement>(null);
+  let scrollTimeout: NodeJS.Timeout;
 
   useEffect(() => {
     const fetchChapter = async () => {
@@ -66,7 +72,7 @@ export default function ChapterPage() {
         musicMarkers.forEach((marker) => observer.unobserve(marker));
       };
     }
-  }, [currentTrack, chapter, isImmersive]);
+  }, [currentTrack, chapter, background]);
 
   // Transformer les balises h4 contenant "music:" en div avec data-music
   const renderers = {
@@ -85,44 +91,63 @@ export default function ChapterPage() {
     h2: ({ ...props }) => <h2 className="text-3xl font-semibold" {...props} />,
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsVisible(false);
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        setIsVisible(true);
+      }, 3000);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      clearTimeout(scrollTimeout);
+    };
+  }, []);
+
   if (!chapter) return <div className="flex w-screen justify-center mt-12 text-xl">Chargement de votre chapitre...</div>;
 
   return (
     <>
       <Head>
         <title>{chapter.title}</title>
-        <meta name="description" content={`Lisez le ${chapter.title} - Dimension Novel`} />
+        <meta name="description" content={`Lisez ${chapter.title} - Dimension Novel`} />
       </Head>
 
-      <div ref={contentRef} className={`xl:mx-[25vw] h-[auto] py-8 px-4 ${isImmersive ? 'bg-fixed bg-center shadow-shadowInset' : 'bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20'} transition-all duration-300`} style={isImmersive ? { backgroundImage: `url(/bgChapter/${chapter.slug}.webp)` } : {}}>
-        <ReactMarkdown
-          remarkPlugins={[remarkGfm]}
-          components={renderers} // Utilisation du rendu personnalisé
-        >
-          {chapter.content}
-        </ReactMarkdown>
-      </div>
+      <Header />
+      <section className='w-screen relative'>
+        
+        <div className={`fixed top-32 right-2 ${isVisible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} transition-opacity duration-300 overflow-hidden z-50`}>
+          <div className="flex flex-col items-end space-y-4">
+            <button onClick={() => setBackground(!background)} className={`w-[65px] h-[65px] px-4 py-2 rounded-full shadow-lg transition-all duration-300 ${background
+              ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white hover:from-blue-600 hover:to-purple-600'
+              : 'bg-gradient-to-r from-gray-500 to-gray-700 text-white hover:from-gray-600 hover:to-gray-800'
+              }`}>
+              <FontAwesomeIcon icon={faImage} className="fa-fw" />
+            </button>
+            <MusicPlayer currentTrack={currentTrack}/>
+          </div>
+        </div>
 
-      <div className="w-screen h-[15vh] bg-gradient-to-b from-violet-950 to-gray-900 flex flex-wrap justify-around xl:px-[30vw] items-center absolute bottom-0 sticky">
-        {isImmersive && (
-          <>
-            <MusicPlayer currentTrack={currentTrack} />
-          </>
-        )}
-        <div>
-          <button onClick={() => setIsImmersive(!isImmersive)} className={`px-4 py-2 rounded-full shadow-lg transition-all duration-300 ${isImmersive
-            ? 'bg-white text-black hover:bg-gray-200'
-            : 'bg-violet-400 text-black hover:bg-violet-500'
-            }`}>
-            {isImmersive ? 'Standard' : 'Immersion'}
-          </button>
+        <div ref={contentRef} className={`xl:mx-[25vw] h-[auto] py-8 px-4 ${background ? 'bg-fixed bg-center shadow-shadowInset' : 'bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20'} transition-all duration-300`} style={background ? { backgroundImage: `url(/bgChapter/${chapter.slug}.webp)` } : {}}>
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            components={renderers} // Utilisation du rendu personnalisé
+          >
+            {chapter.content}
+          </ReactMarkdown>
         </div>
-        <div className='w-screen flex justify-around items-center'>
-          <BtnHome />
-          <ListeChapterNbr />
-          <BtnNextChapter props={nextChapter} />
+
+        <div className='w-screen h-[15vh] bg-gradient-to-b from-violet-950 to-gray-900 flex flex-wrap justify-around xl:px-[30vw] items-center'>
+          <div className='w-screen flex justify-around items-center'>
+            <ListeChapterNbr />
+            <BtnNextChapter props={nextChapter} />
+          </div>
         </div>
-      </div>
+      </section>
+      <Footer />
     </>
   );
 }

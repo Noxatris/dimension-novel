@@ -5,6 +5,7 @@ import {
   faPause,
   faVolumeHigh,
   faVolumeMute,
+  faMusic,
 } from "@fortawesome/free-solid-svg-icons";
 
 interface MusicPlayerProps {
@@ -12,9 +13,8 @@ interface MusicPlayerProps {
 }
 
 export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [isMuted, setIsMuted] = useState(false);
-  const [volume, setVolume] = useState(3);
+  const [music, setMusic] = useState(false);
+  const [volume, setVolume] = useState(100);
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
@@ -37,10 +37,10 @@ export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
           await audio.load();
           console.log(`Audio loaded`);
 
-          // Lancer la lecture uniuquement si utilisateur a cliqué sur play
-          if(isPlaying) {
+          // Lancer la lecture uniquement si utilisateur a cliqué sur play
+          if (music) {
             await audio.play();
-            setIsPlaying(true);
+            setMusic(true);
           }
           console.log(`Audio playing: ${audio.src}`);
         } catch (error) {
@@ -59,26 +59,18 @@ export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
     }
   }, [currentTrack]); // Réagir à tout changement de currentTrack
 
-  const togglePlay = () => {
+  const Handlemusic = () => {
+    setMusic(!music);
     const audio = audioRef.current;
 
     if (audio) {
-      if (isPlaying) {
+      if (music) {
         audio.pause();
-        setIsPlaying(false);
+        setMusic(false);
       } else {
         audio.play();
-        setIsPlaying(true);
+        setMusic(true);
       }
-    }
-  };
-
-  const toggleMute = () => {
-    const audio = audioRef.current;
-
-    if (audio) {
-      audio.muted = !isMuted;
-      setIsMuted(!isMuted);
     }
   };
 
@@ -98,32 +90,24 @@ export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
         loop={true}
         ref={audioRef}
         className="hidden" />
-      <div className="flex justify-between items-center">
-        <div className="flex items-center">
-          <button
-            onClick={togglePlay}
-            className="p-3 w-[40px] h-[40px] flex justify-center items-center border-green-500 border-4 rounded-full shadow-xl overflow-hidden bg-black/40 mr-4"
-          >
-            <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} />
+      <div className="flex justify-between items-center transition-all duration-300">
+        <div className={`flex flex-col items-center`}>
+          <button onClick={Handlemusic} className={`w-[65px] min-h-[65px] px-4 py-2 rounded-full shadow-lg transition-all duration-300 ${music
+            ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white hover:from-blue-600 hover:to-purple-600'
+            : 'bg-gradient-to-r from-gray-500 to-gray-700 text-white hover:from-gray-600 hover:to-gray-800'
+            }`}>
+            <FontAwesomeIcon icon={faMusic} className="fa-fw" />
           </button>
-          <div className="flex justify-center items-center">
-          <div className="flex justify-between items-center rounded-3xl overflow-hidden bg-black/40">
-              <button
-                onClick={toggleMute}
-                className="p-3 w-[40px] h-[40px] flex justify-center items-center border-green-400 border-4 rounded-full"
-              >
-                <FontAwesomeIcon icon={isMuted ? faVolumeMute : faVolumeHigh} />
-              </button>
-              <input
-                type="range"
-                min="0"
-                max="100"
-                value={volume}
-                onChange={handleVolumeChange}
-                className="w-full appearance-none bg-zinc-950/80 accent-green-400 ml-2 mr-4 rounded-full"
-              />
-            </div>
-          </div>
+          {music && (
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value={volume}
+              onChange={handleVolumeChange}
+              className="w-[10px] h-[100px] hidden xl:block appearance-none bg-gray-400 accent-blue-800 rounded-full sliderVertical mt-4"
+            />
+          )}
         </div>
       </div>
     </div>
