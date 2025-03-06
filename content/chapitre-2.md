@@ -1,5 +1,5 @@
 ---
-title: "Chapitre 2 : Interception"
+title: "Interception"
 date: "2025-01-12"
 slug: "chapitre-2"
 ---
@@ -44,7 +44,7 @@ Je pouvais voir son dernier rebond avant qu’elle ne roule sur le sol, terminan
 
 Je me retournai, sautant contre Sarah, la plaquant contre le sol, un bruit strident retentit, l’onde de choc provoquée soulevait mon corps avant de l’écraser sur le sol contre celui de Sarah.
 
-Mes oreilles sifflaient, tout était devenu flou, teinté de rouge. Alors que j’essayais de reprendre mes esprits, un chargeur vide tombait sur le sol. Au-dessus de moi se trouvait Élodie, abattant un à un toutes les personnes traversant l’épaisse fumée.
+Mes oreilles sifflaient, tout était devenu flou, teinté de rouge. Alors que j’essayais de reprendre mes esprits, un chargeur vide tombait sur le sol. Au-dessus de moi se trouvait Élodie, abattant une à une toutes les personnes traversant l’épaisse fumée.
 
 Puis finalement une main apparaissait dans mon champ de vision, je tentais de la saisir et alors que j’allais la rater de peu encore déboussolé, elle me saisissait par le bras me tirant.
 

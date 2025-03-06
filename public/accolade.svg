@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 1422 500">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="oooscillate-grad">
+            <stop stop-color="hsl(206, 75%, 49%)" stop-opacity="1" offset="0%"></stop>
+            <stop stop-color="hsl(331, 90%, 56%)" stop-opacity="1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <text x="50%" y="35%" font-size="110" fill="url(#oooscillate-grad)" font-family="Arial" text-anchor="middle" dominant-baseline="200">Listes des Chapitres</text>
+    <g stroke-width="3.5" stroke="url(#oooscillate-grad)" fill="none" stroke-linecap="round">
+        <path d="M 0 464 Q 355.5 400 711 400 Q 1066.5 400 1422 464" opacity="0.78"></path>
+        <path d="M 0 435 Q 355.5 400 711 400 Q 1066.5 400 1422 435" opacity="0.26"></path>
+        <path d="M 0 406 Q 355.5 400 711 400 Q 1066.5 400 1422 406" opacity="0.80"></path>
+        <path d="M 0 377 Q 355.5 400 711 400 Q 1066.5 400 1422 377" opacity="0.87"></path>
+        <path d="M 0 348 Q 355.5 400 711 400 Q 1066.5 400 1422 348" opacity="0.98"></path>
+        <path d="M 0 319 Q 355.5 400 711 400 Q 1066.5 400 1422 319" opacity="0.17"></path>
+        <path d="M 0 290 Q 355.5 400 711 400 Q 1066.5 400 1422 290" opacity="0.49"></path>
+        <path d="M 0 261 Q 355.5 400 711 400 Q 1066.5 400 1422 261" opacity="0.93"></path>
+        <path d="M 0 232 Q 355.5 400 711 400 Q 1066.5 400 1422 232" opacity="0.09"></path>
+        <path d="M 0 203 Q 355.5 400 711 400 Q 1066.5 400 1422 203" opacity="0.54"></path>
+        <path d="M 0 174 Q 355.5 400 711 400 Q 1066.5 400 1422 174" opacity="0.84"></path>
+        <path d="M 0 145 Q 355.5 400 711 400 Q 1066.5 400 1422 145" opacity="0.73"></path>
+        <path d="M 0 116 Q 355.5 400 711 400 Q 1066.5 400 1422 116" opacity="0.46"></path>
+        <path d="M 0 87 Q 355.5 400 711 400 Q 1066.5 400 1422 87" opacity="0.95"></path>
+        <path d="M 0 58 Q 355.5 400 711 400 Q 1066.5 400 1422 58" opacity="0.44"></path>
+    </g>
+</svg>

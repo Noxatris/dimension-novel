@@ -1,5 +1,5 @@
 ---
-title: "Chapitre 4 : Le chef des Recycleurs"
+title: "Le chef des Recycleurs"
 date: "2025-02-14"
 slug: "chapitre-4"
 ---

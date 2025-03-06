@@ -1,5 +1,5 @@
 ---
-title: "Chapitre 1 : Calme avant la tempête"
+title: "Calme avant la tempête"
 date: "2025-01-12"
 slug: "chapitre-1"
 ---

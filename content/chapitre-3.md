@@ -1,5 +1,5 @@
 ---
-title: "Chapitre 3 : Fuites souterraines"
+title: "Fuites souterraines"
 date: "2025-01-13"
 slug: "chapitre-3"
 ---

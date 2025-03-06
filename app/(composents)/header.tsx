@@ -2,7 +2,7 @@ import BtnHome from "./btnHome"
 
 export default function Header() {
     return (
-        <header className="w-full shadow-2xl  bg-gradient-to-b from-violet-900 to-gray-900">
+        <header className="w-full shadow-2xl bg-gradient-to-b from-gray-800 to-indigo-600">
             <div className="z-10 flex items-center justify-between bg-black/20 p-4 md:p-8">
                 <div className="flex items-center">
                     <img src="/logoAlone.png" alt="Logo" className="h-[45px] md:h-[55px]" />

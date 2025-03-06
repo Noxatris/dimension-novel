@@ -218,3 +218,7 @@ body {
 .bg-gradient1{
   background: radial-gradient(circle, rgba(168,128,62,1) 0%, rgba(189,177,145,1) 100%);
 }
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(141, 33, 173, 0.5);
+}
