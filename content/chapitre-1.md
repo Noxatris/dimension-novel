@@ -8,17 +8,17 @@ slug: "chapitre-1"
 
 #### music:/Shadowlands_5_Antechamber.mp3
 
-*Tu as toujours veillé sur moi.*
-*Tous ces sacrifices.*
-*Tous ces choix.*
-*Tu les as toujours faits sans jamais penser à toi.*
+*Tu as toujours veillé sur moi.*     
+*Tous ces sacrifices.*     
+*Tous ces choix.*     
+*Tu les as toujours faits sans jamais penser à toi.*     
 
-*Il n’y a nulle part où se cacher.*
-*Nulle part où être en sécurité.*
-*Nulle part où oublier.*
-*Nulle part où pardonner.*
+*Il n’y a nulle part où se cacher.*       
+*Nulle part où être en sécurité.*        
+*Nulle part où oublier.*        
+*Nulle part où pardonner.*     
 
-*Au bout du chemin une seule possibilité.*
+*Au bout du chemin une seule possibilité.*     
 *Le sang devra couler.*
 
 

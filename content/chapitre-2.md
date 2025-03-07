@@ -86,6 +86,8 @@ Alors que le bruit des moteurs des hélicoptères résonnait à travers les ruel
 
 Élodie se rapprochait en courant, apercevant tout comme moi la gamine.
 
+#### music:/Escape_Route.mp3
+
 Elle était allongée sur le sol du fourgon, pieds et mains liés et bâillonnés, inconsciente. Mais le plus étrange était cet étrange collier métallique blanc et assez épais autour de son cou, en partie caché par ses longs cheveux blonds.
 
 — Ça doit être une éveillée, on ne doit pas la laisser là !
@@ -133,3 +135,5 @@ Bastien enchaînait, puis c’était à mon tour et celui de Gabriel, nous desce
 ## Liste des musique utilisé
 
 Action Rhythms Par David Fesliyan
+
+Escape Route Par David Robson

@@ -12,7 +12,7 @@ import Header from '@/app/(composents)/header';
 import Footer from '@/app/(composents)/footer';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faImage} from '@fortawesome/free-solid-svg-icons';
+import { faImage } from '@fortawesome/free-solid-svg-icons';
 
 interface Chapter {
   title: string;
@@ -28,7 +28,8 @@ export default function ChapterPage() {
   const [currentTrack, setCurrentTrack] = useState<string | null>(null);
   const [isVisible, setIsVisible] = useState(true); // État pour gérer la visibilité du menu
   const contentRef = useRef<HTMLDivElement>(null);
-  let scrollTimeout: NodeJS.Timeout;
+  const [scrollTrigger, setScrollTrigger] = useState(0);
+  const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const fetchChapter = async () => {
@@ -72,7 +73,7 @@ export default function ChapterPage() {
         musicMarkers.forEach((marker) => observer.unobserve(marker));
       };
     }
-  }, [currentTrack, chapter, background]);
+  }, [chapter, scrollTrigger]);
 
   // Transformer les balises h4 contenant "music:" en div avec data-music
   const renderers = {
@@ -91,19 +92,27 @@ export default function ChapterPage() {
     h2: ({ ...props }) => <h2 className="text-3xl font-semibold" {...props} />,
   };
 
+  const handleScrollRef = useRef<(() => void) | null>(null);
+
   useEffect(() => {
-    const handleScroll = () => {
+    handleScrollRef.current = () => {
+      setScrollTrigger(prev => prev + 1);
       setIsVisible(false);
-      clearTimeout(scrollTimeout);
-      scrollTimeout = setTimeout(() => {
+      if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
+
+      scrollTimeout.current = setTimeout(() => {
         setIsVisible(true);
       }, 3000);
     };
+  }, []);
 
-    window.addEventListener('scroll', handleScroll);
+  useEffect(() => {
+    const scrollHandler = () => handleScrollRef.current?.();
+
+    window.addEventListener('scroll', scrollHandler);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      clearTimeout(scrollTimeout);
+      window.removeEventListener('scroll', scrollHandler);
+      if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
     };
   }, []);
 
@@ -118,7 +127,7 @@ export default function ChapterPage() {
 
       <Header />
       <section className='w-screen relative'>
-        
+
         <div className={`fixed top-32 right-2 ${isVisible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} transition-opacity duration-300 overflow-hidden z-50`}>
           <div className="flex flex-col items-end space-y-4">
             <button onClick={() => setBackground(!background)} className={`w-[65px] h-[65px] px-4 py-2 rounded-full shadow-lg transition-all duration-300 ${background
@@ -127,7 +136,7 @@ export default function ChapterPage() {
               }`}>
               <FontAwesomeIcon icon={faImage} className="fa-fw" />
             </button>
-            <MusicPlayer currentTrack={currentTrack}/>
+            <MusicPlayer currentTrack={currentTrack} />
           </div>
         </div>
 
