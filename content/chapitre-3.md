@@ -8,39 +8,39 @@ slug: "chapitre-3"
 
 # Chapitre 3 : Fuites souterraines
 
-Les égouts d’Eternalys formaient une ville sous la ville, d’immense galerie et bassin de rétention se trouvaient ici à l’abri des regards. Il va sans dire que cela faisait bien longtemps qu’ils n’avaient pas été entretenus, il y régnait une odeur fortement désagréable mais à choisir entre l’odeur et les troupes de True Human, le choix était facile.
+Les égouts d’Eternalys formaient une ville sous la ville, d’immenses galeries et bassin de rétention se trouvaient ici à l’abri des regards. Il va sans dire que cela faisait bien longtemps qu’ils n’avaient pas été entretenus, il y régnait une odeur fortement désagréable mais à choisir entre l’odeur et les troupes de True Human, le choix était rapidement fait.
 	
 Alors que nous pouvions encore entendre au loin le bruit des rotors des hélicoptères au-dessus de nous, nous continuions de nous enfoncer de plus en plus profondément dans les tunnels.
 
-Nous progressons dans ce dédale de pierre taillée rongée par l’humidité, éclairés par nos lampes torches accrochées à nos armes.
+Nous progressions dans ce dédale de pierres taillées rongée par l’humidité, éclairés par nos lampes torches accrochées à nos armes.
 
 Tous les quelques mètres nous pouvions croiser la route de rats en tout genre, ironiquement les égouts semblaient plus animés que la surface.
 
-Alors que nous arrivions au niveau d’une intersection, Bastien se retourna :
+Alors que nous arrivions au niveau d’une intersection, Bastien se retournait :
 
 — Bon, c’est quoi la suite du plan ?
 
-— Le plan c’est de protéger la gamine, et pour ça il faut que l’on s’enfonce encore plus dans les égouts. proposait Gabriel
+— Le plan c’est de protéger la gamine, et pour ça il faut que l’on s’enfonce encore plus dans les égouts. proposa Gabriel
 
-— Super, et après on fait quoi, on attend ? On n'a plus de contact radio avec l’extérieur, ce qui veut dire que le quartier général ne peut plus nous contacter ! répondait Élodie
+— Super, et après on fait quoi, on attend ? On n'a plus de contact radio avec l’extérieur, ce qui veut dire que le quartier général ne peut plus nous contacter ! répondit Élodie
 
-— Bah génial, maintenant le quartier général va juste penser que l’on est mort ! Rétorquait Sarah, les larmes lui montant aux yeux.
+— Bah génial, maintenant le quartier général va juste penser que l’on est mort ! rétorquait Sarah, les larmes lui montant aux yeux.
 
 — La radio, ce n’est pas un problème. Le quartier général nous a demandé de faire profil bas le temps qu’il nous envoie quelqu’un. Si on n’est pas joignable durant les prochaines heures, cela ne posera pas de soucis.
 
 — Quelqu’un a une idée pour le collier de la petite, c’est la première fois que j’en vois un. questionnait Bastien
 
-— Sarah, une idée ? Enchaînait Élodie.
+— Sarah, une idée ? enchaînait Élodie.
 
 — Aucune idée, il faudrait que je le démonte, mais vu la taille et la manière de faire de True Human, ça ne me surprendrait pas qu’il ait une sécurité empêchant d’intervenir dessus.
 
-— À tous les coups, ça doit être un traceur GPS assez robuste pour empêcher un éveillé de le détruire. Soupçonnais-je.
+— À tous les coups, ça doit être un traceur GPS assez robuste pour empêcher un éveillé de le détruire. soupçonnais-je.
 
 — Et du coup, on fait comment si l’ennemi a notre position en direct. grommelait Élodie
 
 — On pourrait rester dans les égouts. proposait Gabriel
 
-Alors que tout le monde donna son avis et proposa des solutions, je m’avançais donnant mes instructions.
+Alors que tout le monde donnait son avis et proposait des solutions, je m’avançais donnant mes instructions.
 
 — Nous allons bel et bien patienter à la surface, cependant nous allons tout de même faire un bout de chemin dans les égouts.
 
@@ -48,21 +48,23 @@ Alors que tout le monde donna son avis et proposa des solutions, je m’avançai
 
 — Sur le territoire des Sangs-Divins.
 
-Une seconde, durant presque une éternité, s’écoula tandis que tout le monde alternait leur regard entre eux et moi et, étonnement, c’est Sarah qui brisa le silence.
+Un silence pesant s’installa. Tous échangèrent des regards hésitants avant que, contre toute attente, Sarah ne brise le silence.
 
 — Les Sangs-Divins ? C’est vraiment une bonne idée ?
 
 — Ça me paraît être une solution risquée mais logique, la faction des Sangs-Divins est essentiellement composée d’Éveillés et les chances que True Human lance un assaut sur leur territoire sont minces. appuya Gabriel
 
-— Et pourquoi True Human aurait peur des Sangs-Divins ? interroge Sarah
+— Et pourquoi True Human aurait peur des Sangs-Divins ? interrogea Sarah
 
 — Lors de l’affrontement qui a séparé Eternalys centre et sa banlieue, les Éveillés qui ont combattu se sont regroupés sous une même bannière : “Les Sangs-Divins”. Les pertes en cas d’affrontement seraient loin d’être acceptables et ceux de chaque côté. Le fait que True Human ne rentre pas sur le territoire des Sangs-Divins et inversement fait que les affrontements se sont arrêtés. expliqua Bastien
 
 — Mais bon, tout le monde sait que le gouvernement renforce ses troupes et attend juste le bon moment pour attaquer, et les Sangs-Divins font pareil. ajouta Gabriel
 
-— De toute façon c’est décidé, nous prenons la direction du territoire des Sangs-Divins. Une fois là-bas, nous essaierons de reprendre contact avec le quartier général. affirmais-je, clôturant le débat
+— De toute façon c’est décidé, nous prenons la direction du territoire des Sangs-Divins. Une fois là-bas, nous essaierons de reprendre contact avec le quartier général. affirmais-je, clôturant le débat.
 
-Cette fois-ci je menais la marche, les égouts formant un véritable labyrinthe. Je ne cherchais pas vraiment la direction du territoire des Sangs-Divins mais des traces de la faction des Recycleurs qui occupait les égouts.
+Cette fois-ci je menais la marche, les égouts formant un véritable labyrinthe. Je ne cherchais pas vraiment la direction du territoire des Sangs-Divins mais des traces de la faction des Recycleurs qui occupait les lieux.
+
+#### music:/Long_Note_Three.mp3
 
 Après une vingtaine de minutes, je pouvais apercevoir des tags et des traces laissés par les Recycleurs que je décidais donc de suivre.
 
@@ -80,7 +82,7 @@ Alors que je m’apprêtais à le saluer, le vieil homme brisa le silence.
 
 Sa voix était caverneuse et résonnait dans les galeries.
 
-— Nous cherchons à rejoindre le territoire des Sangs-Divins par les égouts. Répondais-je.
+— Nous cherchons à rejoindre le territoire des Sangs-Divins par les égouts. répondai-je.
 
 — Voyez-vous ça, vous n’avez pas l’air de touriste, vous connaissez donc les règles.
 
@@ -89,8 +91,6 @@ Sa voix était caverneuse et résonnait dans les galeries.
 — Assez ! Cela ne m’intéresse pas, si vous n’avez pas de quoi payer, faites demi-tour et revenez quand vous aurez quelque chose à offrir en échange.
 
 Élodie fit un pas en avant et protesta :
-
-#### music:/Long_Note_Three.mp3
 
 — Êtes-vous bien sûr que cela ne vous intéresse pas, je doute que votre chef soit contre l’idée d’avoir une faction comme la Lune Éveillée redevable envers lui.
 
@@ -110,11 +110,11 @@ Alors que nous nous regroupions, Sarah chuchota :
 
 — Et pour la petite, on lui dit quoi ?
 
-— On n'a qu'à dire qu’elle fait partie de notre unité. Répondais Bastien du tac au tac.
+— On n'a qu'à dire qu’elle fait partie de notre unité. répondais Bastien du tac au tac.
 
 — Oui, une gamine de dix ans, inconsciente et avec un collier en métal autour du cou. soupirait Élodie
 
-— Les recycleurs sont une faction neutre, on n'a aucun intérêt à mentir au sujet de la petite. Rétorquais-je afin de recentrer le groupe.
+— Les recycleurs sont une faction neutre, on n'a aucun intérêt à mentir au sujet de la petite. rétorquais-je afin de recentrer le groupe.
 
 Gabriel, lui, s’adossait contre le mur, sortant une cigarette de sa poche.
 
@@ -125,5 +125,7 @@ Peu de temps après, l’homme ressortait par la porte.
 — Si vous voulez bien entrer, le chef est prêt à vous recevoir.
 
 ## Liste des musique utilisé
+
+The Dread Par Kevin Macleod
 
 Long Note Three Par Kevin Macleod

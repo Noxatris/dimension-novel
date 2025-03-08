@@ -41,6 +41,8 @@ export default function ChapterPage() {
       const nextResponse = await fetch(`/api/chapters/${data.chapter.slug}?next=true`);
       const nextData = await nextResponse.json();
       setNextChapter(nextData.chapter);
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     };
     fetchChapter();
   }, [params.slug]);
@@ -89,7 +91,7 @@ export default function ChapterPage() {
     },
     p: ({ ...props }) => <p className="text-lg mb-4" {...props} />,
     h1: ({ ...props }) => <h1 className="text-xl font-bold mb-8" {...props} />,
-    h2: ({ ...props }) => <h2 className="text-3xl font-semibold" {...props} />,
+    h2: ({ ...props }) => <h2 className="text-3xl font-semibold mb-4" {...props} />,
   };
 
   const handleScrollRef = useRef<(() => void) | null>(null);
