@@ -1,5 +1,5 @@
 ---
-title: "Chapitre 5 : Plonger dans le passé"
+title: "Plonger dans le passé"
 date: "2025-02-16"
 slug: "chapitre-5"
 ---
