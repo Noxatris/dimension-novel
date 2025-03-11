@@ -35,7 +35,7 @@ export default function Header() {
                     <Link href="/actualites" className="flex justify-center items-center w-full md:h-full border-pink-600 hover:bg-black/20 hover:text-pink-600 hover:border-b-4 py-4 md:py-0">Actualité</Link>
                 </li>
                 <li className="h-full w-full md:w-[25%]">
-                    <Link href="/informations" className="flex justify-center items-center w-full md:h-full border-pink-600 hover:bg-black/20 hover:text-pink-600 hover:border-b-4 py-4 md:py-0">Actualité</Link>
+                    <Link href="/informations" className="flex justify-center items-center w-full md:h-full border-pink-600 hover:bg-black/20 hover:text-pink-600 hover:border-b-4 py-4 md:py-0">Information</Link>
                 </li>
             </ul>
         </header>
