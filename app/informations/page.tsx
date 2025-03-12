@@ -15,7 +15,7 @@ export default function Information() {
             <LandingContent />
             <section className="flex flex-col md:items-center pt-8 px-4 md:px-8 lg:px-12 lg:mt-[5vh]">
                 <h2 className="text-xl xl:text-3xl medievalFont border-b-4 border-violet-700 py-4 md:px-16 mb-6 xl:mb-6">Mes Réseaux</h2>
-                <p>Pour le moment vous pourrez me retrouvez sur mon discord</p>
+                <p>Pour le moment vous pourrez me retrouvez uniquement sur mon discord</p>
                 <Link href="https://discord.gg/sqMJfa3BG5" className="px-4 py-2 border-purple-600 border-2 animate-pulse rounded-xl mt-8"><FontAwesomeIcon icon={faDiscord} className="fa-fw text-white mr-2" />Discord</Link>
             </section>
             <section className="flex flex-col md:items-center pt-8 px-4 md:px-8 lg:px-12 lg:mt-[5vh]">
