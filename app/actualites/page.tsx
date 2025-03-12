@@ -39,7 +39,7 @@ export default function Actualite() {
   return (
     <>
       <Header />
-      <div className="h-[80vh] md:h-[350px] lg:h-[80vh] flex flex-col md:items-center pt-8 px-4 md:px-8 lg:px-12 md:mb-8">
+      <div className="h-[80vh] md:h-[350px] lg:min-h-[80vh] flex flex-col md:items-center pt-8 px-4 md:px-8 lg:px-12 md:mb-8">
         <h2 className="medievalFont text-xl md:text-2xl lg:text-3xl ml-6 md:ml-0">Actualité</h2>
         <AnimateSeparator />
         <div className="flex flex-col-reverse items-center overflow-y-scroll px-2 custom-scrollbar md:mt-2">
