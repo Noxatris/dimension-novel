@@ -13,8 +13,8 @@ export default function Information() {
         <>
             <Header />
             <LandingContent />
-            <section className="flex flex-col md:items-center pt-8 px-4 md:px-8 lg:px-12 lg:mt-[5vh]">
-                <h2 className="text-xl xl:text-3xl medievalFont border-b-4 border-violet-700 py-4 md:px-16 mb-6 xl:mb-6">Mes Réseaux</h2>
+            <section className="flex flex-col items-center pt-8 px-4 md:px-8 lg:px-12 lg:mt-[5vh]">
+                <h2 className="text-xl xl:text-3xl medievalFont border-b-4 border-violet-700 py-4 w-full xl:w-auto md:px-16 mb-6 xl:mb-6">Mes Réseaux</h2>
                 <p>Pour le moment vous pourrez me retrouvez uniquement sur mon discord</p>
                 <Link href="https://discord.gg/sqMJfa3BG5" className="px-4 py-2 border-purple-600 border-2 animate-pulse rounded-xl mt-8"><FontAwesomeIcon icon={faDiscord} className="fa-fw text-white mr-2" />Discord</Link>
             </section>
@@ -24,7 +24,7 @@ export default function Information() {
                 <p>A terme je compte ajouter un grade spécial sur mon discord pour obtenir des chapitres en avances pour ceux me soutenant financièrement.</p>
                 <p>Je compte aussi ajouter la possibilité a ceux soutenant le projet (pas uniquement financièrement) d&apos;intervenir sur l&apos;histoire via des sondages.</p>
                 <p>Mais vous pouvez soutenir le projet en likant mon novels sur les différentes plateformes.</p>
-                <h3 className="mt-4 mb-8 text-xl border-b-2 border-violet-700 px-8 pb-2">Liste des plateformes</h3>
+                <h3 className="mt-4 mb-8 text-xl border-b-2 border-violet-700 px-8 pb-2 w-full xl:w-auto flex justify-center items-center">Liste des plateformes</h3>
                 <ul>
                     <li><Link href="https://www.wattpad.com/story/385719600-eternalys-%C3%A9veil-et-vengeance" className="px-4 py-2 border-purple-600 border-2 animate-pulse rounded-xl mt-8">Wattpad</Link></li>
                 </ul>

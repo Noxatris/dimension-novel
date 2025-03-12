@@ -1,13 +1,15 @@
 export const grimoireData = [
     {
         color: "purple-300/20",
-        title: "Eternalys",
+        title: "Informations",
         image: "/grimoire2.png",
         description: `
-            Un grimoire mystérieux qui semble contenir des secrets insondables.
+            À la recherche d'informations ?
+            
+            Découvrez à travers ces pages le site et son futur.
             
         `,
-        url: "/eternalys"
+        url: "/informations"
     },
     {
         color: "white/20",
