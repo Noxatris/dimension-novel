@@ -2,6 +2,7 @@
 title: "Fuites souterraines"
 date: "2025-01-13"
 slug: "chapitre-3"
+bgImage: "sewer.webp"
 ---
 
 #### music:/The_Dread.mp3

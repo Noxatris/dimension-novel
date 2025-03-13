@@ -2,6 +2,7 @@
 title: "Interception"
 date: "2025-01-12"
 slug: "chapitre-2"
+bgImage: "assault.webp"
 ---
 
 #### music:/Action_Rhythms_David_Fesliyan.mp3

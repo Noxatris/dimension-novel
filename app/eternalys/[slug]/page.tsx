@@ -18,6 +18,7 @@ interface Chapter {
   title: string;
   content: string;
   slug: string;
+  bgImage: string;
 }
 
 export default function ChapterPage() {
@@ -41,6 +42,7 @@ export default function ChapterPage() {
       const nextResponse = await fetch(`/api/chapters/${data.chapter.slug}?next=true`);
       const nextData = await nextResponse.json();
       setNextChapter(nextData.chapter);
+      console.log(data)
 
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
@@ -142,7 +144,7 @@ export default function ChapterPage() {
           </div>
         </div>
 
-        <div ref={contentRef} className={`xl:mx-[25vw] h-[auto] py-8 px-4 ${background ? 'bg-fixed bg-center shadow-shadowInset' : 'bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20'} transition-all duration-300`} style={background ? { backgroundImage: `url(/bgChapter/${chapter.slug}.webp)` } : {}}>
+        <div ref={contentRef} className={`xl:mx-[25vw] h-[auto] py-8 px-4 ${background ? 'bg-fixed bg-center shadow-shadowInset' : 'bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20'} transition-all duration-300`} style={background ? { backgroundImage: `url(/bgChapter/${chapter.bgImage})` } : {}}>
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             components={renderers} // Utilisation du rendu personnalisé

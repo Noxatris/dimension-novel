@@ -2,6 +2,7 @@
 title: "Plonger dans le passé"
 date: "2025-02-16"
 slug: "chapitre-5"
+bgImage: "classroom.webp"
 ---
 
 #### music:/Haunted_Memories.mp3
@@ -100,7 +101,7 @@ Gabriel se tournait, observant à gauche puis à droite.
 
 Gabriel se tournait vers Élodie. 
 
-C’est à cette occasion que je remarquai que le poids de la petite commençait à se faire sentir, cela faisait maintenant pas mal de temps qu'Élodie la portait sur son dos. Et ça, il avait aussi remarqué.
+C’est à cette occasion que je remarquai que le poids de la petite commençait à se faire sentir, cela faisait maintenant pas mal de temps qu'Élodie la portait sur son dos. Et ça, il l'avait aussi remarqué.
 
 — Bon, je vais partir à sa recherche voir si tout va bien. Proposa Gabriel
 

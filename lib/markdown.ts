@@ -68,6 +68,7 @@ export function getChapterBySlug(slug: string): Chapter {
     title: data.title,
     date: data.date,
     slug: data.slug,
+    bgImage: data.bgImage,
     content: content, // Return raw markdown content
   } as Chapter;
 }

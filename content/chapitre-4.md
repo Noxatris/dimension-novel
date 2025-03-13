@@ -2,6 +2,7 @@
 title: "Le chef des Recycleurs"
 date: "2025-02-14"
 slug: "chapitre-4"
+bgImage: "intersection.webp"
 ---
 
 #### music:/Long_Note_Two.mp3
