@@ -17,7 +17,7 @@ export default function Eternalys() {
                     <p>Dans ce paysage désolé, une unité rebelle lutte pour la liberté, naviguant entre alliances fragiles, mystères enfouis, et un secret qui pourrait bien changer le cours de leur destin.</p>
                 </div>
             </div>
-            <Link href="/eternalys/chapitre-1" className='flex justify-center items-center p-2 rounded-full gradientMoveAnimation shadow-xl text-[1.2em] mb-8 hover:bg-yellow-300 hover:text-black transition-all duration-300'>
+            <Link href="/eternalys/chapitre-1" className='flex justify-center items-center p-2 rounded-full bg-gradient-to-r from-yellow-200 to-purple-600 gradientMoveAnimation shadow-xl text-[1.2em] mb-8 hover:bg-yellow-300 hover:text-black transition-all duration-300'>
                 <FontAwesomeIcon icon={faBook} className="fa-fw" />
                 <p className="px-2">Commencez la lecture</p>
                 <FontAwesomeIcon icon={faScroll} className="fa-fw" />
