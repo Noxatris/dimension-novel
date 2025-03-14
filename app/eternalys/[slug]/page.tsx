@@ -55,7 +55,7 @@ export default function ChapterPage() {
       const markers = Array.from(contentRef.current.querySelectorAll('[data-music]'));
       let newTrack = currentTrack;
   
-      for (let marker of markers) {
+      for (const marker of markers) {
         const rect = marker.getBoundingClientRect();
         if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
           newTrack = marker.getAttribute('data-music');
