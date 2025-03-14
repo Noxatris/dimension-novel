@@ -49,39 +49,27 @@ export default function ChapterPage() {
 
   // Gérer l'observateur d'intersection pour les marqueurs de musique
   useEffect(() => {
-    const setupObserver = () => {
-      if (contentRef.current) {
-        const musicMarkers = Array.from(contentRef.current.querySelectorAll('[data-music]'));
-        console.log('Markers found:', musicMarkers); // Vérifier si les marqueurs sont trouvés
-
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              const track = entry.target.getAttribute('data-music');
-              if (track && track !== currentTrack) {
-                console.log(`Changing track to: ${track}`); // Debug: voir quel track est joué
-                setCurrentTrack(track);
-              }
-            }
-          });
-        }, { threshold: 0 }); // Observer dès qu'une petite partie de l'élément est visible
-
-        musicMarkers.forEach((marker) => {
-          observer.observe(marker);
-          console.log('Observing marker:', marker); // Debug: vérifier quels éléments sont observés
-        });
-
-        // Cleanup observer
-        return () => {
-          musicMarkers.forEach((marker) => observer.unobserve(marker));
-        };
+    const interval = setInterval(() => {
+      if (!contentRef.current) return;
+  
+      const markers = Array.from(contentRef.current.querySelectorAll('[data-music]'));
+      let newTrack = currentTrack;
+  
+      for (let marker of markers) {
+        const rect = marker.getBoundingClientRect();
+        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+          newTrack = marker.getAttribute('data-music');
+          break;
+        }
       }
-    };
-
-    setupObserver();
-    const intervalId = setInterval(setupObserver, 5000); // Réinitialiser l'observateur toutes les 5 secondes
-
-    return () => clearInterval(intervalId);
+  
+      if (newTrack && newTrack !== currentTrack) {
+        console.log(`Changement de musique : ${newTrack}`);
+        setCurrentTrack(newTrack);
+      }
+    }, 4000); // Vérifie toutes les 5 secondes
+  
+    return () => clearInterval(interval);
   }, [chapter, currentTrack]);
 
   // Transformer les balises h4 contenant "music:" en div avec data-music
@@ -104,15 +92,15 @@ export default function ChapterPage() {
   const handleScrollRef = useRef<(() => void) | null>(null);
 
   useEffect(() => {
-    handleScrollRef.current = () => {
-      const currentScrollY = window.scrollY;
-      if (currentScrollY > lastScrollY.current) {
-        setIsVisible(false); // Scroll vers le bas
-      } else {
-        setIsVisible(true); // Scroll vers le haut
-      }
-      lastScrollY.current = currentScrollY;
+    const handleScroll = () => {
+      requestAnimationFrame(() => {
+        setIsVisible(window.scrollY < lastScrollY.current);
+        lastScrollY.current = window.scrollY;
+      });
     };
+  
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   useEffect(() => {
