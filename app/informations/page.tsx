@@ -31,7 +31,7 @@ export default function Information() {
             </section>
             <section className="flex flex-col md:items-center pt-8 mb-8 px-4 md:px-8 lg:px-12 lg:mt-[5vh]">
                 <h2 className="text-xl xl:text-3xl medievalFont border-b-4 border-violet-700 py-4 md:px-16 mb-6 xl:mb-12">Le Future</h2>
-                <ul>
+                <ul className="list-disc ml-8">
                     <li><p>Possibilité de création de compte, avec zone de commentaire, chapitre favori etc...</p></li>
                     <li><p>Héberger les novels d&apos;autre auteur, aucune interface n&apos;est prévu pour le moment, me contactez si intéressé.</p></li>
                 </ul>

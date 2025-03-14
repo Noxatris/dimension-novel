@@ -25,7 +25,7 @@ export default function BtnNextChapter({props} : {props: Chapter | null}) {
                 onClick={handleNextChapter}
                 disabled={!props}
                 className={`px-4 py-2 rounded-full shadow-lg transition-all duration-300 ${props
-                        ? 'bg-yellow-300 text-black hover:bg-yellow-400'
+                        ? 'bg-gradient-to-r from-yellow-200 to-purple-600 gradientMoveAnimation'
                         : 'bg-gray-300 text-gray-500 cursor-not-allowed'
                     }`}
             >

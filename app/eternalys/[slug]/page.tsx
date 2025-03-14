@@ -91,7 +91,7 @@ export default function ChapterPage() {
     },
     p: ({ ...props }) => <p className="text-lg mb-4" {...props} />,
     h1: ({ ...props }) => <h1 className="text-xl font-bold mb-8" {...props} />,
-    h2: ({ ...props }) => <h2 className="text-3xl font-semibold mb-4" {...props} />,
+    h2: ({ ...props }) => <h2 className="text-3xl font-semibold mb-6 mt-16" {...props} />,
   };
 
   const handleScrollRef = useRef<(() => void) | null>(null);
@@ -148,10 +148,7 @@ export default function ChapterPage() {
           >
             {chapter.content}
           </ReactMarkdown>
-        </div>
-
-        <div className='w-screen h-[15vh] bg-gradient-to-b from-violet-950 to-gray-900 flex flex-wrap justify-around xl:px-[30vw] items-center'>
-          <div className='w-screen flex justify-around items-center'>
+          <div className='w-[95%] flex justify-around items-center border-t-4 border-pink-500 mt-8 pt-8'>
             <ListeChapterNbr />
             <BtnNextChapter props={nextChapter} />
           </div>

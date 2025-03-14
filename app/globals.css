@@ -74,20 +74,33 @@ body {
 /* globals.css */
 
 /* Custom Scrollbar */
-.custom-scrollbar::-webkit-scrollbar {
+.custom-scrollbar::-webkit-scrollbar{
   width: 8px;
 }
 
-.custom-scrollbar::-webkit-scrollbar-track {
+.custom-scrollbar2::-webkit-scrollbar {
+  width: 0px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track, .custom-scrollbar2::-webkit-scrollbar-track{
   background: transparent;
 }
 
 /* Sparkle Effect on Thumb */
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: linear-gradient(120deg, #f7eba8, #ffd700);
+  background: linear-gradient(120deg, #852b3a, #2e14c2);
   border-radius: 10px;
   border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+  animation: thumbSparkle 1.5s infinite linear;
+}
+
+.custom-scrollbar2::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+  border: 0px solid transparent;
   background-clip: padding-box;
   position: relative;
   animation: thumbSparkle 1.5s infinite linear;
@@ -128,7 +141,6 @@ body {
 }
 
 .gradientMoveAnimation {
-  background: linear-gradient(135deg, rgba(109, 40, 217, 1) 0%, rgba(253, 224, 71, 1) 100%);
   background-size: 200% 200%;
   animation: gradientMove 8s infinite;
 }
