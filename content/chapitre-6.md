@@ -1,5 +1,5 @@
 ---
-title: "Chapitre 6 : Le voile de la nuit"
+title: "Le voile de la nuit"
 date: "2025-02-19"
 slug: "chapitre-6"
 bgImage: "classroom.webp"
