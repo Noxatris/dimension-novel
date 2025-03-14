@@ -29,8 +29,6 @@ export default function ChapterPage() {
   const [currentTrack, setCurrentTrack] = useState<string | null>(null);
   const [isVisible, setIsVisible] = useState(true); // État pour gérer la visibilité du menu
   const contentRef = useRef<HTMLDivElement>(null);
-  const [scrollTrigger, setScrollTrigger] = useState(0);
-  const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
   const lastScrollY = useRef(0);
 
   useEffect(() => {
@@ -77,7 +75,7 @@ export default function ChapterPage() {
         musicMarkers.forEach((marker) => observer.unobserve(marker));
       };
     }
-  }, [chapter, scrollTrigger]);
+  }, [chapter]);
 
   // Transformer les balises h4 contenant "music:" en div avec data-music
   const renderers = {
