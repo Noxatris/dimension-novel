@@ -15,7 +15,7 @@ Gabriel était le premier à s’approcher, son sac à moitié ouvert dans les m
 
 — On a trouvé de quoi manger ce soir, regardez ça !
 
-Son sac contenait deux sachets de pâte ainsi que plusieurs barres de céréales, j’alternais mon regard entre le sac et lui, interrogatif... Gabriel ne s’était jamais vraiment illustré en matière de cuisine mais j’osais espérer qu’il n’avait pas juste ramené des sachets de pâtes alors que l’on n’avait rien pour faire chauffer de l’eau.
+Son sac contenait deux sachets de pâtes ainsi que plusieurs barres de céréales, j’alternais mon regard entre le sac et lui, interrogatif... Gabriel ne s’était jamais vraiment illustré en matière de cuisine mais j’osais espérer qu’il n’avait pas juste ramené des sachets de pâtes alors que l’on n’avait rien pour faire chauffer de l’eau.
 
 Mais mes doutes se dissipèrent lorsqu’il demanda à Bastien de ramener “le truc”.
 

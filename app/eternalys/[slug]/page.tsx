@@ -31,6 +31,7 @@ export default function ChapterPage() {
   const contentRef = useRef<HTMLDivElement>(null);
   const [scrollTrigger, setScrollTrigger] = useState(0);
   const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
+  const lastScrollY = useRef(0);
 
   useEffect(() => {
     const fetchChapter = async () => {
@@ -42,7 +43,6 @@ export default function ChapterPage() {
       const nextResponse = await fetch(`/api/chapters/${data.chapter.slug}?next=true`);
       const nextData = await nextResponse.json();
       setNextChapter(nextData.chapter);
-      console.log(data)
 
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
@@ -100,13 +100,13 @@ export default function ChapterPage() {
 
   useEffect(() => {
     handleScrollRef.current = () => {
-      setScrollTrigger(prev => prev + 1);
-      setIsVisible(false);
-      if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
-
-      scrollTimeout.current = setTimeout(() => {
-        setIsVisible(true);
-      }, 3000);
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY.current) {
+        setIsVisible(false); // Scroll vers le bas
+      } else {
+        setIsVisible(true); // Scroll vers le haut
+      }
+      lastScrollY.current = currentScrollY;
     };
   }, []);
 
@@ -116,7 +116,6 @@ export default function ChapterPage() {
     window.addEventListener('scroll', scrollHandler);
     return () => {
       window.removeEventListener('scroll', scrollHandler);
-      if (scrollTimeout.current) clearTimeout(scrollTimeout.current);
     };
   }, []);
 
