@@ -49,33 +49,40 @@ export default function ChapterPage() {
 
   // Gérer l'observateur d'intersection pour les marqueurs de musique
   useEffect(() => {
-    if (contentRef.current) {
-      const musicMarkers = Array.from(contentRef.current.querySelectorAll('[data-music]'));
-      console.log('Markers found:', musicMarkers); // Vérifier si les marqueurs sont trouvés
+    const setupObserver = () => {
+      if (contentRef.current) {
+        const musicMarkers = Array.from(contentRef.current.querySelectorAll('[data-music]'));
+        console.log('Markers found:', musicMarkers); // Vérifier si les marqueurs sont trouvés
 
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const track = entry.target.getAttribute('data-music');
-            if (track && track !== currentTrack) {
-              console.log(`Changing track to: ${track}`); // Debug: voir quel track est joué
-              setCurrentTrack(track);
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const track = entry.target.getAttribute('data-music');
+              if (track && track !== currentTrack) {
+                console.log(`Changing track to: ${track}`); // Debug: voir quel track est joué
+                setCurrentTrack(track);
+              }
             }
-          }
+          });
+        }, { threshold: 0 }); // Observer dès qu'une petite partie de l'élément est visible
+
+        musicMarkers.forEach((marker) => {
+          observer.observe(marker);
+          console.log('Observing marker:', marker); // Debug: vérifier quels éléments sont observés
         });
-      }, { threshold: 0 }); // Observer dès qu'une petite partie de l'élément est visible
 
-      musicMarkers.forEach((marker) => {
-        observer.observe(marker);
-        console.log('Observing marker:', marker); // Debug: vérifier quels éléments sont observés
-      });
+        // Cleanup observer
+        return () => {
+          musicMarkers.forEach((marker) => observer.unobserve(marker));
+        };
+      }
+    };
 
-      // Cleanup observer
-      return () => {
-        musicMarkers.forEach((marker) => observer.unobserve(marker));
-      };
-    }
-  }, [chapter]);
+    setupObserver();
+    const intervalId = setInterval(setupObserver, 5000); // Réinitialiser l'observateur toutes les 5 secondes
+
+    return () => clearInterval(intervalId);
+  }, [chapter, currentTrack]);
 
   // Transformer les balises h4 contenant "music:" en div avec data-music
   const renderers = {
