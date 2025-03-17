@@ -1,0 +1,110 @@
+---
+title: "Séparation et Affrontement"
+date: "2025-02-20"
+slug: "chapitre-7"
+bgImage: "classroom.webp"
+---
+
+#### music:/The_Dread.mp3
+
+# Chapitre 7 : Séparation et Affrontement 
+
+(Si jamais je rajoute les bonnes musiques et un background dans la journée)
+
+L’incertitude se lisait sur le visage de chacun des membres de l’équipe. Tout le monde se regardait les uns les autres, tandis que les mains de la petite se serraient autour des jambes d’Élodie.
+
+— Bon, le plan reste le même cependant, notre équipe se rendra au plus près du quartier général des Sangs-Divins, on y cherchera une planque pour vous attendre.
+
+— Reçu !
+
+J’ouvris la marche en direction de l’escalier menant au niveau du hall, je me positionnai à mi-hauteur suivi de près par le reste du groupe.
+
+Alors que j’observais la porte d’entrée, les soldats de True Human approchaient.
+
+Au bout d’à peine quelques secondes, le bruit d’une vitre volant en éclats retentissait, suivi de bruit de pas s’avançant dans le hall.
+
+Des lueurs de lampe torche balayaient les murs et le plafond tandis que nous restions tous accroupis au niveau des escaliers.
+
+— Si vous êtes là, livrez-nous la gamine, et on vous laissera la vie sauve !
+
+La vie sauve, tu parles, au maximum ils nous garderont en vie pour nous interroger et nous torturer, pour finalement nous abattre dans les jours qui suivent.
+
+Je mis en joue le bas de l’escalier, mon pouce relevant doucement et sans un bruit le cran de sûreté de mon arme.
+
+Des bruits de pas faisaient écho dans le hall se rapprochant de l’escalier où nous nous trouvions, ma respiration s’accélérait et plus les bruits de pas se rapprochaient, plus mon cœur battait jusqu’à ce que le bout d’une arme à feu fasse son apparition. Aller plus qu’un pas, avance rien que d’un pas…
+
+Cependant, l’homme en bas se retourna et partit dans la direction opposée.
+
+Je ne pouvais m’empêcher de lâcher un immense soupir. Je décidai de descendre seul pour voir la situation.
+
+Les trois hommes fouillaient les salles situées dans l’aile opposée du bâtiment, ils avaient déjà vérifié les deux premières salles. 
+
+Leur exécution semblait parfaitement maîtriser, on n’avait pas affaire à n’importe qui.
+
+Je faisais signe aux autres de me suivre jusqu’en bas des escaliers puis lorsque les soldats de True Human rentraient dans une salle je courus me cacher derrière une rangée de casiers, mettant en joue le couloir.
+
+Rapidement j’étais suivi de Bastien qui se mettait en position au niveau d’un pilier proche de la porte d’entrée.
+
+Mais alors qu’Élodie et la petite traversaient le hall en direction de la porte principale, un homme de True Human sortit la pièce se tournant vers nous.
+
+— Ils sont là !
+
+Sans perdre un instant, j’ouvris le feu dans leur direction avec Bastien, forçant le premier soldat qui était sorti à rentrer dans la salle.
+
+— Allez, sortez de là et vite, on n'a pas le temps ! 
+
+Élodie courut au niveau de la porte suivie de près de la petite, Gabriel et Sarah se mirent en position afin d’empêcher notre poursuivant d’approcher.
+
+— Partez devant, on se retrouve comme convenu ! Hurla Gabriel, ouvrant le feu en salve courte en direction du couloir.
+
+Comme convenu, je sortais avec Bastien, Élodie et la petite arrivant au niveau de l’intersection, mais alors que l’idée de reprendre les égouts me traversait l’esprit, une autre unité de True Human se trouvant au loin dans la rue nous aperçut.
+
+J’ouvris le feu dans leur direction rapidement épaulé par Bastien.
+
+— Allez-vous réfugier dans la ruelle derrière nous, de l’autre côté de la rue, vite !
+
+Élodie attrapa fermement la main de Jasmine, la traînant jusque dans la ruelle, tandis que moi et Bastien les rejoignions, nous couvrant mutuellement.
+
+Nous ne perdions pas de temps, nous filions à travers les ruelles désertes de la ville, sans aucune autre direction que celle des Sangs-Divins.
+
+Alors que cela faisait bien une trentaine de minutes que l’on courait sans s’arrêter, Élodie avait fini par prendre Jasmine sur son dos tandis que l’on continuait de progresser jusqu’à ce que l’on arrive au niveau d’une grande rue.
+
+Mais alors que seulement quelques mètres nous séparait de la rue, une sphère de glace grosse comme un ballon de foot fonça le long de la route, laissant au passage une immense traînée de givre, avant de s’écraser au loin dans un immense fracas.
+
+L’onde de choc parcourait mon corps, bloquant l’espace d’un instant ma respiration.
+
+— Vite, cachez-vous le long du mur !
+
+Un homme traversa au loin, les mains recouvertes de givre. Bien que nous ne puissions pas voir la scène, nous entendions tout.
+
+— Que viennent faire des chiens comme vous sur notre territoire, vous vous êtes égarés ?
+
+Un homme répondit la voix tremblotante et gémissant de douleurs entre chaque mot.
+
+— C’est vous, les monstres, qui avez attaqué notre convoi, cependant cette fois-ci le gouvernement ne peut pas fermer les yeux sur la cargaison qu’il contenait.
+
+— Voyez-vous ça, navré de vous l’apprendre mais les Sangs-Divins n’ont pas attaqué votre convoi, mais vous avez attisé ma curiosité, faites-moi rêver et peut-être que je vous épargnerais.
+
+— Ne jouez pas les innocents, qui d’autre que des monstres attaquerait un convoi pour récupérer un autre monstre !
+
+Un silence s’installa. Puis, après quelques secondes interminables, un cri de douleur retentit dans toute la rue, tandis qu’un léger brouillard s’évaporait dans l’air.
+
+— Mauvaise réponse.
+
+Encore surpris par la scène s’étant déroulée si près de nous, nous restions sans un bruit dans la cour intérieure attendant plusieurs dizaines de minutes.
+
+Après avoir attendu assez longtemps nous décidions de repartir, prenant la direction de la route.
+
+Une fois arrivés au niveau de celle-ci, nous pouvions comprendre plus clairement ce qui s’était passé plus tôt. 
+
+Élodie cachait immédiatement les yeux de Jasmine tandis que nous faisions face au corps de trois hommes gelés sur le sol, mais surtout au corps d’un homme gelé debout transpercé de part en part par plusieurs piques de glace immaculées par son sang s’écoulant sur le sol dans sa quasi intégralité.
+
+La zone où gisaient les corps dégageait encore un froid glacial, nous donnant l’impression d’avoir basculé en plein hiver.
+
+Nous finissions par traverser la rue à la recherche d’un endroit sûr, puis une fois s’être assez éloignés des grands axes, nous arrivions finalement sur un vieil immeuble délabré.
+
+— Bien, pour le moment on va attendre ici.
+
+## Liste des musique utilisé
+
+Long Note Three Par Kevin Macleod
