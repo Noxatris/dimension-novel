@@ -1,9 +1,7 @@
 ---
-title: "Article 1 : Bienvenue"
-date: "2025-01-14"
+title: "Bienvenue"
+date: "17 mars"
 slug: "article-1"
 ---
-
-# Bienvenue
 
 J'éspère que vous passerez un agréable moment sur mon site

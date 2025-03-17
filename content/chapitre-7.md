@@ -9,8 +9,6 @@ bgImage: "ruelle.webp"
 
 # Chapitre 7 : Séparation et Affrontement 
 
-(Si jamais je rajoute les bonnes musiques et un background dans la journée)
-
 L’incertitude se lisait sur le visage de chacun des membres de l’équipe. Tout le monde se regardait les uns les autres, tandis que les mains de la petite se serraient autour des jambes d’Élodie.
 
 — Bon, le plan reste le même cependant, notre équipe se rendra au plus près du quartier général des Sangs-Divins, on y cherchera une planque pour vous attendre.
