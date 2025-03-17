@@ -2,10 +2,10 @@
 title: "Séparation et Affrontement"
 date: "2025-02-20"
 slug: "chapitre-7"
-bgImage: "classroom.webp"
+bgImage: "ruelle.webp"
 ---
 
-#### music:/The_Dread.mp3
+#### music:/Anticipation.mp3
 
 # Chapitre 7 : Séparation et Affrontement 
 
@@ -107,4 +107,4 @@ Nous finissions par traverser la rue à la recherche d’un endroit sûr, puis u
 
 ## Liste des musique utilisé
 
-Long Note Three Par Kevin Macleod
+Anticipation Par David Fesliyan
