@@ -15,7 +15,12 @@ export const grimoireData = [
         color: "white/20",
         title: "Eternalys",
         image: "/grimoire1.png",
-        description: "Un grimoire mystérieux qui semble contenir des secrets insondables.",
+        description: `
+            Les pages de se livre semblent prendre vie.
+            
+            Partez à la découverte de l'histoire d'Eternalys.
+            
+        `,
         url: "/eternalys"
     },
     {

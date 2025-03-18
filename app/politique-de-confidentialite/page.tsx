@@ -1,8 +1,10 @@
+import Header from '../(composents)/header';
 import Footer from '../(composents)/footer';
 
 export default function PolitiqueConfidentialite() {
   return (
     <div>
+      <Header />
       <div className="container mx-auto p-4">
         <h1 className="text-2xl font-bold mb-4">Politique de Confidentialité</h1>
 
