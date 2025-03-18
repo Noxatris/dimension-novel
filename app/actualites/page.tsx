@@ -4,7 +4,6 @@ import Footer from "../(composents)/footer";
 
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
-import AltActualite from '../(composents)/Squeltron/alt_actualite';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faSpinner } from '@fortawesome/free-solid-svg-icons';
