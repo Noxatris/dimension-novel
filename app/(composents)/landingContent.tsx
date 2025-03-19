@@ -4,7 +4,7 @@ import { faBookOpen, faGlobe, faBolt, faStar } from '@fortawesome/free-solid-svg
 export default function LandingContent() {
     return (
         <section className="flex flex-col md:items-center pt-8 px-4 md:px-8 lg:px-12 lg:mt-[5vh]">
-            <h2 className="text-xl xl:text-3xl medievalFont border-b-4 border-violet-700 py-4 md:px-16 mb-6 xl:mb-12">Que retrouvez sur mon site ?</h2>
+            <h2 className="text-xl xl:text-3xl medievalFont border-b-4 border-violet-700 py-4 md:px-16 mb-6 xl:mb-12">Que retrouvez-vous sur mon site ?</h2>
             <div className="flex flex-col items-center gap-4">
                 <FeatureCard
                     icon={faBookOpen}

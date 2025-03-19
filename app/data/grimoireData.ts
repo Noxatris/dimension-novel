@@ -16,7 +16,7 @@ export const grimoireData = [
         title: "Eternalys",
         image: "/grimoire1.png",
         description: `
-            Les pages de se livre semblent prendre vie.
+            Les pages de ce livre semblent prendre vie.
             
             Partez à la découverte de l'histoire d'Eternalys.
             
@@ -32,7 +32,7 @@ export const grimoireData = [
 
             Il a le pouvoir de voir l'avenir et de prédire les événements à venir.
 
-            Cependant il semble avoir perdu une partie de ses pouvoirs.
+            Cependant, il semble avoir perdu une partie de ses pouvoirs.
 
             `,
         url: "/actualites"

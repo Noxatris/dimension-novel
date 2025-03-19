@@ -24,7 +24,7 @@ export default function Eternalys() {
             </Link>
             <div className='w-full flex-col items-center bg-black/50 py-2'>
                 <h2 className="text-[1.2em] mb-1 border-b-4 rounded border-yellow-300 flex justify-center items-center">En savoir plus ?</h2>
-                <p className='w-full flex justify-center items-center'>Pas encore implémenter</p>
+                <p className='w-full flex justify-center items-center'>Pas encore implémenté</p>
                 <div className="flex justify-around w-full my-6">
                     <div className="bg-black/80 p-2 rounded-full border-2 border-violet-700 text-violet-700 pointer-cursor w-[40%] flex justify-center items-center hover:bg-violet-700 hover:text-white transition-all duration-300">
                         <FontAwesomeIcon icon={faEarthEurope} className="fa-fw mr-1" />
@@ -32,7 +32,7 @@ export default function Eternalys() {
                     </div>
                     <div className="bg-black/80 p-2 rounded-full border-2 border-yellow-300 text-yellow-300 pointer-cursor w-[40%] flex justify-center items-center hover:bg-yellow-300 hover:text-black transition-all duration-300">
                         <FontAwesomeIcon icon={faPerson} className="fa-fw mr-1" />
-                        <Link href="/eternalys/personnage">Personnage</Link>
+                        <Link href="/eternalys/personnage">Personnages</Link>
                     </div>
                 </div>
             </div>

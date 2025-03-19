@@ -8,11 +8,9 @@ import remarkGfm from 'remark-gfm';
 import ListeChapterNbr from '@/app/(composents)/listChapterNumber';
 import MusicPlayer from '@/app/(composents)/MusicPlayer';
 import BtnNextChapter from '@/app/(composents)/btnNextChapter';
-import Header from '@/app/(composents)/header';
-import Footer from '@/app/(composents)/footer';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faImage } from '@fortawesome/free-solid-svg-icons';
+import { faImage, faSpinner } from '@fortawesome/free-solid-svg-icons';
 
 interface Chapter {
   title: string;
@@ -51,10 +49,10 @@ export default function ChapterPage() {
   useEffect(() => {
     const interval = setInterval(() => {
       if (!contentRef.current) return;
-  
+
       const markers = Array.from(contentRef.current.querySelectorAll('[data-music]'));
       let newTrack = currentTrack;
-  
+
       for (const marker of markers) {
         const rect = marker.getBoundingClientRect();
         if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
@@ -62,12 +60,12 @@ export default function ChapterPage() {
           break;
         }
       }
-  
+
       if (newTrack && newTrack !== currentTrack) {
         setCurrentTrack(newTrack);
       }
     }, 4000); // Vérifie toutes les 5 secondes
-  
+
     return () => clearInterval(interval);
   }, [chapter, currentTrack]);
 
@@ -97,7 +95,7 @@ export default function ChapterPage() {
         lastScrollY.current = window.scrollY;
       });
     };
-  
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -111,7 +109,11 @@ export default function ChapterPage() {
     };
   }, []);
 
-  if (!chapter) return <div className="flex w-screen justify-center mt-12 text-xl">Chargement de votre chapitre...</div>;
+  if (!chapter) return
+  <div className="flex items-center justify-center text-violet-400 text-xl h-[80vh]">
+    <FontAwesomeIcon icon={faSpinner} className="fa-spin mr-2" />
+    Chargement du chapitre...
+  </div>;
 
   return (
     <>
@@ -120,7 +122,6 @@ export default function ChapterPage() {
         <meta name="description" content={`Lisez ${chapter.title} - Dimension Novel`} />
       </Head>
 
-      <Header />
       <section className='w-screen relative'>
 
         <div className={`fixed top-32 right-2 ${isVisible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} transition-opacity duration-300 overflow-hidden z-50`}>
@@ -148,7 +149,6 @@ export default function ChapterPage() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }
