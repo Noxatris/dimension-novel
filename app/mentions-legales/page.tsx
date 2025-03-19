@@ -5,53 +5,42 @@ export default function MentionLegal() {
   return (
     <div>
       <Header />
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto p-4 min-h-[80vh]">
         <h1 className="text-2xl font-bold mb-4">Mentions Légales</h1>
 
         <h2 className="text-xl font-semibold mb-2">Éditeur du site</h2>
         <p>
-          <strong>Nom de l&apos;entreprise</strong><br />
-          Adresse de l&apos;entreprise<br />
-          Code postal et ville<br />
-          Pays<br />
-          Téléphone : [Numéro de téléphone]<br />
-          Email : [Adresse email]<br />
-          Site web : [URL du site]
+          Le présent site est édité par <strong>Noxatris</strong>, un particulier agissant sous pseudonyme.<br />
+          Adresse Mail : <a href="mailto:noxatrisdev@gmail.com" className="hover:underline text-blue-400">noxatrisdev@gmail.com</a><br />
+          Conformément à l&apos;article 6-III de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l&apos;économie numérique (LCEN), l&apos;identité complète de l&apos;éditeur est communiquée à l&apos;hébergeur.
         </p>
 
-        <h2 className="text-xl font-semibold mb-2">Hébergement</h2>
+        <h2 className="text-xl font-semibold mb-2 mt-6">Hébergement</h2>
         <p>
-          <strong>Nom de l&apos;hébergeur</strong><br />
-          Adresse de l&apos;hébergeur<br />
-          Code postal et ville<br />
-          Pays<br />
-          Téléphone : [Numéro de téléphone]<br />
-          Email : [Adresse email]<br />
-          Site web : [URL du site]
+          Le site est hébergé par :<br />
+          <strong>Vercel Inc.</strong><br />
+          440 N Barranca Ave #4133, Covina, CA 91723, USA <br />
+          Site web : <a href="https://vercel.com">https://vercel.com</a>
         </p>
 
-        <h2 className="text-xl font-semibold mb-2">Propriété intellectuelle</h2>
+        <h2 className="text-xl font-semibold mb-2 mt-6">Propriété intellectuelle</h2>
         <p>
-          Le contenu du site (textes, images, vidéos, etc.) est la propriété exclusive de [Nom de l&apos;entreprise] sauf mention contraire. Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l&apos;accord exprès par écrit de [Nom de l&apos;entreprise].
-        </p>
-        <p>
-          Les droits des musiques utilisées dans les chapitres appartiennent à leurs créateurs respectifs. [Nom de l&apos;entreprise] n&apos;a aucun droit sur ces musiques et les utilise uniquement à des fins d&apos;illustration.
+          L&apos;ensemble des contenus présents sur ce site (textes, images, design, etc.) est la propriété exclusive de <strong>Noxatris</strong>, sauf mention contraire. Toute reproduction, distribution ou modification sans autorisation est interdite.
         </p>
 
-        <h2 className="text-xl font-semibold mb-2">Responsabilité</h2>
+        <h2 className="text-xl font-semibold mb-2 mt-6">Images et musiques</h2>
         <p>
-          [Nom de l&apos;entreprise] ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l&apos;utilisateur, lors de l&apos;accès au site [URL du site], et résultant soit de l&apos;utilisation d&apos;un matériel ne répondant pas aux spécifications indiquées, soit de l&apos;apparition d&apos;un bug ou d&apos;une incompatibilité.
+          Les images présentes sur le site sont générées par intelligence artificielle.
+        </p>
+        <p>
+          Les musiques utilisées ne sont pas la propriété de l&apos;éditeur, mais elles sont libres d&apos;utilisation conformément aux licences associées.
         </p>
 
-        <h2 className="text-xl font-semibold mb-2">Données personnelles</h2>
+        <h2 className="text-xl font-semibold mb-2 mt-6">Données personnelles</h2>
         <p>
-          Pour plus d&apos;informations sur la gestion de vos données personnelles, veuillez consulter notre <a href="/politique-de-confidentialite" className="text-blue-500 hover:underline">Politique de Confidentialité</a>.
+          Pour plus d&apos;informations sur la gestion de vos données personnelles, veuillez consulter notre <a href="/politique-de-confidentialite" className="text-blue-400 hover:underline">Politique de Confidentialité</a>.
         </p>
 
-        <h2 className="text-xl font-semibold mb-2">Contact</h2>
-        <p>
-          Pour toute question ou demande d&apos;information concernant le site, vous pouvez nous contacter à l&apos;adresse suivante : [Adresse email].
-        </p>
       </div>
       <Footer />
     </div>

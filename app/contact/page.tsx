@@ -11,7 +11,7 @@ export default function Contact() {
                 <h1 className="text-white text-4xl text-center pt-4">Contact</h1>
                 <div className="flex flex-col items-center justify-center text-white">
                     <p className="text-center p-4">Pour toute question ou information, vous pouvez nous contacter à l&apos;adresse suivante : 
-                        <a href="mailto:abc@gmail.com" className="hover:underline">abc@gmail.com</a>
+                        <a href="mailto:noxatrisdev@gmail.com" className="hover:underline text-blue-400">noxatrisdev@gmail.com</a>
                     </p>
                 </div>
             </div>
