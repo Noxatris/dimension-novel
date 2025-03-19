@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div className="w-screen h-screen overflow-x-hidden relative">
             <Header />
-            <div className="w-full h-full bg-center bg-cover sticky md:relative shadow-shadowInset" style={{ backgroundImage: 'url(/bgMain.jpg)' }}>
+            <div className="w-full h-full bg-center bg-cover sticky md:relative shadow-shadowBg" style={{ backgroundImage: 'url(/bgMain.jpg)' }}>
                 <div className="hidden md:flex w-full bg-center bg-cover animate-[blurEffectSide_4s_ease-in-out_infinite_alternate] absolute" style={{ backgroundImage: 'url(/bgOverSide.png)' }}></div>
                 <div className="hidden md:flex w-full bg-center bg-cover animate-[blurEffectMiddle_4s_ease-in-out_infinite_alternate] absolute" style={{ backgroundImage: 'url(/bgOverMiddle.png)' }}></div>
                 <h1 className="text-white text-4xl text-center pt-4">Contact</h1>
