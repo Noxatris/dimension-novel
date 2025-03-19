@@ -32,11 +32,11 @@ export default function ListeChapter() {
     return (
         <>
             <div className='w-screen h-1 bg-gradient-to-r from-violet-500 to-purple-800 md:hidden'></div>
-            <ul className='w-full md:w-[40%] xl:w-[25%] md:min-h-[90vh] flex flex-col items-center shadow-xl bg-fixed bg-gradient-to-b from-zinc-950 to-gray-900'>
+            <div className='w-full md:w-[40%] xl:w-[25%] flex flex-col items-center shadow-xl bg-fixed bg-gradient-to-b from-zinc-950 to-gray-900'>
                 <div className='w-full flex justify-center items-center'>
                     <Image src="accolade.svg" width={0} height={0} alt="Titre Liste Chapitre" className='w-full' />
                 </div>
-                <div className='w-full md:overflow-y-scroll custom-scrollbar pt-8 flex flex-col items-center'>
+                <ul className='w-full md:overflow-y-scroll custom-scrollbar pt-8 flex flex-col items-center'>
                     {loading ? (
                         <AltListeChapter />
                     ) : (
@@ -51,8 +51,8 @@ export default function ListeChapter() {
                             </li>
                         ))
                     )}
-                </div>
-            </ul>
+                </ul>
+            </div>
         </>
     );
 }

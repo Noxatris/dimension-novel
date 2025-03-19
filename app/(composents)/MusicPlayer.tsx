@@ -21,24 +21,19 @@ export default function MusicPlayer({ currentTrack }: MusicPlayerProps) {
 
       const playAudio = async () => {
         try {
-          // Log pour déboguer
-          console.log(`Attempting to play track: ${currentTrack}`);
 
           // Mise à jour du src de l'audio
           audio.src = `/music/${currentTrack}`;
           audio.volume = volume / 100;
-          console.log(`Audio src set to: ${audio.src}`);
 
           // Charger et jouer l'audio
           await audio.load();
-          console.log(`Audio loaded`);
 
           // Lancer la lecture uniquement si utilisateur a cliqué sur play
           if (music) {
             await audio.play();
             setMusic(true);
           }
-          console.log(`Audio playing: ${audio.src}`);
         } catch (error) {
           console.error('Error playing audio:', error);
         }

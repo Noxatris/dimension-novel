@@ -64,7 +64,6 @@ export default function ChapterPage() {
       }
   
       if (newTrack && newTrack !== currentTrack) {
-        console.log(`Changement de musique : ${newTrack}`);
         setCurrentTrack(newTrack);
       }
     }, 4000); // Vérifie toutes les 5 secondes

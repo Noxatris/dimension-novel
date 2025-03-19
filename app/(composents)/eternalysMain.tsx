@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Eternalys() {
     return (
-        <div className='w-full xl:h-[90vh] md:w-[60%] xl:w-[30%] xl:m-auto bg-black/55 flex flex-col items-center md:justify-between bg-top bg-cover shadowTest' style={{ backgroundImage: 'url(coverClear.png)' }} >
+        <div className='w-full md:h-auto md:min-h-[90vh] md:w-[60%] xl:w-[30%] xl:m-auto bg-black/55 flex flex-col items-center md:justify-between bg-top bg-cover shadowTest' style={{ backgroundImage: 'url(coverClear.png)' }} >
             <div className="w-full pt-8 px-4">
                 <h1 className="font-[medievalSharp] text-2xl border-b-4 border-yellow-300 flex justify-center mb-8 pb-1 rounded-md">Eternalys : Éveil et Vengeance</h1>
                 <div className="mb-8 *:mb-2 md:px-6">
