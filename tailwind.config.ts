@@ -38,7 +38,8 @@ export default {
       },
       boxShadow: {
         'dotEffect': '0 0 8px rgba(255, 255, 255, 0.6)',
-        'shadowInset': 'inset 0 0 0 1000px rgba(0,0,0,.7)'
+        'shadowInset': 'inset 0 0 0 1000px rgba(0,0,0,.7)',
+        'shadowBg' : 'inset 0 0 0 1000px rgba(0, 0, 0, 0.4)',
       },
     },
   },

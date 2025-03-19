@@ -45,7 +45,7 @@ export default function ListeChapter() {
                                 <Link href={`/eternalys/${chapter.slug}`} passHref className='w-full'>
                                     <div className='flex items-center w-full p-3 text-[1.2em] rounded-lg hover:border-yellow-300 transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer'>
                                         <span className='flex justify-center items-center p-4 rounded-full w-[15px] h-[15px] bg-gradient-to-r from-gray-800 to-indigo-600 text-xl mr-4'>{index + 1}</span>
-                                        <span className='text-white font-semibold text-shadow'>{chapter.title}</span>
+                                        <span className='text-white font-semibold'>{chapter.title}</span>
                                     </div>
                                 </Link>
                             </li>

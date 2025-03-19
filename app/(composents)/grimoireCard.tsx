@@ -27,7 +27,7 @@ export default function GrimoireCard({ color, title, image, description, url }: 
                 </motion.div>
 
                 {/* Description qui apparaît sous l’image */}
-                <div className={`absolute w-full h-full flex flex-col text-white items-center justify-around p-4 bg-grimoire-page bg-cover text-black rounded-2xl border-2 border-gray-700 shadowTest ${isFlipped ? "opacity-100" : "opacity-0"} transition-opacity duration-500`}>
+                <div className={`absolute w-full h-full flex flex-col text-white items-center justify-around p-4 bg-cover bg-center text-black rounded-2xl border-2 border-gray-700 shadow-shadowBg ${isFlipped ? "opacity-100" : "opacity-0"} transition-opacity duration-500`} style={{ background : 'url(/grimoirePage.jpeg)' }}>
                     <h2 className={`text-${color} medievalFont text-2xl md:text-3xl`}>{title}</h2>
                     <div className="whitespace-pre-line medievalFont text-lg md:text-xl p-2 rounded-lg shadow-inner h-[70%] overflow-y-scroll custom-scrollbar">
                         {description}

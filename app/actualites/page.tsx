@@ -51,7 +51,7 @@ export default function Actualite() {
   return (
     <>
       <Header />
-      <section className="min-h-[80vh] flex flex-col items-center pt-8 px-4 md:px-8 lg:px-12 shadowTest" 
+      <section className="min-h-[80vh] flex flex-col items-center pt-8 px-4 md:px-8 lg:px-12 shadow-shadowBg" 
         style={{background: 'url(/bgMain.jpg) center/cover'}}>
         
         <h2 className="text-2xl xl:text-4xl medievalFont border-b-4 border-violet-700 py-4 w-full xl:w-[25%] text-center mb-8 

@@ -7,7 +7,7 @@ import InfoBulle from './(composents)/infoBulle';
 export default function Home() {
   return (
     <div className="w-screen overflow-x-hidden relative">
-      <div className="w-full flex flex-col items-center bg-center bg-cover shadowTest" style={{ backgroundImage: 'url(/bgMainTest.png)' }}>
+      <div className="w-full flex flex-col items-center bg-center bg-cover shadow-shadowBg" style={{ backgroundImage: 'url(/bgMainTest.png)' }}>
         <InfoBulle />
         <div className='flex flex-col items-center justify-center w-full mt-16 px-2'>
           <Image src="/logoAlone.png" width={300} height={300} alt='Icone grimoire' className='w-[200px] h-[200px] xl:w-[300px] xl:h-[300px]' />
