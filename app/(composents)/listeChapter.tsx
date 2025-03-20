@@ -32,7 +32,7 @@ export default function ListeChapter() {
     return (
         <>
             <div className='w-screen h-1 bg-gradient-to-r from-violet-500 to-purple-800 md:hidden'></div>
-            <div className='w-full md:w-[40%] xl:w-[25%] flex flex-col items-center shadow-xl bg-fixed bg-gradient-to-b from-zinc-950 to-gray-900'>
+            <div className='w-full md:w-[40%] xl:w-[25%] md:max-h-[90vh] md:overflow-y-scroll flex flex-col items-center shadow-xl bg-fixed bg-gradient-to-b from-zinc-950 to-gray-900'>
                 <div className='w-full flex justify-center items-center'>
                     <Image src="accolade.svg" width={0} height={0} alt="Titre Liste Chapitre" className='w-full' />
                 </div>

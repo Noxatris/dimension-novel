@@ -25,8 +25,11 @@ export default function Information() {
                 <p>Je compte aussi ajouter la possibilité à ceux soutenant le projet (pas uniquement financièrement) d&apos;intervenir sur l&apos;histoire via des sondages.</p>
                 <p>Mais vous pouvez soutenir le projet en likant mon novel sur les différentes plateformes.</p>
                 <h3 className="mt-4 mb-8 text-xl border-b-2 border-violet-700 px-8 pb-2 w-full xl:w-auto flex justify-center items-center">Liste des plateformes</h3>
-                <ul>
+                <ul className="flex flex-col md:flex-row justify-center items-center w-full md:w-auto gap-4 md:gap-8">
                     <li><Link href="https://www.wattpad.com/story/385719600-eternalys-%C3%A9veil-et-vengeance" className="px-4 py-2 border-purple-600 border-2 animate-pulse rounded-xl mt-8">Wattpad</Link></li>
+                    <li><Link href="https://www.webnovel.com/book/32232151300096205" className="px-4 py-2 border-purple-600 border-2 animate-pulse rounded-xl mt-8">WebNovel</Link></li>
+                    <li><Link href="https://www.goodnovel.com/book/Eternalys-%C3%89veil-et-Vengeance_31000967473" className="px-4 py-2 border-purple-600 border-2 animate-pulse rounded-xl mt-8">GoodNovel</Link></li>
+                    <li><Link href="https://www.atelierdesauteurs.com/text/1497936210/eternalys---eveil-et-vengeance" className="px-4 py-2 border-purple-600 border-2 animate-pulse rounded-xl mt-8">Atelier des auteurs</Link></li>
                 </ul>
             </section>
             <section className="flex flex-col md:items-center pt-8 mb-8 px-4 md:px-8 lg:px-12 lg:mt-[5vh]">
