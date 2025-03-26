@@ -26,7 +26,7 @@ export default function Header() {
             {/* Liste des liens */}
             <ul className={`w-full xl:h-full shadow-lg rounded-md overflow-hidden xl:w-[40%] xl:shadow-none xl:flex xl:flex-row-reverse xl:justify-end xl:text-lg transition-all duration-500 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 xl:max-h-[120px] opacity-0 xl:opacity-100'}`}>
                 <li className="h-full w-full xl:w-[25%]">
-                    <Link href="/" className="flex justify-center items-center w-full xl:h-full border-pink-600 hover:bg-black/20 hover:text-pink-600 hover:border-b-4 py-4 xl:py-0">Acceuil</Link>
+                    <Link href="/" className="flex justify-center items-center w-full xl:h-full border-pink-600 hover:bg-black/20 hover:text-pink-600 hover:border-b-4 py-4 xl:py-0">Accueil</Link>
                 </li>
                 <li className="h-full w-full xl:w-[25%]">
                     <Link href="/eternalys" className="flex justify-center items-center w-full xl:h-full border-pink-600 hover:bg-black/20 hover:text-pink-600 hover:border-b-4 py-4 xl:py-0">Eternalys</Link>
