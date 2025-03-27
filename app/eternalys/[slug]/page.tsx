@@ -136,7 +136,7 @@ export default function ChapterPage() {
           </div>
         </div>
 
-        <div ref={contentRef} className={`xl:mx-[25vw] h-[auto] py-8 px-4 ${background ? 'bg-fixed bg-center shadow-shadowBgDarker' : 'bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20'} transition-all duration-300`} style={background ? { backgroundImage: `url(/bgChapter/${chapter.bgImage})` } : {}}>
+        <div ref={contentRef} className={`xl:mx-[25vw] h-[auto] py-8 px-4 ${background ? 'bg-fixed bg-center bg-cover shadow-shadowBgDarker' : 'bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/20'} transition-all duration-300`} style={background ? { backgroundImage: `url(/bgChapter/${chapter.bgImage})` } : {}}>
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             components={renderers} // Utilisation du rendu personnalisé
