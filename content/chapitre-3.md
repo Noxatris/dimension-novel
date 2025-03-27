@@ -1,7 +1,7 @@
 ---
 title: "Fuites souterraines"
 date: "2025-01-13"
-slug: "chapitre-3"
+slug: "3"
 bgImage: "sewer.webp"
 ---
 

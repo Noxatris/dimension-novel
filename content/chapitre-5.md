@@ -1,7 +1,7 @@
 ---
 title: "Plonger dans le passé"
 date: "2025-02-16"
-slug: "chapitre-5"
+slug: "5"
 bgImage: "classroom.webp"
 ---
 

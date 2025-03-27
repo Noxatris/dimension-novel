@@ -1,7 +1,7 @@
 ---
 title: "Sang et sueur"
 date: "2025-02-21"
-slug: "chapitre-8"
+slug: "8"
 bgImage: "immeubleChantier.webp"
 ---
 

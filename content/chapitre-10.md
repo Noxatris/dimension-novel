@@ -1,0 +1,180 @@
+---
+title: "Sans pouvoir se retourner"
+date: "2025-03-26"
+slug: "10"
+bgImage: "axePrincipal.webp"
+---
+
+#### music:/Panic_Attack.mp3
+
+# Chapitre 10 : Sans pouvoir se retourner
+
+*POINT DE VUE DE GABRIEL*
+
+J’essuyais la lame de mon couteau sur son gilet tactique, là où il n’était pas encore imbibé de sang, puis me redressais. Calmement.
+
+Cette humanité que je pensais avoir regagnée, jour après jour après avoir quitté l’armée, n'était qu’une illusion.
+
+Pas une larme, un remords, pas de pitié. Tuez. Encore.
+
+Lorsque je me tournai vers Sarah, toujours postée au milieu de cette mare de sang, je pouvais voir le choc dans ses yeux, l’incompréhension, la surprise, le doute, tant de questions qui devaient se mélanger dans sa tête. Je pouvais apercevoir ses lèvres se décoller légèrement, sans un son.
+
+J'aurais préféré que personne ne la voie, cette partie enfouie, ce vrai moi…
+
+J’avançais vers elle, lentement, le visage ferme, puis d’une voix profonde prononça :
+
+— Allez, on y va.
+
+Je reprenais la route tandis qu’elle s’exécutait sans un mot.
+
+Plus nous progressions dans le quartier, plus le nombre d'escouades patrouillant augmentait.
+
+Nous n’avions pas le droit à l’erreur, l’ennemi n’était plus uniquement face à nous mais aussi derrière nous.
+
+Certaines intersections étaient éclairées par de puissants projecteurs et gardées par une escouade, tandis que les ruelles étaient illuminées périodiquement par le projecteur de l’hélicoptère faisant des allers-retours dans le ciel.
+
+Cela faisait maintenant une heure que nous jonglions entre les passages de l’hélico et les patrouilles, et le timing se resserrait de plus en plus. Seulement au bout d’un moment, nous nous arrêtions au niveau d’une ruelle agitée.
+
+À une dizaine de mètres, un groupe de civils était escorté par des hommes de True Human.
+
+— Qu’est-ce qu’ils font ? chuchota discrètement Sarah, se serrant le plus possible contre le mur.
+
+True Human escortait des groupes de civils résidant dans les immeubles alentour, et semblait les emmener vers un autre endroit. Ceux tentant de se rebeller se faisaient corriger d’un coup de crosse dans l’estomac puis traîner de force. 
+
+— On ne peut pas traîner ici, on va finir par se faire chopper, il ne patrouille plus, il traque.
+
+— Et ça change quoi ?
+
+— Ça change tout.
+
+J’avançais vers la porte d’entrée de l’immeuble le plus proche. Verrouillé. Je faisais rapidement le tour du bâtiment par l’une des ruelles juste derrière nous.
+
+Je me tournai puis lui désignai la fenêtre du doigt, située à environ deux mètres du sol. Je me plaçai, dos au mur, jambe fléchie.
+
+Elle grimpa sur mes épaules tandis que je balayai la ruelle du regard pour m’assurer que personne n’approchait, puis soudain le poids sur mes épaules disparut.
+
+Je me retournai puis sautai, m’agrippant au rebord de la fenêtre et me hissant à l’intérieur.
+
+La fenêtre donnait sur un vieil appartement délabré, la porte d’entrée était directement visible et entrouverte. Cet endroit avait déjà été fouillé à plusieurs reprises.
+
+Nous sortions puis empruntions l’escalier central menant jusqu’au dernier étage, cependant l’escalier ne donnait pas accès au toit.
+
+Je pris un instant pour observer le couloir tandis que Sarah repéra rapidement une trappe au plafond.
+
+— Porte-moi sur tes épaules pour que je puisse atteindre la trappe. Demanda Sarah.
+
+Je m’abaissai afin de l’aider à grimper sur mes épaules puis la soulevai. 
+
+Elle prit plusieurs secondes avant qu’un cliquetis ne retentisse. 
+
+La trappe s’ouvrit laissant descendre un escalier en bois rétractable, alors qu’elle commençait à ouvrir la marche, je la bloquais avec mon bras m’avançant en position.
+
+Si je cherchais à me cacher de True Human, c’est exactement là où j’irai. Et avec la surprise et la peur, les gens ont tendance à réagir de manière regrettable.
+
+J’enclenchai la montée, marche après marche, le bois craquelant légèrement sous mes pas tandis que j’essayais de faire le moins de bruit possible. 
+
+Alors que j’arrivais au niveau où ma tête allait dépasser l’ouverture, je montais les dernières marches rapidement, ratissant les moindres angles du grenier avec ma lampe torche.
+
+Je chuchotai “RAS”.
+
+Une fois montée, Sarah rétractait l’escalier.
+
+Quelques rats parcouraient le grenier plongé dans le noir.
+
+Sarah se tournait frénétiquement vers les bruits provoqués.
+
+— Il n’y a rien ici, pas besoin de stresser. On avance.
+
+Elle resta silencieuse, mais je pouvais l’entendre prendre une grande inspiration et ressaisir son arme fermement.
+
+Un labyrinthe de toiles d’araignée nous séparait d’une porte laissant échapper une légère lueur naturelle par l’interstice.
+
+Je progressais dans la pièce tant bien que mal, tout en essayant d’enlever toutes ces toiles sur le chemin, puis ouvris la porte.
+
+Elle menait sur une petite pièce vide composée d’une fenêtre et d’un tout petit balcon.
+
+Je tirai de toutes mes forces sur la poignée de la fenêtre, l’ouvrant net. La serrure était cassée mais vu l’état du bois en partie rongé par l’humidité, cela ne causait pas de problème.
+
+Je passai sur le balcon, enjambai la barrière métallique, puis escaladai pour atteindre le toit.
+
+True Human ne semblait pas le savoir, mais depuis que le gouvernement avait abandonné la zone, les rues étaient dangereuses et la plupart des civils passaient par les toits pour se déplacer. 
+
+Nous allions profiter de ses passerelles pour traverser le quartier en toute discrétion, dorénavant notre seul ennemi était l’hélicoptère qui survolait la zone de temps en temps.
+
+À partir de là, nous progressions discrètement de toit en toit, nous dirigeant vers le quartier général. 
+
+Nous contournions un grand nombre d'escouades, ce qui me confortait dans l’idée que j’avais clairement pris la bonne décision.
+
+Cependant, quelque chose m’intriguait, il y avait bien trop de patrouilles et surtout ils emmenaient des civils. Pourquoi ?
+
+Je décidai de suivre l’une d’entre elles, qui escortait un groupe de trois civils. Après plusieurs minutes, nous arrivions sur un immense parking.
+
+Je reconnaissais tout de suite cet endroit, c’est ici que nos différentes escouades avaient été déployées avec le matos pour notre opération.
+
+Le parking avait été transformé en base opérationnelle pour True Human. Une immense remorque avait été déployée et de grandes tentes disposées autour.
+
+Je me déplaçai sur un autre toit, un peu plus loin, pour mieux voir la scène.
+
+Au loin, en contrebas, des civils escortés étaient emmenés au niveau des tentes tandis que d’autres en sortaient afin d’être regroupés dans un coin proche de la base.
+
+Sarah rapprocha son doigt de la détente, fixant la scène en contrebas.
+
+— Pourquoi rassemble-t-il des civils en bas, et qui sont les hommes en tenue blanche et rouge ?
+
+— Et bien, par le passé nous pourrions comparer les soldats que l’on croise habituellement à des policiers, là on fait face à l’armée…
+
+Alors que je commençai à partir, la porte de la base s’ouvrit laissant apparaître un homme.
+
+Des cheveux mi-longs châtains dont une mèche violacée qui descendait entre ses yeux, une blouse blanche ornée d’une multitude de décorations militaires, aucun doute, c’était Ilvaro, l’un des généraux de True Human, chef du département de recherche sur les Éveillés en personne.
+
+Je sentis comme un frisson me parcourir le corps, alors que je détournai le regard vers Sarah. 
+
+Elle tenait durement la poignée de son arme, ne quittant pas du regard Ilvaro. 
+
+Puis, d’une voix tremblotante, elle demanda:
+
+— Qu’est-ce qu’il fait là, lui ?
+
+Sa tête est mise à prix par les Sangs-Divins. S’ils apprenaient sa présence ici, le parking serait démoli sous l’assaut immédiat de toute leur faction. Serait-ce une provocation ou de la pure folie ?
+
+— Je sais que ça te démange mais si tu tires, on est mort, le mieux que l’on puisse faire c’est de retrouver le quartier général, à partir de là on pourra négocier l’extraction d’Adrien et des autres sans problème en échange de sa position et je peux t’assurer qu’il ne s’en sortira pas vivant.
+
+Je posai ma main sur le canon de l’arme de Sarah, l’abaissant.
+
+#### music:/Leaving_Home.mp3
+
+— Allez, perdons pas de temps, plus vite on atteindra le quartier général, plus vite les Sangs-Divins viendront lui régler son compte.
+
+Alors que je commençai à me redresser pour partir, elle resta de marbre, le regard plongé en contrebas.
+
+— Il a quelque chose derrière la tête, sinon il ne serait jamais venu ici.
+
+Les civils se faisaient déplacer au niveau du bâtiment, les mains attachées derrière le dos.
+
+Ilvaro, qui était descendu, semblait leur faire un grand discours avec une gestuelle presque théâtrale, tandis que ces hommes mettaient à genoux un à un les civils.
+
+Soudain, il sortit un pistolet de sa blouse, le pointa en direction du civil le plus proche.
+
+La tension montait d’un cran, parmi les civils se trouvaient des enfants et Ilvaro semblait hausser le ton au point que l’on pouvait vaguement entendre l’écho de sa voix.
+
+Il changeait frénétiquement de cible, criant toujours de plus en plus fort, puis, au bout d’un moment, son canon s’arrêta.
+
+Face à lui, un vieil homme, les cris de désespoir des autres civils se répercutant dans les ruelles alentours.
+
+Une détonation.
+
+ Le corps du vieil homme s’écroulait sur le sol, inerte, son sang se répondant sur le bitume.
+
+Un silence.
+
+Le monde se mit en pause, muet face à cette scène.
+
+Alors qu’une rage bouillonnante déchirait mes entrailles, je me tournais vers Sarah.
+
+Son regard était vide, glacial, son viseur aligné entre elle et Ilvaro, une larme s’écoulant le long de sa joue venant remplir un vase déjà bien trop plein.
+
+## Liste des musique utilisé
+
+Panic Attack Par David Robson
+
+Leaving Home par Kevin Macleod

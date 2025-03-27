@@ -19,7 +19,15 @@ export default function ListeChapter() {
             try {
                 const response = await fetch('/api/chapters');
                 const data = await response.json();
-                setChapters(data.chapters);
+
+                // Trier les chapitres par ordre croissant de slug
+                const sortedChapters = data.chapters.sort((a: Chapter, b: Chapter) => {
+                    const slugA = parseInt(a.slug, 10);
+                    const slugB = parseInt(b.slug, 10);
+                    return slugA - slugB;
+                });
+
+                setChapters(sortedChapters);
             } catch (error) {
                 console.error('Error fetching chapters:', error);
             } finally {

@@ -1,7 +1,7 @@
 ---
 title: "Entrée en territoire ennemie"
 date: "2025-02-27"
-slug: "chapitre-9"
+slug: "9"
 bgImage: "axePrincipal.webp"
 ---
 

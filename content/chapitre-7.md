@@ -1,7 +1,7 @@
 ---
 title: "Séparation et Affrontement"
 date: "2025-02-20"
-slug: "chapitre-7"
+slug: "7"
 bgImage: "ruelle.webp"
 ---
 

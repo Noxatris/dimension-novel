@@ -1,7 +1,7 @@
 ---
 title: "Le voile de la nuit"
 date: "2025-02-19"
-slug: "chapitre-6"
+slug: "6"
 bgImage: "classroom.webp"
 ---
 

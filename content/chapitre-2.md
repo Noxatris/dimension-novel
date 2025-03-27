@@ -1,7 +1,7 @@
 ---
 title: "Interception"
 date: "2025-01-12"
-slug: "chapitre-2"
+slug: "2"
 bgImage: "assault.webp"
 ---
 
