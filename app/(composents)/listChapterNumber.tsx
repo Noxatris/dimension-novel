@@ -19,7 +19,15 @@ export default function ListeChapterNbr() {
         const fetchChapter = async () => {
             const allChaptersResponse = await fetch('/api/chapters');
             const allChaptersData = await allChaptersResponse.json();
-            setChapters(allChaptersData.chapters);
+
+            // Trier les chapitres par ordre croissant de slug
+            const sortedChapters = allChaptersData.chapters.sort((a: Chapter, b: Chapter) => {
+                const slugA = parseInt(a.slug, 10);
+                const slugB = parseInt(b.slug, 10);
+                return slugA - slugB;
+            });
+
+            setChapters(sortedChapters);
         };
         fetchChapter();
     }, [params.slug]);
