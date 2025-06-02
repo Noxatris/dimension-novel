@@ -11,10 +11,13 @@ export async function GET(request: Request) {
   }
 
   const chapters = getAllChapters();
-  const currentIndex = chapters.findIndex(chapter => chapter.slug === slug);
+  console.log("Les chapitre", chapters)
+  const currentIndex = chapters.findIndex(chapter => String(chapter.slug) === String(slug));
 
   if (next) {
+    console.log("Index", currentIndex)
     const nextChapter = chapters[currentIndex + 1];
+    console.log(nextChapter)
     if (nextChapter) {
       return NextResponse.json({ chapter: nextChapter });
     } else {

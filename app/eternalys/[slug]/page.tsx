@@ -15,7 +15,7 @@ import { faImage, faSpinner } from '@fortawesome/free-solid-svg-icons';
 interface Chapter {
   title: string;
   content: string;
-  slug: string;
+  slug: number;
   bgImage: string;
 }
 

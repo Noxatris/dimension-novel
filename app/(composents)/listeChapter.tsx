@@ -7,7 +7,7 @@ import AltListeChapter from './Squeltron/alt_listeChapter';
 
 interface Chapter {
     title: string;
-    slug: string;
+    slug: number;
 }
 
 export default function ListeChapter() {
@@ -22,8 +22,8 @@ export default function ListeChapter() {
 
                 // Trier les chapitres par ordre croissant de slug
                 const sortedChapters = data.chapters.sort((a: Chapter, b: Chapter) => {
-                    const slugA = parseInt(a.slug, 10);
-                    const slugB = parseInt(b.slug, 10);
+                    const slugA = a.slug;
+                    const slugB = b.slug;
                     return slugA - slugB;
                 });
 

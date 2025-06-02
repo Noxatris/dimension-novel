@@ -7,7 +7,7 @@ import html from 'remark-html';
 interface ChapterMeta {
   title: string;
   date: string;
-  slug: string;
+  slug: number;
   content: string;
 }
 

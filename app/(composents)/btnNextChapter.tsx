@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 interface Chapter {
     title: string;
     content: string;
-    slug: string;
+    slug: number;
   }
 
 export default function BtnNextChapter({props} : {props: Chapter | null}) {
