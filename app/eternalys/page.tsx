@@ -7,8 +7,8 @@ export default function EternalysMain() {
 
   return (
     <div>
-      <div className='w-full flex flex-col items-center md:flex-row md:items-start md:justify-between xl:bg-[url(/eternalysBg.png)] shadow-shadowBg bg-center bg-cover'>
-        <div className='flex flex-col md:flex-row md:justify-between'>
+      <div className='w-full'>
+        <div className='w-full flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 bg-gradient-to-b from-gray-800 to-indigo-600' style={{backgroundImage: 'url(/eternalysBg.png)'}}>
           <Eternalys />
           <ListeChapter />
         </div>
