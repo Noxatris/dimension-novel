@@ -67,7 +67,9 @@ export default function ChapterPage() {
   }, [chapter, currentTrack]);
 
   const renderers = {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     h4: ({ node, ...props }: any) => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const text = node.children?.map((child: any) => child.value).join('');
       if (typeof text === 'string' && text.startsWith('music:')) {
         const track = text.replace('music:', '').trim();
