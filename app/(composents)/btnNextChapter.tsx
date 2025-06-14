@@ -3,7 +3,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useRouter } from 'next/navigation';
 
 
-export default function BtnNextChapter({props} : {props: Number | null}) {
+export default function BtnNextChapter({props} : {props: number | null}) {
 
     const router = useRouter();
 

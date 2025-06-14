@@ -22,7 +22,7 @@ interface Chapter {
 export default function ChapterPage() {
   const params = useParams();
   const [chapter, setChapter] = useState<Chapter | null>(null);
-  const [nextChapter, setNextChapter] = useState<Number | null>(null);
+  const [nextChapter, setNextChapter] = useState<number | null>(null);
   const [background, setBackground] = useState(false);
   const [currentTrack, setCurrentTrack] = useState<string | null>(null);
   const [isVisible, setIsVisible] = useState(true); // État pour gérer la visibilité du menu
