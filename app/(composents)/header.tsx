@@ -1,43 +1,74 @@
 'use client'
 
-import { useState } from "react";
-import Link from "next/link";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react'
+import Link from 'next/link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
-    return (
-        <header className="w-screen xl:h-[120px] flex flex-wrap items-center shadow-2xl bg-gradient-to-b from-gray-800 to-indigo-600 xl:flex-nowrap">
-            <div className="flex items-center p-4 xl:p-8 w-[80%] xl:w-[60%]">
-                <div className="flex items-center">
-                    <img src="/logoAlone.png" alt="Logo" className="h-[45px] xl:h-[55px]" />
-                    <h1 className="text-xl xl:text-3xl ml-2 medievalFont">Dimension Novels</h1>
-                </div>
-            </div>
-            <button
-                onClick={() => setIsOpen(!isOpen)}
-                className="w-[20%] p-2 text-white rounded-md focus:outline-none xl:hidden"
-            >
-                <FontAwesomeIcon icon={faBars} className="fa-fw" />
-            </button>
+  return (
+    <header className="w-full bg-zinc-900 shadow-xl z-50">
+      <div className="max-w-screen-xl mx-auto flex items-center justify-between px-6 py-4 xl:py-6">
+        {/* Logo et titre */}
+        <Link href="/" className="flex items-center space-x-3">
+          <img src="/logoAlone.png" alt="Logo" className="h-10 xl:h-14" />
+          <span className="text-white text-2xl xl:text-3xl font-semibold medievalFont">
+            Dimension Novels
+          </span>
+        </Link>
 
-            {/* Liste des liens */}
-            <ul className={`w-full xl:h-full shadow-lg rounded-md overflow-hidden xl:w-[40%] xl:shadow-none xl:flex xl:flex-row-reverse xl:justify-end xl:text-lg transition-all duration-500 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 xl:max-h-[120px] opacity-0 xl:opacity-100'}`}>
-                <li className="h-full w-full xl:w-[25%]">
-                    <Link href="/" className="flex justify-center items-center w-full xl:h-full border-pink-600 hover:bg-black/20 hover:text-pink-600 hover:border-b-4 py-4 xl:py-0">Accueil</Link>
-                </li>
-                <li className="h-full w-full xl:w-[25%]">
-                    <Link href="/eternalys" className="flex justify-center items-center w-full xl:h-full border-pink-600 hover:bg-black/20 hover:text-pink-600 hover:border-b-4 py-4 xl:py-0">Eternalys</Link>
-                </li>
-                <li className="h-full w-full xl:w-[25%]">
-                    <Link href="/actualites" className="flex justify-center items-center w-full xl:h-full border-pink-600 hover:bg-black/20 hover:text-pink-600 hover:border-b-4 py-4 xl:py-0">Actualité</Link>
-                </li>
-                <li className="h-full w-full xl:w-[25%]">
-                    <Link href="/informations" className="flex justify-center items-center w-full xl:h-full border-pink-600 hover:bg-black/20 hover:text-pink-600 hover:border-b-4 py-4 xl:py-0">Information</Link>
-                </li>
-            </ul>
-        </header>
-    )
+        {/* Menu burger (mobile) */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="text-white xl:hidden text-2xl focus:outline-none transition-transform duration-300"
+        >
+          <FontAwesomeIcon icon={faBars} />
+        </button>
+
+        {/* Liens desktop */}
+        <ul className="hidden xl:flex space-x-6 text-white text-lg font-medium">
+          {navLinks.map(({ href, label }) => (
+            <li key={href}>
+              <Link
+                href={href}
+                className="hover:text-pink-500 transition-colors border-b-2 border-transparent hover:border-pink-500 pb-1"
+              >
+                {label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Menu mobile */}
+      <div
+        className={`xl:hidden overflow-hidden transition-all duration-500 ease-in-out ${
+          isOpen ? 'max-h-60 bg-zinc-900/90 backdrop-blur-md' : 'max-h-0'
+        }`}
+      >
+        <ul className="flex flex-col text-white text-center text-lg font-medium divide-y divide-pink-400">
+          {navLinks.map(({ href, label }) => (
+            <li key={href}>
+              <Link
+                href={href}
+                onClick={() => setIsOpen(false)}
+                className="block py-4 hover:text-pink-400 transition-colors"
+              >
+                {label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </header>
+  )
 }
+
+const navLinks = [
+  { href: '/', label: 'Accueil' },
+  { href: '/eternalys', label: 'Eternalys' },
+  { href: '/actualites', label: 'Actualité' },
+  { href: '/informations', label: 'Information' }
+]

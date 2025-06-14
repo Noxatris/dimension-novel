@@ -1,74 +1,87 @@
+'use client';
+
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp, faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface Chapter {
     title: string;
-    content: string;
     slug: string;
 }
 
 export default function ListeChapterNbr() {
     const params = useParams();
     const [chapters, setChapters] = useState<Chapter[]>([]);
-    const [showChapters, setShowChapters] = useState(false);
+    const [open, setOpen] = useState(false);
 
+    /* ─── Récupération & tri ────────────────────────────────────────────────── */
     useEffect(() => {
-        const fetchChapter = async () => {
-            const allChaptersResponse = await fetch('/api/chapters');
-            const allChaptersData = await allChaptersResponse.json();
-
-            // Trier les chapitres par ordre croissant de slug
-            const sortedChapters = allChaptersData.chapters.sort((a: Chapter, b: Chapter) => {
-                const slugA = parseInt(a.slug, 10);
-                const slugB = parseInt(b.slug, 10);
-                return slugA - slugB;
-            });
-
-            setChapters(sortedChapters);
+        const fetchChapters = async () => {
+            const res = await fetch('/api/chapters');
+            const { chapters: all } = await res.json();
+            setChapters(
+                (all as Chapter[]).sort(
+                    (a, b) => parseInt(a.slug, 10) - parseInt(b.slug, 10)
+                )
+            );
         };
-        fetchChapter();
+        fetchChapters();
     }, [params.slug]);
 
-    const toggleChapters = () => {
-        setShowChapters(!showChapters);
-    };
-
+    /* ─── Rendu ─────────────────────────────────────────────────────────────── */
     return (
-        <div className='relative w-[70%] h-[80%] flex flex-col-reverse justify-center items-center z-10'>
+        <div className="relative w-full md:w-[60%]">
+            {/* Bouton d’ouverture / fermeture */}
             <button
-                onClick={toggleChapters}
-                className='w-full h-10 flex items-center rounded-full bg-gradient-to-r from-gray-800 to-blue-500 gradientMoveAnimation z-20 px-4 shadow-lg'
+                onClick={() => setOpen(!open)}
+                className="w-full h-12 flex items-center justify-between px-5 rounded-full
+                   bg-gradient-to-r from-yellow-400 via-orange-400 to-pink-500
+                   text-black font-bold shadow-lg hover:brightness-110 transition"
             >
-                <h2 className='w-5/6 pr-2 text-white font-semibold hover:cursor-pointer focus:cursor-pointer'>
-                    Liste des Chapitres
-                </h2>
-                <FontAwesomeIcon icon={faArrowUp} className="fa-fw text-white" />
+                Liste des Chapitres
+                <motion.span
+                    animate={{ rotate: open ? 180 : 0 }}
+                    transition={{ duration: 0.3 }}
+                >
+                    <FontAwesomeIcon icon={faChevronUp} />
+                </motion.span>
             </button>
-            {showChapters && (
-                <nav className="absolute max-h-[40vh] w-full overflow-x-hidden overflow-y-scroll custom-scrollbar2 rounded-t-2xl shadow-xl z-10 mb-[3vh] transition-all duration-300 ease-in-out bottom-0">
-                    <ul className="flex flex-col w-full h-full items-center bg-gradient-to-b from-gray-800/80 to-indigo-600/80 px-4 pb-4 rounded-t-lg">
-                        {chapters.map((chap, index) => (
-                            <li key={chap.slug} className='w-full'>
-                                <Link href={`/eternalys/${chap.slug}`}>
-                                    <div className="w-full border-l-4 bg-gradient-to-b from-indigo-600 to-indigo-800 border-pink-600 flex justify-center items-center py-2 shadow-xl rounded-r-lg my-2 hover:bg-blue-500/20 transition-all duration-200 ease-in-out">
-                                        <FontAwesomeIcon icon={faBookOpen} className="fa-fw text-pink-600 mr-3" />
-                                        <span className="text-white font-medium truncate flex items-center hover:cursor-pointer focus:cursor-pointer">
-                                            Chapitre {index + 1}
-                                        </span>
-                                    </div>
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
-                </nav>
-            )}
+
+            {/* Drawer des chapitres */}
+            <AnimatePresence initial={false}>
+                {open && (
+                    <motion.nav
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.45, ease: 'easeInOut' }}
+                        className="absolute left-0 right-0 bottom-[calc(100%+0.5rem)]
+             bg-zinc-900/90 backdrop-blur-md rounded-2xl
+             shadow-xl overflow-hidden"
+                    >
+                        <ul className="overflow-y-auto max-h-[50vh] custom-scrollbar px-4 py-4 space-y-3">
+                            {chapters.map((chap, i) => (
+                                <li key={chap.slug}>
+                                    <Link
+                                        href={`/eternalys/${chap.slug}`}
+                                        className="flex items-center gap-3 w-full
+                     bg-zinc-800/60 hover:bg-zinc-700/60
+                     border border-pink-500/40 hover:border-pink-500
+                     rounded-xl px-4 py-2 transition"
+                                    >
+                                        <FontAwesomeIcon icon={faBookOpen} className="text-pink-400 shrink-0" />
+                                        <span className="text-gray-200">Chapitre {String(i + 1).padStart(2, '0')}</span>
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </motion.nav>
+
+                )}
+            </AnimatePresence>
         </div>
     );
 }
-
-
-
-
