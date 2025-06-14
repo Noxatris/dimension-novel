@@ -2,19 +2,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useRouter } from 'next/navigation';
 
-interface Chapter {
-    title: string;
-    content: string;
-    slug: number;
-  }
 
-export default function BtnNextChapter({props} : {props: Chapter | null}) {
+export default function BtnNextChapter({props} : {props: Number | null}) {
 
     const router = useRouter();
 
     const handleNextChapter = () => {
         if (props) {
-          router.push(`/eternalys/${props.slug}`);
+          router.push(`/eternalys/${props}`);
         }
       };
 

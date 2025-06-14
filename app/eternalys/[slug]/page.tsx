@@ -22,7 +22,7 @@ interface Chapter {
 export default function ChapterPage() {
   const params = useParams();
   const [chapter, setChapter] = useState<Chapter | null>(null);
-  const [nextChapter, setNextChapter] = useState<Chapter | null>(null);
+  const [nextChapter, setNextChapter] = useState<Number | null>(null);
   const [background, setBackground] = useState(false);
   const [currentTrack, setCurrentTrack] = useState<string | null>(null);
   const [isVisible, setIsVisible] = useState(true); // État pour gérer la visibilité du menu
@@ -35,10 +35,9 @@ export default function ChapterPage() {
       const data = await response.json();
       setChapter(data.chapter);
 
-      // Fetch next chapter
-      const nextResponse = await fetch(`/api/chapters/${data.chapter.slug}?next=true`);
-      const nextData = await nextResponse.json();
-      setNextChapter(nextData.chapter);
+      if (params.slug !== undefined && params.slug < data.maxChapter ) {
+        setNextChapter(Number(params.slug) + 1);
+      }
 
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };

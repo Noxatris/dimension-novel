@@ -11,20 +11,24 @@ export async function GET(request: Request) {
   }
 
   const chapters = getAllChapters();
-  console.log("Les chapitre", chapters)
   const currentIndex = chapters.findIndex(chapter => String(chapter.slug) === String(slug));
 
+  /*
   if (next) {
-    console.log("Index", currentIndex)
-    const nextChapter = chapters[currentIndex + 1];
-    console.log(nextChapter)
+    let nextChapter = null;
+    if (chapters.length > Number(slug) ){
+      nextChapter = Number(slug) + 1;
+      console.log("Next chapter slug:", nextChapter);
+    }
     if (nextChapter) {
       return NextResponse.json({ chapter: nextChapter });
     } else {
       return NextResponse.json({ chapter: null });
     }
   }
+  */
 
   const chapter = getChapterBySlug(slug);
-  return NextResponse.json({ chapter });
+  const maxChapter = chapters.length;
+  return NextResponse.json({ chapter, maxChapter });
 }
