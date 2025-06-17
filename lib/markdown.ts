@@ -19,6 +19,17 @@ interface ChapterList {
   slug: string;
 }
 
+interface Article {
+  title: string;
+  date: string;
+  slug: string;
+  category?: string;
+  cover?: string;
+  excerpt?: string;
+  tags?: string[];
+  
+}
+
 const contentDirectory = path.join(process.cwd(), 'content');
 const articleDirectory = path.join(process.cwd(), 'article');
 
@@ -73,19 +84,22 @@ export function getChapterBySlug(slug: string): Chapter {
   } as Chapter;
 }
 
-export function getAllArticle(): Chapter[] {
+export function getAllArticle(): Article[] {
   const fileNames = fs.readdirSync(articleDirectory);
-  const chapters = fileNames.map((fileName) => {
+  const articles = fileNames.map((fileName) => {
     const filePath = path.join(articleDirectory, fileName);
     const fileContents = fs.readFileSync(filePath, 'utf8');
-    const { data, content } = matter(fileContents);
+    const { data } = matter(fileContents);
 
     return {
       title: data.title,
       date: data.date,
       slug: data.slug,
-      content: content,
-    } as Chapter;
+      category: data.category,
+      cover: data.cover || null,
+      excerpt: data.excerpt || null,
+      tags: data.tags || [],
+    } as Article;
   });
-  return chapters;
+  return articles;
 }

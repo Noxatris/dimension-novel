@@ -1,7 +1,14 @@
 ---
-title: "Bienvenue"
-date: "17 mars"
-slug: "article-1"
+title: "Mise à jour du système"
+date: "2025-06-15"
+slug: "maj-systeme"
+category: "Site"
+cover: null
+excerpt: "J'espère que vous passerez un agréable moment sur mon site."
+tags:
+  - Eternalys
+  - Technique
+  - Site
 ---
 
-J'éspère que vous passerez un agréable moment sur mon site
+J'espère que vous passerez un agréable moment sur mon site.

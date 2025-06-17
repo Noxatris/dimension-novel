@@ -4,7 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { BookOpenIcon, InfoIcon, HeartIcon } from "lucide-react"
+import { BookOpenIcon, InfoIcon, HeartIcon, Newspaper } from "lucide-react"
 
 export default function GrimoireCard({ color, title, image, description, url, tag }: { color: string, title: string, image: string, description: string, url: string, tag?: string }) {
     const [isFlipped, setIsFlipped] = useState(false)
@@ -12,8 +12,9 @@ export default function GrimoireCard({ color, title, image, description, url, ta
     const getIcon = () => {
         if (!tag) return <BookOpenIcon className="w-5 h-5 mr-2" />
         const tagLower = tag.toLowerCase()
-        if (tagLower.includes("infos") || tagLower.includes("projet")) return <InfoIcon className="w-5 h-5 mr-2" />
-        if (tagLower.includes("soutenir")) return <HeartIcon className="w-5 h-5 mr-2" />
+        if (tagLower.includes("information")) return <InfoIcon className="w-5 h-5 mr-2" />
+        if (tagLower.includes("nouveauté")) return <Newspaper className="w-5 h-5 mr-2" />
+        if (tagLower.includes("eternalys")) return <HeartIcon className="w-5 h-5 mr-2" />
         return <BookOpenIcon className="w-5 h-5 mr-2" />
     }
 
