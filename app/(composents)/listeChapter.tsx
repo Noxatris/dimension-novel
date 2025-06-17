@@ -22,6 +22,7 @@ export default function ListeChapter() {
     const [loading, setLoading] = useState(true);
     const [openArcIdx, setOpenArcIdx] = useState<number | null>(null);
     const [searchTerm, setSearchTerm] = useState('');
+    const [lastRead, setLastRead] = useState<string | null>(null);
 
     const arcDefinitions = [
         { title: 'Arc 1 – Opération Explosive', from: 1, to: 13 },
@@ -30,6 +31,12 @@ export default function ListeChapter() {
     ];
 
     useEffect(() => {
+
+        const saved = localStorage.getItem('lastReadChapter');
+        if (saved) {
+            setLastRead(saved);
+        }
+
         (async () => {
             try {
                 const res = await fetch('/api/chapters');
@@ -95,6 +102,26 @@ export default function ListeChapter() {
                             autoComplete="off"
                         />
                     </div>
+
+                    {lastRead && (
+                        <motion.div
+                            initial={{ opacity: 0, y: -10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6 }}
+                            className="mb-8 mx-auto max-w-md"
+                        >
+                            <Link
+                                href={`/eternalys/${lastRead}`}
+                                className="flex items-center justify-between w-full px-6 py-4 bg-gradient-to-r from-violet-700 to-fuchsia-600 text-white rounded-xl shadow-lg hover:scale-[1.02] hover:shadow-xl transition-all duration-300"
+                            >
+                                <div>
+                                    <p className="text-sm uppercase text-white/80 tracking-wider">Reprendre</p>
+                                    <p className="text-xl font-bold">Continuer la lecture</p>
+                                </div>
+                                <span className="text-2xl">→</span>
+                            </Link>
+                        </motion.div>
+                    )}
 
                     {loading ? (
                         <AltListeChapter />

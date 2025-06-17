@@ -37,7 +37,9 @@ export default function ChapterPage() {
       if (params.slug !== undefined && params.slug < data.maxChapter) {
         setNextChapter(Number(params.slug) + 1);
       }
-
+      if (params?.slug) {
+        localStorage.setItem('lastReadChapter', params.slug.toString());
+      }
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
     fetchChapter();
