@@ -125,7 +125,7 @@ export default function ActualitesTimeline() {
       <section className="px-4 md:px-8 lg:px-24 py-24 bg-gradient-to-b from-transparent via-white/50 to-transparent dark:via-white/5">
         {loading ? (
           <div className="flex justify-center items-center text-violet-400 text-xl">
-            <Loader2 className="animate-spin h-6 w-6 mr-3" /> Chargement des actualités..
+            <Loader2 className="animate-spin h-6 w-6 mr-3" /> Chargement des actualités...
           </div>
         ) : (
           <div className="relative border-l-2 border-violet-600/60 pl-6 space-y-12 max-w-4xl mx-auto">
