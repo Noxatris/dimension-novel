@@ -9,7 +9,8 @@ export const grimoireData = [
             Découvrez à travers ces pages le site et son futur.
             
         `,
-        url: "/informations"
+        url: "/informations",
+        tag: "Toute les informations",
     },
     {
         color: "white/20",
@@ -21,7 +22,8 @@ export const grimoireData = [
             Partez à la découverte de l'histoire d'Eternalys.
             
         `,
-        url: "/eternalys"
+        url: "/eternalys",
+        tag: "Visité l'univers d'Eternalys"
     },
     {
         color: "yellow-300/20",
@@ -35,6 +37,7 @@ export const grimoireData = [
             Cependant, il semble avoir perdu une partie de ses pouvoirs.
 
             `,
-        url: "/actualites"
+        url: "/actualites",
+        tag: "Dernière nouveauté"
     }
 ]
