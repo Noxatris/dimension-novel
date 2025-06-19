@@ -75,7 +75,7 @@ export default function ListeChapter() {
     }, [searchTerm]);
 
     return (
-        <aside className='w-full h-screen overflow-y-scroll md:w-[40%] lg:w-[30%] bg-zinc-900/90 backdrop-blur-md rounded-l-xl shadow-lg overflow-x-hidden relative custom-scrollbar'>
+        <aside className='w-full md:h-screen md:overflow-y-scroll md:w-[40%] lg:w-[30%] bg-zinc-900/90 backdrop-blur-md rounded-l-xl shadow-lg overflow-x-hidden relative custom-scrollbar'>
             {/* BACKGROUND FIXE */}
             <div className="fixed inset-0 -z-10 pointer-events-none" />
 
