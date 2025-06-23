@@ -6,7 +6,6 @@ category: "Site"
 cover: null
 excerpt: "J'espère que vous passerez un agréable moment sur mon site."
 tags:
-  - Eternalys
   - Technique
   - Site
 ---
