@@ -1,3 +1,9 @@
+# *
 User-agent: *
 Allow: /
-Sitemap: https://dimension-novel.vercel.app/sitemap.xml
+
+# Host
+Host: https://dimension-novel.fr
+
+# Sitemaps
+Sitemap: https://dimension-novel.fr/sitemap.xml
