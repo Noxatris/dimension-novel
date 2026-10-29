@@ -1,0 +1,187 @@
+/* ============================================================
+   Lecteur de chapitre · thème « bibliothèque des mondes »
+   Sobre : une colonne de lecture confortable, la magie reste
+   dans les bords (sceau, lettrine, fil d'or, marqueurs de musique).
+   Toutes les couleurs viennent des variables de l'œuvre (--w-*).
+   ============================================================ */
+
+/* ---------- Polices (posées par app/fonts.ts) ---------- */
+.oeuvre {
+  --f-display: var(--font-display, "Gloock"), "Bodoni 72", Georgia, serif;
+  --f-body: var(--font-body, "Spectral"), Georgia, "Times New Roman", serif;
+  --f-old: var(--font-old, "IM Fell English"), Garamond, Georgia, serif;
+  --f-sc: var(--font-sc, "IM Fell English SC"), var(--font-old, "IM Fell English"), Garamond, Georgia, serif;
+  --gold: #d6b26a;
+  background: var(--w-bg); color: var(--w-ink); min-height: 100vh;
+  font: 400 17px/1.6 var(--f-body);
+}
+
+/* ---------- Couleurs par œuvre ---------- */
+.oeuvre-eternalys {
+  /* tragédie urbaine : nuit de ville, rouge sang, lumière de sodium */
+  --w-bg: #121214;
+  --w-ink: #ebe6e1;
+  --w-text: #e2ddd7;
+  --w-muted: #9a938e;
+  --w-accent: #b3202c;   /* lettrine, début du fil */
+  --w-glow: #f0a24a;     /* sceau, scènes, musique */
+  --w-cover: #5b1720;    /* reliure : tranche sur l'étagère, couverture du codex */
+}
+/* Elysia, le monde commun : nuit des profondeurs, mana cyan, lumière dorée pâle */
+.oeuvre-elysia {
+  --w-bg: #08151a;
+  --w-ink: #e6efec;
+  --w-text: #dbe5e2;
+  --w-muted: #8ea6a3;
+  --w-accent: #f1dca2;   /* lumière dorée : lettre mise en valeur, début du fil */
+  --w-glow: #7fe3d4;     /* mana : sceaux, titres de scène, musique */
+  --w-cover: #17414a;
+}
+/* exemple pour une autre œuvre :
+.oeuvre-monde-commun { --w-bg: #0f1418; --w-ink: #e9e4d6; --w-text: #ddd6c4; --w-muted: #8f978f; --w-accent: #6f9a7a; --w-glow: #a99bff; } */
+
+.oeuvre .wrap { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.oeuvre .inner { max-width: 1120px; margin: 0 auto; width: 100%; }
+.oeuvre :focus-visible { outline: 2px solid var(--w-glow); outline-offset: 4px; border-radius: 4px; }
+
+/* les sceaux (.sigil) sont stylés dans library.css, chargé partout */
+
+/* boutons */
+.oeuvre .btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid rgba(255, 255, 255, .16);
+  background: rgba(255, 255, 255, .03); padding: 10px 18px 9px; border-radius: 2px; cursor: pointer; text-decoration: none; color: inherit;
+  font: 400 16px/1 var(--f-sc); letter-spacing: .1em;
+}
+.oeuvre .btn:hover { background: rgba(255, 255, 255, .08); }
+.oeuvre .btn[aria-disabled="true"] { opacity: .45; pointer-events: none; }
+.oeuvre .back { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font: 400 16px var(--f-sc); letter-spacing: .08em; color: var(--w-muted); padding: 8px 0; }
+.oeuvre .back:hover { color: var(--w-ink); }
+
+/* ---------- Lecteur ---------- */
+.reader { --r-size: 19px; position: relative; }
+.thread { position: fixed; left: 0; right: 0; top: 0; height: calc(3px + env(safe-area-inset-top, 0px)); z-index: 30; pointer-events: none; background: rgba(255, 255, 255, .04); }
+.thread i {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 3px; transform-origin: left; transform: scaleX(0);
+  background: linear-gradient(90deg, var(--w-accent), var(--w-glow)); box-shadow: 0 0 10px color-mix(in srgb, var(--w-glow) 50%, transparent);
+}
+.r-bg { position: fixed; inset: 0; z-index: 0; opacity: 0; transition: opacity .8s ease; pointer-events: none; background-size: cover; background-position: center; }
+.reader.with-bg .r-bg { opacity: 1; }
+.r-top { position: relative; z-index: 2; padding-block: calc(18px + env(safe-area-inset-top, 0px)) 0; }
+.r-top .inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.r-where { font: italic 400 16px var(--f-old); color: var(--w-muted); }
+
+.r-col { position: relative; z-index: 1; padding-block: 30px 140px; }
+.r-sheet { max-width: 700px; margin: 0 auto; padding: 8px 0; border-radius: 4px; transition: background .6s, padding .6s; }
+.reader.with-bg .r-sheet {
+  background: color-mix(in srgb, var(--w-bg) 82%, transparent); padding: 36px clamp(18px, 4vw, 48px);
+  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+}
+
+.r-head { text-align: center; display: grid; justify-items: center; gap: 8px; margin-bottom: 44px; }
+.r-head .sigil { color: var(--w-glow); margin-bottom: 6px; }
+.r-kicker { font: 400 17px var(--f-sc); letter-spacing: .2em; color: var(--w-glow); }
+.r-title { margin: 0; font: 400 clamp(36px, 6vw, 62px)/1.02 var(--f-display); letter-spacing: -.01em; text-wrap: balance; }
+.r-meta { font: italic 400 16px var(--f-old); color: var(--w-muted); }
+
+/* le texte */
+.r-text { font-size: var(--r-size); line-height: 1.8; color: var(--w-text); hyphens: auto; -webkit-hyphens: auto; }
+.r-text p { margin: 0 0 1.05em; }
+.r-text > p:first-of-type::first-letter { float: left; font: 400 4.6em/.78 var(--f-display); color: var(--w-accent); margin: .08em .12em 0 0; }
+.r-text h2 { margin: 2.4em 0 1.3em; text-align: center; font: 400 .95em var(--f-sc); letter-spacing: .4em; color: var(--w-glow); display: flex; align-items: center; gap: 16px; }
+.r-text h2::before, .r-text h2::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--w-glow) 45%, transparent), transparent); }
+.r-text h3, .r-text h4 { font: 400 1.05em var(--f-sc); letter-spacing: .12em; color: var(--w-glow); margin: 2em 0 .8em; }
+.r-text em { font-style: italic; }
+.r-text blockquote { margin: 1.4em 0; padding-left: 1.2em; border-left: 1px solid color-mix(in srgb, var(--w-glow) 50%, transparent); font-family: var(--f-old); font-style: italic; }
+.r-text hr { border: 0; text-align: center; margin: 2.4em 0; }
+.r-text hr::after { content: "✦  ✦  ✦"; color: var(--w-glow); letter-spacing: .4em; font-size: .8em; }
+
+/* marqueurs de musique */
+.r-music { display: flex; align-items: center; gap: 12px; margin: 2em 0; color: var(--w-muted); font: italic 400 15px var(--f-old); transition: color .4s; }
+.r-music::before, .r-music::after { content: ""; flex: 1; height: 1px; background: rgba(255, 255, 255, .12); }
+.r-music svg { width: 14px; height: 14px; color: var(--w-glow); flex: none; }
+.r-music.playing { color: var(--w-glow); }
+
+/* fin de chapitre */
+.r-end { margin-top: 4em; padding-top: 2.4em; border-top: 1px solid rgba(255, 255, 255, .1); display: grid; justify-items: center; gap: 14px; text-align: center; }
+.r-end .sigil { color: var(--gold); }
+.r-end p { margin: 0; font: italic 400 18px var(--f-old); color: var(--w-muted); }
+.r-nav { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: center; width: 100%; margin-top: 10px; }
+.r-nav .prev { justify-self: start; }
+.r-nav .next { justify-self: end; }
+
+/* rail de réglages */
+.r-rail {
+  position: fixed; z-index: 20; right: max(16px, env(safe-area-inset-right, 0px)); top: 50%; transform: translateY(-50%);
+  display: flex; flex-direction: column; gap: 10px; transition: opacity .3s, transform .3s;
+}
+.r-rail.away { opacity: 0; pointer-events: none; transform: translate(10px, -50%); }
+.r-rail button {
+  position: relative; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; cursor: pointer;
+  background: color-mix(in srgb, var(--w-bg) 85%, transparent); border: 1px solid rgba(255, 255, 255, .14); color: var(--w-ink);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); font: 400 15px var(--f-sc);
+}
+.r-rail button svg { width: 20px; height: 20px; }
+.r-rail button[aria-pressed="true"] { color: var(--w-glow); border-color: color-mix(in srgb, var(--w-glow) 60%, transparent); box-shadow: 0 0 16px color-mix(in srgb, var(--w-glow) 25%, transparent); }
+.r-rail button::after {
+  content: attr(data-label); position: absolute; right: calc(100% + 10px); top: 50%; transform: translateY(-50%); white-space: nowrap;
+  font: italic 400 15px var(--f-old); background: color-mix(in srgb, var(--w-bg) 92%, transparent); border: 1px solid rgba(255, 255, 255, .12);
+  padding: 4px 9px; border-radius: 3px; opacity: 0; pointer-events: none; transition: opacity .2s;
+}
+.r-rail button:hover::after, .r-rail button:focus-visible::after { opacity: 1; }
+
+/* curseur de volume (ordinateur) : vertical, sous le bouton musique */
+.r-volume { display: none; }
+@media (min-width: 1024px) and (pointer: fine) {
+  .r-volume {
+    display: grid; justify-items: center; gap: 8px; width: 48px; padding: 14px 0 10px; border-radius: 24px;
+    background: color-mix(in srgb, var(--w-bg) 85%, transparent); border: 1px solid rgba(255, 255, 255, .14);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  }
+  .r-volume span { font: 400 12px var(--f-sc); letter-spacing: .06em; color: var(--w-muted); font-variant-numeric: tabular-nums; }
+  .r-volume input {
+    -webkit-appearance: none; appearance: none; writing-mode: vertical-lr; direction: rtl;
+    width: 6px; height: 110px; margin: 0; cursor: pointer; border-radius: 3px; background: transparent;
+  }
+  .r-volume input::-webkit-slider-runnable-track {
+    width: 6px; height: 100%; border-radius: 3px;
+    background: linear-gradient(to top, var(--w-glow) var(--v), rgba(255, 255, 255, .16) var(--v));
+  }
+  .r-volume input::-moz-range-track { width: 6px; height: 100%; border-radius: 3px; background: rgba(255, 255, 255, .16); }
+  .r-volume input::-moz-range-progress { width: 6px; border-radius: 3px; background: var(--w-glow); }
+  .r-volume input::-webkit-slider-thumb {
+    -webkit-appearance: none; width: 14px; height: 14px; margin-left: -4px; border-radius: 50%;
+    background: var(--w-ink); border: 2px solid var(--w-glow); box-shadow: 0 0 10px color-mix(in srgb, var(--w-glow) 50%, transparent);
+  }
+  .r-volume input::-moz-range-thumb {
+    width: 12px; height: 12px; border-radius: 50%; background: var(--w-ink); border: 2px solid var(--w-glow);
+  }
+  .r-volume input:focus-visible { outline: 2px solid var(--w-glow); outline-offset: 6px; }
+}
+
+.r-toast {
+  position: fixed; z-index: 25; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translate(-50%, 10px);
+  background: color-mix(in srgb, var(--w-bg) 92%, transparent); border: 1px solid color-mix(in srgb, var(--w-glow) 40%, transparent);
+  color: var(--w-ink); padding: 8px 14px; border-radius: 3px; font: italic 400 16px var(--f-old);
+  opacity: 0; transition: opacity .35s, transform .35s; pointer-events: none; white-space: nowrap; max-width: calc(100vw - 32px); overflow: hidden; text-overflow: ellipsis;
+}
+.r-toast.on { opacity: 1; transform: translate(-50%, 0); }
+.r-toast:empty { display: none; }
+
+/* ---------- Mobile ---------- */
+@media (max-width: 760px) {
+  .r-rail { top: auto; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); right: 50%; transform: translateX(50%); flex-direction: row; }
+  .r-rail.away { transform: translate(50%, 12px); }
+  .r-rail button::after { display: none; }
+  .r-toast { bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
+  .r-nav { grid-template-columns: 1fr 1fr; }
+  .r-nav .mid { grid-column: 1 / -1; grid-row: 2; justify-self: center; }
+  .r-nav .btn { padding: 10px 8px 9px; font-size: 15px; letter-spacing: .04em; white-space: nowrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .r-bg, .r-sheet, .r-rail { transition: none; }
+}
+
+/* ---------- Changement de chapitre animé (components/reader/ChapterLink.tsx) ----------
+   Pendant data-turning, le nouveau chapitre est invisible dès sa première image (Next l'affiche avant de changer l'URL) :
+   ChapterLink lance ensuite son fondu d'apparition. L'ancienne feuille n'est pas concernée : son opacité est en style inline. */
+html[data-turning] .r-sheet { opacity: 0; }

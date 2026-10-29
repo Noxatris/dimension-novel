@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { fontVars } from "./fonts";
 
 import { Analytics } from "@vercel/analytics/react"
 import { config } from '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/fontawesome-svg-core/styles.css'
+
+import "@/styles/library.css";
+
+import { BookTransitionProvider } from "@/components/library/BookTransition";
 
 config.autoAddCss = false
 
@@ -18,10 +22,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="fr" className={fontVars}>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: 'document.documentElement.classList.add("js-anim")' }} />
+      </head>
       <body className="antialiased overflow-x-hidden w-screen">
         <Analytics />
-        {children}
+        <BookTransitionProvider>{children}</BookTransitionProvider>
       </body>
     </html>
   );
