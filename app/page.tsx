@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Sigil from "@/components/Sigil";
 import SiteFooter from "@/components/SiteFooter";
 import Ambience from "@/components/library/Ambience";
@@ -30,13 +31,13 @@ export default async function Home() {
       <div className="view">
         <header className="top wrap">
           <div className="inner">
-            <a className="brand" href="/">
+            <Link className="brand" href="/">
               <Sigil size={42} seed={3} count={16} mono="DN" />
               <div>
                 <b>Dimension Novel</b>
                 <span>Bibliothèque des mondes</span>
               </div>
-            </a>
+            </Link>
             <nav aria-label="Sections">
               <a href="#etagere">L’étagère</a>
               <a href="#bibliothecaire">Le bibliothécaire</a>

@@ -110,7 +110,12 @@ export const readChapter = cache(async (oeuvre: string, numero: number): Promise
 export const listChapters = cache(async (oeuvre: string): Promise<ChapterMeta[]> => {
   const nums = [...(await files(oeuvre)).keys()].sort((a, b) => a - b);
   const all = await Promise.all(nums.map((n) => readChapter(oeuvre, n)));
-  return all.filter((c): c is Chapter => c !== null).map(({ content: _content, ...meta }) => meta);
+  return all.filter((c): c is Chapter => c !== null).map((c) => {
+    // on retire le texte du chapitre : la liste ne garde que les métadonnées (plus légère à transmettre au client)
+    const meta: Partial<Chapter> = { ...c };
+    delete meta.content;
+    return meta as ChapterMeta;
+  });
 });
 
 /* ---------- petits utilitaires d'affichage ---------- */

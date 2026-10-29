@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
+import Link from "next/link";
 import Sigil from "@/components/Sigil";
 import CompassRose from "@/components/elysia/CompassRose";
 import ElysiaMotion from "@/components/elysia/ElysiaMotion";
@@ -130,7 +131,7 @@ export default function ElysiaPage() {
                   <span className="status">{r.status}</span>
                   <h3>{r.title}</h3>
                   <p>{r.text}</p>
-                  {r.workId && <a className="btn primary" href={`/${r.workId}`} style={{ marginTop: 14 }}>Ouvrir le livre</a>}
+                  {r.workId && <Link className="btn primary" href={`/${r.workId}`} style={{ marginTop: 14 }}>Ouvrir le livre</Link>}
                 </div>
               </article>
             ))}
